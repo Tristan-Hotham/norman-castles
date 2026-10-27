@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>The Conquest in Castles</title>
+<meta name="description" content="How fast did Norman castles spread across England and Wales after Hastings? {{n_items|int}} castle sites from Wikidata, {{n_window|int}} with a date, and {{n_domesday_castles|int}} castles named in Domesday Book.">
+<meta property="og:title" content="The Conquest in Castles">
+<meta property="og:description" content="By {{furthest_by_1072_ew.year|raw}} a dated Norman castle stood {{furthest_by_1072_ew.km|int}} km from the battlefield. The Welsh March holds castles at {{march_density_ratio|f1}} times the density of the rest of England and Wales.">
+<meta property="og:image" content="https://tristan-hotham.github.io/norman-castles/header.png">
+<meta property="og:url" content="https://tristan-hotham.github.io/norman-castles/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800;9..144,900&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+/* Limestone and sage. Oxblood = new castles of the decade; slate = castles already standing; gold = named in Domesday. */
+:root{
+  --bg:#EDF0E8; --panel:#E1E6DA; --fg:#1C1F1A; --muted:#5F665B; --rule:#CDD4C4; --card:#F7F9F3; --border:#B9C2AE;
+  --hot:#A3301F; --old:#4C6A7C; --gold:#B07A10; --und:#9AA394; --sage:#5E7F5A; --blue:#35607E;
+  --h0:#E3E8DA; --h1:#C9D5BC; --h2:#9DB394; --h3:#C98B5E; --h4:#A3301F; --h5:#5E1A10;
+  --display:"Fraunces",Georgia,"Times New Roman",serif;
+  --body:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#141713; --panel:#1C201B; --fg:#E7ECE2; --muted:#9EA798; --rule:#30362D; --card:#1E231D; --border:#434B3F;
+  --hot:#F0694F; --old:#86AFC6; --gold:#E1AE45; --und:#5D6559; --sage:#8DB386; --blue:#7FB0D6;
+  --h0:#20251E; --h1:#2F3B2B; --h2:#4F6A49; --h3:#B4794C; --h4:#F0694F; --h5:#FFB39E; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141713; --panel:#1C201B; --fg:#E7ECE2; --muted:#9EA798; --rule:#30362D; --card:#1E231D; --border:#434B3F;
+  --hot:#F0694F; --old:#86AFC6; --gold:#E1AE45; --und:#5D6559; --sage:#8DB386; --blue:#7FB0D6;
+  --h0:#20251E; --h1:#2F3B2B; --h2:#4F6A49; --h3:#B4794C; --h4:#F0694F; --h5:#FFB39E; color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 18px/1.62 var(--body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));overflow-x:hidden}
+.wrap{max-width:680px;margin:0 auto;padding-block:28px 64px}
+.wrap .bleed{width:min(1080px,calc(100vw - 32px));margin-left:calc((100% - min(1080px,100vw - 32px))/2);margin-right:0}
+a{color:inherit;text-decoration-color:var(--hot);text-underline-offset:3px}
+.kicker{font:500 12px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.kicker b{background:var(--hot);color:#fff;padding:5px 8px;font-weight:500}
+header.hero{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px 24px;align-items:end;border-bottom:6px double var(--fg);padding-bottom:22px;margin-top:18px}
+h1{font:900 clamp(50px,12.5vw,108px)/.88 var(--display);letter-spacing:-.02em;margin:0;text-wrap:balance;font-variation-settings:"SOFT" 50}
+h1 em{font-style:normal;color:var(--hot)}
+.mark{width:clamp(84px,19vw,160px);height:auto;display:block}
+.dek{grid-column:1/-1;font-size:21px;line-height:1.42;margin:8px 0 0;max-width:46ch}
+.byline{font:400 13px/1.4 var(--mono);color:var(--muted);margin-top:14px}
+h2{font:800 34px/1.04 var(--display);letter-spacing:-.01em;margin:52px 0 10px;text-wrap:balance}
+h2 .n{font:500 13px/1 var(--mono);color:var(--hot);display:block;letter-spacing:.1em;margin-bottom:10px}
+h3{font:600 20px/1.25 var(--display);margin:28px 0 6px}
+p{margin:0 0 16px}
+.lede::first-letter{font:900 72px/.8 var(--display);float:left;margin:6px 10px 0 0;color:var(--hot)}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);margin:26px 0 8px}
+.stats div{background:var(--card);padding:14px 12px}
+.stats b{display:block;font:900 clamp(28px,6vw,40px)/1 var(--display);color:var(--fg)}
+.stats b.h{color:var(--hot)}
+.stats span{font:400 12px/1.35 var(--mono);color:var(--muted);display:block;margin-top:6px}
+@media (max-width:600px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.figure{margin:26px 0 30px}
+.fig-h{font:600 19px/1.25 var(--display);margin:0 0 4px}
+.fig-sub{font:400 13px/1.45 var(--mono);color:var(--muted);margin:0 0 12px}
+.src{font:400 12px/1.45 var(--mono);color:var(--muted);margin-top:10px}
+.chart{width:100%;position:relative}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+svg text{font-family:var(--mono);fill:var(--fg)}
+.lab{font-size:12px}.lab.m{fill:var(--muted)}.lab.b{font-weight:500}.lab.s{font-size:11px}
+.tip{position:absolute;pointer-events:none;background:var(--fg);color:var(--bg);font:400 12px/1.45 var(--mono);padding:8px 10px;border-radius:3px;max-width:270px;z-index:1000;transform:translate(-50%,calc(-100% - 12px));display:none}
+.tip b{font-weight:500}
+.controls{display:flex;gap:8px 12px;flex-wrap:wrap;align-items:center;margin:0 0 10px}
+.btn{font:500 12px/1 var(--mono);background:var(--card);color:var(--fg);border:1px solid var(--border);border-radius:3px;padding:8px 10px;cursor:pointer;min-height:36px}
+.btn[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.btn:focus-visible,input:focus-visible{outline:2px solid var(--hot);outline-offset:2px}
+.seg{display:inline-flex;border:1px solid var(--border);border-radius:3px;overflow:hidden;max-width:100%;flex-wrap:wrap}
+.seg .btn{border:0;border-radius:0;border-right:1px solid var(--border)}
+.seg .btn:last-child{border-right:0}
+.slider{display:flex;align-items:center;gap:12px;flex:1 1 320px;min-width:0}
+.slider input{flex:1;min-width:0;accent-color:var(--hot)}
+.slider output{font:900 30px/1 var(--display);color:var(--hot);min-width:3.6em}
+.chk{font:400 12.5px/1.3 var(--mono);color:var(--muted);display:inline-flex;gap:6px;align-items:center;cursor:pointer}
+.chk input{accent-color:var(--hot);width:16px;height:16px}
+#lmap{height:640px;border:1px solid var(--border);background:var(--panel);border-radius:2px}
+@media (max-width:600px){#lmap{height:480px}}
+.leaflet-container{font:400 12px/1.4 var(--mono);background:var(--panel)}
+.leaflet-popup-content-wrapper,.leaflet-popup-tip{background:var(--card);color:var(--fg);border-radius:3px;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+.leaflet-popup-content{margin:12px 14px;font:400 12.5px/1.45 var(--mono);min-width:220px}
+.leaflet-container a.leaflet-popup-close-button{color:var(--muted)}
+.leaflet-bar a,.leaflet-bar a:hover{background:var(--card);color:var(--fg);border-bottom-color:var(--border)}
+.leaflet-control-attribution{background:color-mix(in srgb,var(--card) 85%,transparent)!important;color:var(--muted)}
+.leaflet-control-attribution a{color:var(--fg)}
+.mapnote{position:absolute;right:10px;top:10px;z-index:500;background:color-mix(in srgb,var(--card) 90%,transparent);border:1px solid var(--border);padding:8px 10px;font:400 12px/1.35 var(--mono);pointer-events:none;max-width:220px}
+.mapnote b{font:900 26px/1 var(--display);color:var(--hot);display:block}
+.mapwrap{position:relative}
+.pop b.t{font:600 17px/1.2 var(--display);display:block;margin-bottom:2px}
+.pop .c{color:var(--muted);margin-bottom:6px}
+.pop dl{display:grid;grid-template-columns:auto 1fr;gap:1px 10px;margin:4px 0 6px}
+.pop dt{color:var(--muted)}.pop dd{margin:0}
+.pop .note{font-size:11.5px;color:var(--muted);margin:4px 0}
+.pop q{display:block;font:italic 400 13.5px/1.4 var(--body);border-left:3px solid var(--gold);padding-left:8px;margin:6px 0}
+.legend{display:flex;gap:6px 14px;flex-wrap:wrap;font:400 12px/1.3 var(--mono);color:var(--muted);margin-top:8px}
+.legend i{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+.legend i.sq{border-radius:1px;transform:rotate(45deg)}
+.pull{font:600 26px/1.25 var(--display);border-left:6px solid var(--hot);padding:4px 0 4px 18px;margin:30px 0}
+.note{background:var(--panel);border:1px solid var(--rule);padding:14px 16px;font-size:16px;margin:22px 0}
+.note h3{margin-top:0}
+table.t{width:100%;border-collapse:collapse;font:400 13px/1.35 var(--mono)}
+table.t th{text-align:left;font-weight:500;color:var(--muted);border-bottom:2px solid var(--fg);padding:6px 8px 6px 0}
+table.t td{border-bottom:1px solid var(--rule);padding:7px 8px 7px 0;vertical-align:top}
+table.t td.num,table.t th.num{text-align:right;white-space:nowrap}
+table.t td small{color:var(--muted);display:block}
+.tablewrap{overflow-x:auto}
+@media (max-width:600px){table.t .wide{display:none}}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:20px 0}
+@media (max-width:600px){.cards{grid-template-columns:1fr}}
+.card{background:var(--card);border:1px solid var(--border);border-left:4px solid var(--hot);padding:12px 14px;font:400 13px/1.5 var(--mono)}
+.card.g{border-left-color:var(--gold)}
+.card.s{border-left-color:var(--old)}
+.card b{font:600 19px/1.2 var(--display);display:block;margin-bottom:2px}
+.card .big{font:900 30px/1.05 var(--display);margin:6px 0 2px}
+.card .big span{color:var(--muted);font:400 13px/1 var(--mono)}
+.cta{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}
+.cta a{font:500 13px/1 var(--mono);text-decoration:none;border:1px solid var(--fg);padding:11px 14px;border-radius:3px}
+.cta a.p{background:var(--hot);border-color:var(--hot);color:#fff}
+footer{border-top:6px double var(--fg);margin-top:56px;padding-top:16px;font:400 13px/1.55 var(--mono);color:var(--muted)}
+footer p{margin:0 0 10px}
+.theme{position:fixed;right:12px;bottom:12px;z-index:1002}
+@media print{.theme,.controls{display:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="kicker"><b>Data study</b><span>History × data</span><span>England, Wales and Scotland, 1066 to 1199</span></div>
+<header class="hero">
+  <h1>The conquest in <em>castles</em></h1>
+  <svg class="mark" viewBox="-100 -100 200 200" aria-hidden="true"><g id="heroMark"></g></svg>
+  <p class="dek">After Hastings the Normans held England with earth and timber, then stone. I mapped every castle site Wikidata knows in Britain, dated the ones I could, and asked how fast the castle frontier moved, where it bunched, and what Domesday Book says it cost.</p>
+</header>
+<div class="byline">Dr Tristan Hotham, Independent researcher · October 2026 · Data: Wikidata, OpenStreetMap, Hull Domesday Project via realm-domesday, ONS</div>
+
+<div class="stats">
+  <div><b>{{n_items|int}}</b><span>castle sites of Norman type in Wikidata, Britain</span></div>
+  <div><b class="h">{{n_window|int}}</b><span>with a Wikidata date from 1066 to 1199</span></div>
+  <div><b class="h">{{furthest_by_1072_ew.km|int}} km</b><span>from Battle to the furthest dated castle by {{furthest_by_1072_ew.year|raw}}</span></div>
+  <div><b>{{march_density_ratio|f1}}×</b><span>castle density in the Welsh March against the rest of England and Wales</span></div>
+</div>
+
+<p class="lede">In October 1066 William of Normandy won a battle in Sussex. Over the next generations his followers built castles from Cornwall to the Clyde: mounds of earth with timber towers, ringed banks, and later great keeps of stone. Many still stand, as grassy humps in fields or as ruins on hills.</p>
+<p>I wanted to see the conquest as a map that grows. Wikidata, the open knowledge base behind Wikipedia, records {{n_items|int}} castle sites of the Norman kinds in England, Wales and Scotland: {{n_by_type.motte|int}} mottes and motte-and-bailey castles, {{n_by_type.ringwork|int}} ringworks, {{n_by_type.keep|int}} keeps and {{n_by_type.castle|int}} sites classed simply as castles. The catch is the dates. Only {{n_dated_any|int}} of them ({{share_dated_any|pct}}) have any date of foundation at all, and only {{n_window|int}} fall between 1066 and 1199.</p>
+<p>So this is a story told twice: once with the few castles that carry a date, and once with the many that do not. And it is checked against the one firm witness from the time, Domesday Book, which in 1086 names {{n_domesday_castles|int}} castles in its text.</p>
+
+<h2><span class="n">01 · The map</span>The castle frontier, decade by decade</h2>
+<p>Drag the slider to move through the decades. Red dots are castles whose Wikidata date falls in that decade; blue ones were already standing. Gold diamonds are castles named in Domesday Book, so standing by 1086; they appear from the 1080s. Tick <em>Show undated sites</em> to see the much bigger layer of castles with no date: that is where most of the Norman castle landscape actually sits.</p>
+<div class="figure bleed">
+  <div class="controls">
+    <div class="slider"><button class="btn" id="play" aria-label="Play the decades">▶ Play</button><input type="range" id="dec" min="0" max="13" step="1" value="0" aria-label="Decade"><output id="decOut">1060s</output></div>
+  </div>
+  <div class="controls">
+    <div class="seg" role="group" aria-label="Castle type">
+      <button class="btn" data-t="-1" aria-pressed="true">All types</button>
+      <button class="btn" data-t="1" aria-pressed="false">Mottes</button>
+      <button class="btn" data-t="2" aria-pressed="false">Ringworks</button>
+      <button class="btn" data-t="0" aria-pressed="false">Castles</button>
+      <button class="btn" data-t="3" aria-pressed="false">Keeps</button>
+    </div>
+    <label class="chk"><input type="checkbox" id="und"> Show undated sites</label>
+    <label class="chk"><input type="checkbox" id="dom" checked> Domesday castles</label>
+  </div>
+  <div class="mapwrap"><div id="lmap" role="region" aria-label="Map of Norman castle sites in Britain by decade of first date"></div><div class="mapnote" id="mapnote"></div></div>
+  <div class="legend" id="legend"></div>
+  <div class="src">Dates: earliest Wikidata inception (P571) for each item. Years ending in 00 or 01 may stand for a whole century in Wikidata, so read the 1100s with care. Domesday castles placed at their Domesday place. Click the map to let the scroll wheel zoom it.</div>
+</div>
+
+<h2><span class="n">02 · The pace</span>A frontier that leapt, not crept</h2>
+<p>If the Normans had conquered like a slow tide, castle dates would grow later the further you go from the battlefield. They do not. The dated castles of the 1060s were already spread across the kingdom: {{decades.0.n|int}} of them, with a median distance of {{decades.0.median_km|int}} km from Battle. By {{furthest_by_1069.year|raw}} the furthest, {{furthest_by_1069.label|raw}}, was {{furthest_by_1069.km|int}} km away. By {{furthest_by_1072_ew.year|raw}} {{furthest_by_1072_ew.label|raw}} stood {{furthest_by_1072_ew.km|int}} km north.</p>
+<div class="figure">
+  <div class="fig-h">How far from Battle, and when</div>
+  <div class="fig-sub">Each dot is a castle with a Wikidata date from 1066 to 1199, by straight-line distance from Battle, East Sussex. Line: median distance of the castles dated in each decade. Hollow dots: Scotland. Squares: round years (00 or 01).</div>
+  <div class="chart" id="scatter"></div>
+  <div class="src">N = {{n_window|int}} ({{n_window_ew|int}} in England and Wales). Spearman correlation of year and distance in England and Wales: {{spearman_year_dist_ew.rho|f2}} (p = {{spearman_year_dist_ew.p|f2}}); without round years {{spearman_year_dist_ew_noround.rho|f2}}.</div>
+</div>
+<p>Across the {{n_window_ew|int}} dated castles in England and Wales, the link between year and distance is weak (Spearman {{spearman_year_dist_ew.rho|f2}}) and not statistically clear. In the first six years, 1066 to 1071, the median dated castle was {{p1066_1071.median_km|int}} km from Battle; from 1072 to 1086 it was {{p1072_1086.median_km|int}} km; from 1087 to 1135, {{p1087_1135.median_km|int}} km; and from 1136 to 1199 back down to {{p1136_1199.median_km|int}} km, as building filled in nearer home. Of the {{first_years_n|int}} castles dated 1066 to 1072, {{first_years_over_300|int}} were already more than 300 km from the battlefield.</p>
+<p class="pull">The castles did not follow the conquest outwards. They were the conquest, planted at once in the county towns and river crossings of the whole kingdom.</p>
+<div class="figure">
+  <div class="fig-h">Castles per decade</div>
+  <div class="fig-sub">Castles with a Wikidata date in each decade. Lighter part: dates given as a round year (00 or 01), which may only mean "in this century".</div>
+  <div class="chart" id="decades"></div>
+</div>
+<p>The busiest decade in the dated record is the 1060s, with {{decades.0.n|int}} castles in four years. The 1100s look as busy, with {{decades.4.n|int}}, but {{decades.4.n_round|int}} of those carry the year 1100 or 1101, which in Wikidata can stand for a date known only to the century. Overall {{window_round|int}} of the {{n_window|int}} dated castles ({{window_round_share|pct}}) have such a round year.</p>
+
+<h2><span class="n">03 · Who gets a date</span>The dated castles are the famous ones</h2>
+<p>Before trusting any of this, I tested whether the dated castles are a fair sample of the rest. They are not. In England and Wales, {{bias_n_dated|int}} castle sites have a date (of any period) and {{bias_n_undated|int}} do not.</p>
+<div class="figure">
+  <div class="fig-h">Dated against undated castle sites, England and Wales</div>
+  <div class="fig-sub">Share of each group with the feature. Designations as recorded in Wikidata.</div>
+  <div class="chart" id="bias"></div>
+</div>
+<p>{{bias.grade1.dated|pct}} of the dated sites are Grade I listed buildings, against {{bias.grade1.undated|pct}} of the undated: about {{bias_grade1_ratio|x0}} times as likely. Only {{bias.earth.dated|pct}} of dated sites are earthworks (mottes or ringworks), against {{bias.earth.undated|pct}} of the undated ones. Dated sites are also far more often among the castles Domesday names ({{bias.dom.dated|pct1}} against {{bias.dom.undated|pct1}}). In short, Wikidata dates the big stone and royal castles, and leaves {{bias.earth.undated_n|int}} grassy mounds and ringworks undated.</p>
+<p>The good news for the frontier question is that the bias is about kind, not place. The median dated site is {{bias_dist_median_dated|int}} km from Battle and the median undated site {{bias_dist_median_undated|int}} km. So the dated sample says something fair about how far and how fast, and little about how many.</p>
+<p>Even Domesday's witnesses go undated. Of the {{dc_matched|int}} Domesday castles I could match by name to a Wikidata item, {{dc_matched_undated|int}} have no date in Wikidata at all, among them Hastings Castle itself, Cambridge, Gloucester, Richard's Castle and Penwortham. Of the matched items, {{dc_matched_before1066_n|int}} carry a date before 1066 ({{dc_matched_before1066.0.castle|raw}} {{dc_matched_before1066.0.wd_year|raw}} and {{dc_matched_before1066.1.castle|raw}} {{dc_matched_before1066.1.wd_year|raw}}), which I keep as recorded but leave out of the time series.</p>
+
+<h2><span class="n">04 · Domesday</span>What the castles cost, in 1086</h2>
+<p>Domesday Book was compiled twenty years after Hastings, and it mentions castles as a matter of fact: who holds one, what land it sits on, which houses it replaced. Reading the entries the Hull Domesday Project flags as mentioning a castle, and keeping only those where the 1086 text speaks of a castle at that place (not just a modern name such as Castle Hedingham), gives {{n_domesday_castles|int}} castles. Add the dated Wikidata castles of 1066 to 1086 and I count {{known_by_1086_total|int}} castles known to be standing by 1086.</p>
+<div class="cards">
+  <div class="card g"><b>Lincoln</b><div class="big">{{houses.0.n|int}} <span>houses</span></div>"166 were destroyed because of the castle"</div>
+  <div class="card g"><b>Norwich</b><div class="big">{{houses.1.n|int}} <span>houses</span></div>messuages "in the occupation of the castle"</div>
+  <div class="card g"><b>Shrewsbury</b><div class="big">{{houses.2.n|int}} <span>houses</span></div>"the Earl's castle has taken over 51 messuages"</div>
+</div>
+<p>Town castles were dug into living streets. Across {{houses_towns|int}} towns, the Domesday text counts {{houses_total|int}} houses destroyed, emptied or taken over for castles. That is a floor, not a total: most towns say nothing on the matter, and York's entries in the source carry no English text to check.</p>
+<div class="figure">
+  <div class="fig-h">Houses lost to castles, in Domesday's own words</div>
+  <div class="fig-sub">Houses or messuages the 1086 text says were destroyed, unoccupied or taken for a castle.</div>
+  <div class="chart" id="houses"></div>
+</div>
+<p>Did the countryside around castles suffer too? I took every located Domesday place ({{dp_n|int}}) and compared those within {{near_km|int}} km of a castle known by 1086 ({{near_n|int}} places) with the rest. Near castles, {{near_waste|pct1}} of places have an entry calling land waste, against {{far_waste|pct1}} elsewhere. But much of that gap is geography: castles and waste both crowd into the north and the Welsh border. Comparing places within the same county, the gap shrinks to {{near_waste_diff_pts|f1}} percentage points. The median place near a castle was worth {{near_value_median_ratio|f2}} times its 1066 value in 1086, and the median place elsewhere {{far_value_median_ratio|f2}} times. I read this as no clear local footprint: the damage Domesday records is regional, not a ring around each castle.</p>
+
+<h2><span class="n">05 · The Harrying of the North</span>Waste where the castles went north</h2>
+<p>The regional pattern is stark. In 1069 and 1070 William crushed a northern rising by laying the land waste. Domesday, sixteen years later, still shows it. Of {{yorks_n|int}} located Yorkshire places, {{yorks_waste|pct}} have an entry calling land waste, against {{rest_waste|pct1}} in the rest of the surveyed counties. Yorkshire's recorded value in 1086 was {{yorks_value_ratio|pct}} of its 1066 value, where the rest of England, taken together, stood at {{rest_value_ratio|pct}}.</p>
+<div class="figure">
+  <div class="fig-h">Waste in Domesday, by county</div>
+  <div class="fig-sub">Share of located Domesday places with at least one entry calling land waste. Label: value in 1086 as a share of value in 1066 (entries with both values).</div>
+  <div class="chart" id="waste"></div>
+</div>
+<p>Yorkshire is not top of the list. {{dom_county_waste.0.countyName|raw}} is, with {{dom_county_waste.0.waste|pct}} of places touched by waste, followed by {{dom_county_waste.1.countyName|raw}} ({{dom_county_waste.1.waste|pct}}) and {{dom_county_waste.2.countyName|raw}} ({{dom_county_waste.2.waste|pct}}). Cheshire was harried in the same campaign, and the other two are the Welsh border counties. Wigmore and Clifford castles were, in Domesday's words, built "on waste land". The four most wasted counties of Domesday are the two great castle frontiers: the north and the March of Wales.</p>
+
+<h2><span class="n">06 · The Welsh March</span>The densest castle country in Britain</h2>
+<p>Count every castle site, dated or not, and divide by land area. A band {{march_band_km|int}} km either side of the England and Wales border covers {{march_band_area_share|pct}} of the land of the two countries but holds {{march_band_share|pct}} of their castle sites, and {{march_band_earth_share|pct}} of their mottes and ringworks. That is {{march_density|f1}} castle sites per 1,000 km², against {{rest_density|f1}} in the rest of England and Wales: {{march_density_ratio|f1}} times the density.</p>
+<div class="figure">
+  <div class="controls"><div class="seg" role="group" aria-label="Which castles">
+    <button class="btn" data-h="all" aria-pressed="true">All castle sites</button>
+    <button class="btn" data-h="earth" aria-pressed="false">Mottes and ringworks only</button></div></div>
+  <div class="fig-h">Castle sites per 1,000 km² of land</div>
+  <div class="fig-sub">Hexagons {{hex_size_km|int}} km from centre to corner. Dated and undated sites together.</div>
+  <div class="chart" id="hex"></div>
+  <div class="src">Densest hexagon: {{hex_top.n|int}} sites, {{hex_top.per_1000km2|int}} per 1,000 km², centred in {{hex_top.county|raw}}. All ten densest hexagons are centred in Powys, Herefordshire, Gwent or Shropshire.</div>
+</div>
+<div class="figure">
+  <div class="fig-h">The densest counties</div>
+  <div class="fig-sub">Counties over {{county_min_area_km2|int}} km², by castle sites per 1,000 km².</div>
+  <div class="tablewrap"><table class="t" id="ctab"></table></div>
+</div>
+<p>{{county_top.0.county|raw}} tops the table with {{county_top.0.per_1000km2|f1}} sites per 1,000 km², and {{county_top_earth.1.county|raw}} has the second highest density of earthwork castles. Wales as a whole has {{density_nation.Wales.per_1000km2|f1}} castle sites per 1,000 km², England {{density_nation.England.per_1000km2|f1}}. One caution: Wikidata's Welsh records may simply be fuller, since they draw on a different national heritage list, and its Welsh "castles" include the castles of the Welsh princes as well as the Normans'. Even counting only mottes and ringworks, the border band is {{march_earth_ratio|f1}} times as dense as the rest.</p>
+
+<h2><span class="n">07 · The north-west</span>Lancashire: late, but not that late</h2>
+<p>The land between the Ribble and the Mersey appears in Domesday as an appendix to Cheshire, and most of the far north-west not at all. The dated castles there begin in the 1090s: {{nw_dated.0.label|raw}} ({{nw_dated.0.year|raw}}), {{nw_dated.1.label|raw}} and {{nw_dated.2.label|raw}} ({{nw_dated.1.year|raw}}). The median dated castle in Lancashire, Cumbria, Merseyside and Greater Manchester is about {{nw_median_year|yr}}, against {{se_median_year|yr}} in the south-east.</p>
+<div class="cards">
+  <div class="card g"><b>Penwortham</b><div class="big">by 1086</div>Domesday: "Now there is a castle." Undated in Wikidata.</div>
+  <div class="card s"><b>Lancaster</b><div class="big">{{k_lancaster.year|raw}}</div>Wikidata inception, {{k_lancaster.km|int}} km from Battle.</div>
+  <div class="card"><b>Clitheroe</b><div class="big">{{k_clitheroe.year|raw}}</div>Wikidata inception: a round year, so possibly only "about 1200".</div>
+</div>
+<p>But Domesday puts a castle at Penwortham, on the Ribble, by 1086: "It paid 10d. Now there is a castle." So the first known castle in Lancashire is a few years older than the dated record shows. The north-west is also thin castle country: Lancashire has {{county_lancs.per_1000km2|f1}} castle sites per 1,000 km², against {{county_hereford.per_1000km2|f1}} in Herefordshire.</p>
+
+<h2><span class="n">08 · Scotland</span>A different kind of arrival</h2>
+<p>Scotland was never conquered by the Normans, but Anglo-Norman lords settled there in the twelfth century and built mottes. Wikidata holds {{scot_n_items|int}} Scottish castle sites of these types, only {{scot_earth|int}} of them mottes or ringworks. Just {{window_by_nation.Scotland|int}} have a date before 1200, from {{scot_window.1.label|raw}} ({{scot_window.1.year|raw}}, a round year) to {{scot_window.6.label|raw}} ({{scot_window.6.year|raw}}). The earliest, {{scot_window.0.label|raw}} at {{scot_window.0.year|raw}}, may not be a Norman castle at all. Most of Scotland's "castles" in Wikidata are later tower castles, so I treat Scotland as context, not evidence.</p>
+
+<h2><span class="n">09 · A check</span>Does OpenStreetMap see the same castles?</h2>
+<p>As a coverage check I took OpenStreetMap's castle features in Britain ({{osm_n|int}}). {{osm_within_1km_share|pct}} of them lie within 1 km of a Wikidata castle site in my set. The other way round, only {{wd_with_osm_1km_share|pct}} of Wikidata sites have an OpenStreetMap castle within 1 km, and only {{wd_with_osm_1km_share_earth|pct}} of the mottes and ringworks. OpenStreetMap maps the standing castles; the earthworks live mostly in heritage lists, which is what Wikidata draws on. Neither is complete, and the gaps differ by country.</p>
+
+<div class="note" id="method">
+  <h3>How I did this</h3>
+  <p><b>Castles.</b> From a Wikidata extract (retrieved 27 October 2026) of UK items with coordinates, I kept items classed as castle, motte-and-bailey castle, motte, ringwork castle, shell keep, keep, castle ruin, enclosure castle or siege castle, deduplicated by item, and placed each in a county with ONS boundaries. Items classed only as tower houses, fortified manor houses, quadrangular castles, Welsh princes' castles or other later forms were left out; {{also_later_class_n|int}} items carry one of those classes as well as a castle class and stay in. Northern Ireland was left out. That gives {{n_items|int}} sites. Many "castle" items are later than the Normans; the type filter on the map lets you look at the earthworks alone.</p>
+  <p><b>Dates.</b> A castle's date is its earliest Wikidata inception (P571). I never add dates of my own. Wikidata stores a year for dates of all precisions, so a castle "of the 12th century" can appear as 1100 or 1101; I flag years ending in 00 or 01 and test the results without them. In all, {{n_pre1066|int}} items carry dates before 1066 and {{n_after1199|int}} after 1199; both are kept in the data but left out of the time series.</p>
+  <p><b>Distance.</b> Straight-line distance in British National Grid from Battle, East Sussex (OS Open Names), the site of the battle.</p>
+  <p><b>Domesday.</b> Entries come from the Hull Domesday Project's coded Domesday via the realm-domesday repository. I kept {{n_domesday_castles|int}} castles where the translated 1086 text speaks of a castle at or of a place, placed at the Domesday place's grid reference (Penwortham, which has none in the source, at its Wikidata coordinates). I matched them to Wikidata only where the item's name is the same castle and it lies within 8 km ({{dc_matched|int}} matched, {{dc_unmatched|int}} left unmatched as ambiguous). Waste is the source's flag for entries that call land waste; values are the 1066 and 1086 values of entries that give both, shared equally among the places an entry describes.</p>
+  <p><b>Density.</b> Sites per 1,000 km² of land, by county (ceremonial counties in England, preserved counties in Wales, council areas in Scotland) and by hexagon. The March band is all land within {{march_band_km|int}} km of the England and Wales border.</p>
+  <p><b>Known problems.</b> Wikidata coverage is uneven: the Welsh and English heritage lists feed it differently, and Scotland's castle items are mostly later. The dated sample favours big, listed castles. Domesday is silent on most castles, says nothing of the far north, and its Yorkshire entries in the source have no English text. Distances from Battle are a rough measure of a conquest that moved by road and river.</p>
+</div>
+<div class="cta">
+  <a class="p" href="https://github.com/Tristan-Hotham/norman-castles">Data and code</a>
+  <a href="https://doi.org/10.5281/zenodo.23688584">Paper (Zenodo)</a>
+  <a href="https://tristan-hotham.github.io/domesday-destiny/">Is Domesday destiny?</a>
+  <a href="https://blog.tristanhotham.com/">Blog</a>
+</div>
+<footer>
+  <p>Dr Tristan Hotham, Independent researcher. ORCID 0000-0003-4931-9349. Cite as: Hotham, T. (2026) The conquest in castles. https://doi.org/10.5281/zenodo.23688584</p>
+  <p>I wrote the text, with drafting and editing assistance from Claude (Anthropic), which also helped prepare the analysis code. I reviewed and checked all text and results.</p>
+  <p>Castle data: Wikidata (CC0). Coverage check: © OpenStreetMap contributors (ODbL). Domesday data: Hull Domesday Project, Professor J.J.N. Palmer, George Slater and the University of Hull (CC BY-NC-SA), via the realm-domesday repository (embabel-worlds). Boundaries: Office for National Statistics, licensed under the Open Government Licence v3.0; contains OS data © Crown copyright and database right. Battle: OS Open Names, contains OS data © Crown copyright and database right 2026 (OGL v3). Base map tiles © Esri, HERE, Garmin, © OpenStreetMap contributors, and the GIS user community.</p>
+  <p>Because the Domesday figures are CC BY-NC-SA, the derived data and the text of this page are released under CC BY-NC-SA 4.0. The code is released under the MIT licence. More history data studies on <a href="https://blog.tristanhotham.com/">the blog</a>.</p>
+</footer>
+</div>
+<div class="tip" id="tip"></div>
+<button class="btn theme" id="theme" aria-label="Toggle dark mode">◐</button>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const D = /*SITE*/;
+const R = /*RESULTS*/;
+const NS = "http://www.w3.org/2000/svg";
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const el = (t, a = {}, p) => { const e = document.createElementNS(NS, t); for (const k in a) e.setAttribute(k, a[k]); if (p) p.appendChild(e); return e; };
+const fmt = n => n == null ? "n/a" : Math.round(n).toLocaleString("en-GB");
+const pc = (x, d = 0) => (x * 100).toFixed(d) + "%";
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const tip = document.getElementById("tip");
+function showTip(h, x, y) { tip.innerHTML = h; tip.style.display = "block"; const w = tip.offsetWidth; x = Math.max(w / 2 + 8, Math.min(innerWidth - w / 2 - 8, x)); tip.style.left = x + scrollX + "px"; tip.style.top = y + scrollY + "px"; }
+function hideTip() { tip.style.display = "none"; }
+function hover(node, h) { node.style.cursor = "pointer"; node.setAttribute("tabindex", "0"); const s = () => { const r = node.getBoundingClientRect(); showTip(h, r.left + r.width / 2, r.top); }; node.addEventListener("pointerenter", s); node.addEventListener("pointerleave", hideTip); node.addEventListener("focus", s); node.addEventListener("blur", hideTip); node.addEventListener("click", e => { s(); e.stopPropagation(); }); }
+document.addEventListener("click", hideTip);
+const redraws = [];
+function resp(box, render) { let last = 0; const go = (force) => { const w = Math.max(280, Math.round(box.clientWidth)); if (!force && Math.abs(w - last) < 4) return; last = w; box.innerHTML = ""; render(w, w < 560); }; new ResizeObserver(() => go()).observe(box); go(); redraws.push(() => go(true)); return go; }
+const lbl = (svg, x, y, s, cls = "lab", anchor = "start") => { const t = el("text", { x, y, class: cls, "text-anchor": anchor }, svg); t.textContent = s; return t; };
+const isDark = () => { const r = document.documentElement; return r.dataset.theme ? r.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches; };
+document.getElementById("theme").onclick = () => { const r = document.documentElement; r.dataset.theme = isDark() ? "light" : "dark"; redraws.forEach(f => f()); };
+
+/* hero mark: a motte and bailey in plan, with a ring of dated dots */
+(() => { const g = document.getElementById("heroMark");
+  el("ellipse", { cx: 22, cy: 18, rx: 62, ry: 44, fill: "none", stroke: "var(--fg)", "stroke-width": 3, "stroke-dasharray": "2 5", opacity: .55 }, g);
+  el("circle", { cx: -38, cy: -30, r: 46, fill: "var(--panel)", stroke: "var(--fg)", "stroke-width": 3 }, g);
+  el("circle", { cx: -38, cy: -30, r: 30, fill: "none", stroke: "var(--fg)", "stroke-width": 1.4, opacity: .6 }, g);
+  el("rect", { x: -50, y: -42, width: 24, height: 24, fill: "var(--hot)" }, g);
+  [[40, 30, "--old"], [70, 4, "--old"], [10, 52, "--hot"], [64, 44, "--gold"], [-80, 50, "--old"], [86, -40, "--hot"]].forEach(([x, y, c]) => el("circle", { cx: x, cy: y, r: 7, fill: `var(${c})`, stroke: "var(--bg)", "stroke-width": 2 }, g));
+})();
+
+/* ===== map ===== */
+const TYPES = ["Castle", "Motte or motte-and-bailey", "Ringwork", "Keep or shell keep"];
+const NAT = ["England", "Wales", "Scotland"];
+const C = D.c.map(a => ({ lat: a[0], lng: a[1], name: a[2], t: a[3], y: a[4], round: a[5], county: a[6], nat: NAT[a[7]], q: "Q" + a[8], km: a[9], g1: a[10], dom: a[11] }));
+const DOM = D.d.map(a => ({ lat: a[0], lng: a[1], name: a[2], ref: a[3], place: a[4], quote: a[5], od: a[6], q: a[7] }));
+const DECS = []; for (let d = 1060; d <= 1190; d += 10) DECS.push(d);
+let dec = 0, tf = -1, showU = false, showD = true, lmap, tiles;
+const domQ = {}; DOM.forEach(d => { if (d.q) domQ[d.q] = d; });
+function popC(c) {
+  const d = domQ[c.q];
+  let h = `<div class="pop"><b class="t">${esc(c.name)}</b><div class="c">${esc(TYPES[c.t])} · ${esc(c.county)}, ${c.nat}</div><dl>`;
+  h += `<dt>Date</dt><dd>${c.y != null ? c.y + (c.round ? " (round year, may mean the century)" : "") : "none in Wikidata"}</dd>`;
+  h += `<dt>From Battle</dt><dd>${fmt(c.km)} km</dd>`;
+  if (c.g1) h += `<dt>Listed</dt><dd>Grade I</dd>`;
+  h += `</dl>`;
+  if (d) h += `<div class="note">Named in Domesday Book (${esc(d.ref)}):</div><q>${esc(d.quote)}</q>`;
+  return h + `<a href="https://www.wikidata.org/wiki/${c.q}" target="_blank" rel="noopener">Wikidata ${c.q}</a></div>`;
+}
+function popD(d) {
+  return `<div class="pop"><b class="t">${esc(d.name)}</b><div class="c">Domesday Book, ${esc(d.ref)} · standing by 1086</div><q>${esc(d.quote)}</q>${d.od ? `<a href="${d.od}" target="_blank" rel="noopener">Open Domesday: ${esc(d.place)}</a>` : ""}</div>`;
+}
+function rad(z, k) { return Math.max(2, Math.min(9, (k || 3.2) * Math.pow(1.3, z - 6))); }
+let layers = {};
+function tileUrl() { return `https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_${isDark() ? "Dark" : "Light"}_Gray_Base/MapServer/tile/{z}/{y}/{x}`; }
+function draw() {
+  if (!lmap) return;
+  Object.values(layers).forEach(l => lmap.removeLayer(l)); layers = {};
+  const z = lmap.getZoom(), end = DECS[dec] + 9, rend = L.canvas({ padding: 0.5, tolerance: 4 });
+  const hot = css("--hot"), old = css("--old"), und = css("--und"), gold = css("--gold"), bg = css("--bg");
+  const okT = c => tf < 0 || c.t === tf;
+  const U = L.layerGroup(), O = L.layerGroup(), N = L.layerGroup(), G = L.layerGroup();
+  let nNew = 0, nAll = 0;
+  C.forEach(c => {
+    if (!okT(c)) return;
+    if (c.y == null || c.y < 1066 || c.y > 1199) { if (showU && (c.y == null)) L.circleMarker([c.lat, c.lng], { renderer: rend, radius: rad(z, 2.2), weight: 0, fillColor: und, fillOpacity: .75 }).bindPopup(() => popC(c), { maxWidth: 300 }).addTo(U); return; }
+    if (c.y > end) return;
+    nAll++;
+    const isNew = c.y >= DECS[dec]; if (isNew) nNew++;
+    L.circleMarker([c.lat, c.lng], { renderer: rend, radius: rad(z, isNew ? 4.4 : 3.3), weight: 1, color: bg, fillColor: isNew ? hot : old, fillOpacity: isNew ? .95 : .8 }).bindPopup(() => popC(c), { maxWidth: 300 }).addTo(isNew ? N : O);
+  });
+  if (showD && end >= 1080) DOM.forEach(d => { const s = rad(z, 3.6) * 1.6; const ll = [d.lat, d.lng];
+    L.marker(ll, { icon: L.divIcon({ className: "", html: `<div style="width:${s}px;height:${s}px;background:${gold};border:1.5px solid ${bg};transform:rotate(45deg)"></div>`, iconSize: [s, s], iconAnchor: [s / 2, s / 2] }) }).bindPopup(() => popD(d), { maxWidth: 300 }).addTo(G); });
+  layers = { U, O, G, N }; U.addTo(lmap); O.addTo(lmap); G.addTo(lmap); N.addTo(lmap);
+  L.circleMarker(D.battle, { radius: 7, weight: 2, color: css("--fg"), fillColor: bg, fillOpacity: 1 }).bindTooltip("Battle, 1066").addTo(layers.N);
+  document.getElementById("decOut").textContent = DECS[dec] + "s";
+  document.getElementById("mapnote").innerHTML = `<b>${DECS[dec]}s</b>${nNew} newly dated castle${nNew === 1 ? "" : "s"}<br>${nAll} dated by ${end}${showD && end >= 1080 ? `<br>+ ${DOM.length} named in Domesday` : ""}`;
+  const lg = document.getElementById("legend");
+  lg.innerHTML = `<span><i style="background:var(--hot)"></i>Dated this decade</span><span><i style="background:var(--old)"></i>Dated earlier</span><span><i class="sq" style="background:var(--gold)"></i>Named in Domesday (by 1086)</span><span><i style="background:var(--und)"></i>Undated (${fmt(C.filter(c => c.y == null && okT(c)).length)} sites)</span><span><i style="background:var(--bg);border:2px solid var(--fg)"></i>Battle</span>`;
+}
+(() => {
+  if (!window.L) { document.getElementById("lmap").innerHTML = '<p style="padding:16px">The map library did not load.</p>'; return; }
+  lmap = L.map("lmap", { preferCanvas: true, zoomSnap: 0.5, minZoom: 5, maxZoom: 14, scrollWheelZoom: false });
+  lmap.fitBounds([[50.0, -5.6], [56.2, 1.8]], { padding: innerWidth < 600 ? [0, 0] : [10, 10] });
+  tiles = L.tileLayer(tileUrl(), { attribution: 'Tiles &copy; Esri, HERE, Garmin, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, and the GIS user community', maxZoom: 16 }).addTo(lmap);
+  lmap.on("zoomend", draw);
+  lmap.on("click focus", () => lmap.scrollWheelZoom.enable());
+  lmap.getContainer().addEventListener("mouseleave", () => lmap.scrollWheelZoom.disable());
+  const s = document.getElementById("dec");
+  s.oninput = () => { dec = +s.value; draw(); };
+  document.querySelectorAll("[data-t]").forEach(b => b.onclick = () => { tf = +b.dataset.t; document.querySelectorAll("[data-t]").forEach(x => x.setAttribute("aria-pressed", x === b)); draw(); });
+  document.getElementById("und").onchange = e => { showU = e.target.checked; draw(); };
+  document.getElementById("dom").onchange = e => { showD = e.target.checked; draw(); };
+  let timer = null; const pb = document.getElementById("play");
+  pb.onclick = () => { if (timer) { clearInterval(timer); timer = null; pb.textContent = "▶ Play"; return; }
+    if (dec >= 13) dec = -1; pb.textContent = "❚❚ Pause";
+    timer = setInterval(() => { dec++; s.value = dec; draw(); if (dec >= 13) { clearInterval(timer); timer = null; pb.textContent = "▶ Play"; } }, 900); dec = Math.max(dec, 0); s.value = dec; draw(); };
+  draw();
+  redraws.push(() => { tiles.setUrl(tileUrl()); draw(); });
+  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => redraws.forEach(f => f()));
+})();
+
+/* ===== distance scatter ===== */
+resp(document.getElementById("scatter"), (W, nar) => {
+  const H = nar ? 360 : 440, m = { l: 48, r: 14, t: 14, b: 40 };
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Distance from Battle against year for dated castles" }, document.getElementById("scatter"));
+  const X = v => m.l + (v - 1060) / (1200 - 1060) * (W - m.l - m.r), Y = v => H - m.b - v / 800 * (H - m.t - m.b);
+  [0, 200, 400, 600, 800].forEach(t => { el("line", { x1: m.l, x2: W - m.r, y1: Y(t), y2: Y(t), stroke: "var(--rule)" }, svg); lbl(svg, m.l - 6, Y(t) + 4, t, "lab m s", "end"); });
+  [1066, 1086, 1100, 1135, 1154, 1199].forEach(t => { if (nar && (t === 1154 || t === 1086)) return; el("line", { x1: X(t), x2: X(t), y1: m.t, y2: H - m.b, stroke: "var(--rule)" }, svg); lbl(svg, X(t), H - m.b + 16, t, "lab m s", "middle"); });
+  lbl(svg, (m.l + W - m.r) / 2, H - 4, "Year (Wikidata inception)", "lab m s", "middle");
+  const yl = lbl(svg, 0, 0, "km from Battle", "lab m s", "middle"); yl.setAttribute("transform", `translate(11 ${(m.t + H - m.b) / 2}) rotate(-90)`);
+  el("rect", { x: X(1066), y: m.t, width: X(1086) - X(1066), height: H - m.t - m.b, fill: "var(--gold)", opacity: .08 }, svg);
+  lbl(svg, X(1066) + 4, m.t + 12, "to Domesday", "lab m s");
+  const pts = [];
+  D.dw.forEach(a => { const cx = X(a[0]), cy = Y(a[1]); const sc = a[5] === "Scotland";
+    const n = a[4] ? el("rect", { x: cx - 3.2, y: cy - 3.2, width: 6.4, height: 6.4, fill: sc ? "none" : "var(--old)", stroke: "var(--old)", "stroke-width": 1.4, opacity: .85 }, svg)
+      : el("circle", { cx, cy, r: 3.8, fill: sc ? "none" : "var(--hot)", stroke: "var(--hot)", "stroke-width": 1.4, "fill-opacity": .8 }, svg);
+    pts.push([cx, cy, a]); });
+  const md = D.dec.filter(d => d.n >= 3);
+  el("polyline", { points: md.map(d => `${X(d.decade + 5)},${Y(d.median_km)}`).join(" "), fill: "none", stroke: "var(--fg)", "stroke-width": 2.2 }, svg);
+  md.forEach(d => el("circle", { cx: X(d.decade + 5), cy: Y(d.median_km), r: 3, fill: "var(--fg)" }, svg));
+  lbl(svg, X(md[md.length - 1].decade + 5) - 6, Y(md[md.length - 1].median_km) - 10, "median", "lab s b", "end");
+  const call = ["York Castle", "Durham Castle", "Lancaster Castle", "Pevensey Castle"];
+  pts.filter(p => call.includes(p[2][2]) && !(nar && p[2][2] === "Lancaster Castle")).forEach(p => lbl(svg, p[0] + 7, p[1] + 4, p[2][2].replace(" Castle", ""), "lab s b"));
+  const hl = el("circle", { r: 6, fill: "none", stroke: "var(--fg)", "stroke-width": 2, visibility: "hidden" }, svg);
+  const ov = el("rect", { x: m.l, y: m.t, width: W - m.l - m.r, height: H - m.t - m.b, fill: "transparent" }, svg);
+  ov.addEventListener("pointermove", e => { const r = svg.getBoundingClientRect(), k = W / r.width, mx = (e.clientX - r.left) * k, my = (e.clientY - r.top) * k; let best = null, bd = 196; for (const p of pts) { const d = (p[0] - mx) ** 2 + (p[1] - my) ** 2; if (d < bd) { bd = d; best = p; } }
+    if (!best) { hl.setAttribute("visibility", "hidden"); hideTip(); return; } hl.setAttribute("cx", best[0]); hl.setAttribute("cy", best[1]); hl.setAttribute("visibility", "visible"); const a = best[2];
+    showTip(`<b>${esc(a[2])}</b><br>${esc(a[3])}<br>${a[0]}${a[4] ? " (round year)" : ""} · ${fmt(a[1])} km from Battle`, r.left + best[0] / k, r.top + best[1] / k); });
+  ov.addEventListener("pointerleave", () => { hl.setAttribute("visibility", "hidden"); hideTip(); });
+});
+
+/* ===== decades ===== */
+resp(document.getElementById("decades"), (W, nar) => {
+  const H = 250, m = { l: 34, r: 8, t: 14, b: 34 }, n = D.dec.length;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Castles with a date in each decade, 1060s to 1190s" }, document.getElementById("decades"));
+  const max = 25, bw = (W - m.l - m.r) / n, Y = v => H - m.b - v / max * (H - m.t - m.b);
+  [0, 5, 10, 15, 20, 25].forEach(t => { el("line", { x1: m.l, x2: W - m.r, y1: Y(t), y2: Y(t), stroke: "var(--rule)" }, svg); lbl(svg, m.l - 6, Y(t) + 4, t, "lab m s", "end"); });
+  D.dec.forEach((d, i) => { const x = m.l + i * bw + bw * .14, w = bw * .72, firm = d.n - d.n_round;
+    const g = el("g", {}, svg);
+    el("rect", { x, y: Y(firm), width: w, height: Y(0) - Y(firm), fill: "var(--hot)" }, g);
+    if (d.n_round) el("rect", { x, y: Y(d.n), width: w, height: Y(firm) - Y(d.n), fill: "var(--hot)", opacity: .32 }, g);
+    lbl(svg, x + w / 2, Y(d.n) - 4, d.n, "lab s b", "middle");
+    if (!nar || i % 2 === 0) lbl(svg, x + w / 2, H - m.b + 15, nar ? "'" + String(d.decade).slice(2) : d.decade + "s", "lab m s", "middle");
+    hover(g, `<b>${d.decade}s</b><br>${d.n} dated castles${d.n_round ? ` (${d.n_round} with a round year)` : ""}${d.median_km != null ? `<br>median ${fmt(d.median_km)} km from Battle` : ""}`); });
+  if (nar) lbl(svg, m.l, H - 4, "Decade (1060s to 1190s)", "lab m s");
+});
+
+/* ===== bias ===== */
+resp(document.getElementById("bias"), (W, nar) => {
+  const rows = ["grade1", "scheduled", "earth", "dom"].map(k => R.bias[k]), rowH = 58, m = { l: nar ? 0 : 200, r: 50, t: 6, b: 10 }, H = rows.length * rowH + m.t + m.b;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Share of dated and undated castle sites by feature" }, document.getElementById("bias"));
+  const X = v => m.l + v * (W - m.l - m.r);
+  rows.forEach((r, i) => { const y = m.t + i * rowH + (nar ? 16 : 6);
+    lbl(svg, nar ? 0 : m.l - 10, nar ? y - 3 : y + 16, r.label[0].toUpperCase() + r.label.slice(1), "lab", nar ? "start" : "end");
+    [["dated", "var(--hot)", 0], ["undated", "var(--und)", 1]].forEach(([k, c, j]) => { const yy = y + 2 + j * 19;
+      const b = el("rect", { x: m.l, y: yy, width: Math.max(2, X(r[k]) - m.l), height: 16, fill: c }, svg);
+      hover(b, `<b>${r.label}</b><br>${k}: ${pc(r[k], 1)} (${fmt(r[k + "_n"])} sites)`);
+      lbl(svg, X(r[k]) + 6, yy + 12, pc(r[k]) + (i === 0 ? " " + k : ""), "lab s" + (j ? " m" : " b")); }); });
+});
+
+/* ===== houses ===== */
+resp(document.getElementById("houses"), (W, nar) => {
+  const rows = D.houses, rowH = 26, m = { l: 96, r: 44, t: 4, b: 6 }, H = rows.length * rowH + m.t + m.b;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Houses lost to castles by town in Domesday" }, document.getElementById("houses"));
+  const X = v => m.l + v / 170 * (W - m.l - m.r);
+  rows.forEach((r, i) => { const y = m.t + i * rowH; lbl(svg, m.l - 8, y + 15, r.town, "lab", "end");
+    el("rect", { x: m.l, y: y + 4, width: X(r.n) - m.l, height: 16, fill: "var(--gold)" }, svg); lbl(svg, X(r.n) + 6, y + 16, r.n, "lab s b"); });
+});
+
+/* ===== waste ===== */
+resp(document.getElementById("waste"), (W, nar) => {
+  const rows = D.waste.slice(0, 14), rowH = 26, m = { l: nar ? 112 : 140, r: nar ? 96 : 150, t: 4, b: 6 }, H = rows.length * rowH + m.t + m.b;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Share of Domesday places with waste, by county" }, document.getElementById("waste"));
+  const X = v => m.l + v / 0.6 * (W - m.l - m.r);
+  rows.forEach((r, i) => { const y = m.t + i * rowH; const hi = ["Yorkshire", "Cheshire", "Shropshire", "Herefordshire"].includes(r[0]);
+    lbl(svg, m.l - 8, y + 15, r[0], "lab" + (hi ? " b" : ""), "end");
+    const b = el("rect", { x: m.l, y: y + 4, width: Math.max(1, X(r[2]) - m.l), height: 16, fill: hi ? "var(--hot)" : "var(--h2)" }, svg);
+    hover(b, `<b>${esc(r[0])}</b><br>${fmt(r[1])} located places; ${pc(r[2], 1)} with waste<br>Value 1086 as share of 1066: ${pc(r[3])}`);
+    lbl(svg, X(r[2]) + 6, y + 16, pc(r[2]) + (nar ? "" : `  · value ${pc(r[3])} of 1066`), "lab s" + (hi ? " b" : " m")); });
+});
+
+/* ===== hex density ===== */
+(() => { let hm = "all"; const box = document.getElementById("hex");
+  const go = resp(box, (W, nar) => {
+    const xs = D.h.map(h => h[0]), ys = D.h.map(h => h[1]), x0 = Math.min(...xs) - 15, x1 = Math.max(...xs) + 15, y0 = Math.min(...ys) - 15, y1 = Math.max(...ys) + 15;
+    const k = Math.min(W / (x1 - x0), (nar ? 620 : 760) / (y1 - y0)), H = (y1 - y0) * k, ox = (W - (x1 - x0) * k) / 2;
+    const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Hexagon map of castle density" }, box);
+    const P = (x, y) => [ox + (x - x0) * k, H - (y - y0) * k];
+    const brk = hm === "all" ? [0, 5, 15, 30, 60] : [0, 2, 6, 12, 25], cols = ["--h0", "--h1", "--h2", "--h3", "--h4", "--h5"];
+    D.h.forEach(h => { const v = (hm === "all" ? h[2] : h[3]) / h[4] * 1000; let ci = 0; while (ci < brk.length && v > brk[ci]) ci++;
+      const pts = []; for (let i = 0; i < 6; i++) { const a = Math.PI / 180 * (60 * i + 30); pts.push(P(h[0] + 15 * Math.cos(a) * .97, h[1] + 15 * Math.sin(a) * .97).map(n => n.toFixed(1)).join(",")); }
+      const p = el("polygon", { points: pts.join(" "), fill: `var(${cols[ci]})` }, svg);
+      hover(p, `${hm === "all" ? h[2] + " castle sites" : h[3] + " mottes and ringworks"}<br>${v.toFixed(1)} per 1,000 km² of land`); });
+    const [bx, by] = P(...D.bxy); el("circle", { cx: bx, cy: by, r: 5, fill: "var(--bg)", stroke: "var(--fg)", "stroke-width": 2 }, svg); lbl(svg, bx + 8, by + 4, "Battle", "lab s b");
+    const lx = nar ? 6 : W * 0.04; let ly = H * (nar ? 0.06 : 0.1);
+    lbl(svg, lx, ly, "per 1,000 km²", "lab s m");
+    ["none", `up to ${brk[1]}`, `${brk[1]} to ${brk[2]}`, `${brk[2]} to ${brk[3]}`, `${brk[3]} to ${brk[4]}`, `over ${brk[4]}`].forEach((lab, i) => {
+      ly += 17; el("rect", { x: lx, y: ly - 10, width: 12, height: 12, fill: `var(${cols[i]})`, stroke: "var(--rule)" }, svg); lbl(svg, lx + 18, ly, lab, "lab s"); });
+  });
+  document.querySelectorAll("[data-h]").forEach(b => b.onclick = () => { hm = b.dataset.h; document.querySelectorAll("[data-h]").forEach(x => x.setAttribute("aria-pressed", x === b)); go(true); });
+})();
+
+/* ===== county table ===== */
+document.getElementById("ctab").innerHTML = `<thead><tr><th class="num">#</th><th>County</th><th class="num">Sites</th><th class="num wide">Mottes and ringworks</th><th class="num">Per 1,000 km²</th></tr></thead><tbody>` +
+  D.cd.slice(0, 12).map((r, i) => `<tr><td class="num">${i + 1}</td><td>${esc(r[0])}<small>${r[1]}</small></td><td class="num">${fmt(r[2])}</td><td class="num wide">${fmt(r[3])}</td><td class="num">${r[4].toFixed(1)}</td></tr>`).join("") + "</tbody>";
+</script>
+</body>
+</html>
