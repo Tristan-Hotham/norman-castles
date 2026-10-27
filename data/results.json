@@ -1,0 +1,1188 @@
+{
+ "battle": {
+  "lat": 50.91846,
+  "lon": 0.48229,
+  "source": "OS Open Names, populated place 'Battle' (Town, East Sussex)"
+ },
+ "n_items": 3288,
+ "n_by_nation": {
+  "England": 1564,
+  "Wales": 905,
+  "Scotland": 819
+ },
+ "n_by_type": {
+  "castle": 2158,
+  "motte": 958,
+  "ringwork": 162,
+  "keep": 10
+ },
+ "also_later_class_n": 107,
+ "n_earthwork": 1120,
+ "n_dated_any": 317,
+ "share_dated_any": 0.09641119221411192,
+ "n_undated": 2971,
+ "share_undated": 0.9035888077858881,
+ "dated_share_by_type": {
+  "castle": 0.12882298424467098,
+  "motte": 0.033402922755741124,
+  "ringwork": 0.030864197530864196,
+  "keep": 0.2
+ },
+ "dated_n_by_type": {
+  "castle": 278,
+  "motte": 32,
+  "ringwork": 5,
+  "keep": 2
+ },
+ "earthwork_dated_n": 37,
+ "earthwork_dated_share": 0.033035714285714286,
+ "n_pre1066": 12,
+ "pre1066": [
+  {
+   "label": "Marlborough Mound",
+   "year": -3000,
+   "county": "Wiltshire"
+  },
+  {
+   "label": "Tomen y Mur",
+   "year": 100,
+   "county": "Gwynedd"
+  },
+  {
+   "label": "Tynemouth Castle and Priory",
+   "year": 601,
+   "county": "Tyne and Wear"
+  },
+  {
+   "label": "Wolvesey Castle",
+   "year": 970,
+   "county": "Hampshire"
+  },
+  {
+   "label": "Rockingham Castle",
+   "year": 1000,
+   "county": "Northamptonshire"
+  },
+  {
+   "label": "Halton Castle",
+   "year": 1001,
+   "county": "Cheshire"
+  },
+  {
+   "label": "Goodrich Castle",
+   "year": 1001,
+   "county": "Herefordshire"
+  },
+  {
+   "label": "Baynard's Castle",
+   "year": 1017,
+   "county": "Greater London"
+  },
+  {
+   "label": "Delgatie Castle",
+   "year": 1049,
+   "county": "Aberdeenshire"
+  },
+  {
+   "label": "Wiston Castle",
+   "year": 1050,
+   "county": "Dyfed"
+  },
+  {
+   "label": "Leicester Castle",
+   "year": 1060,
+   "county": "Leicestershire"
+  },
+  {
+   "label": "Monmouth Castle",
+   "year": 1060,
+   "county": "Gwent"
+  }
+ ],
+ "n_after1199": 192,
+ "n_window": 113,
+ "window_by_nation": {
+  "England": 87,
+  "Wales": 19,
+  "Scotland": 7
+ },
+ "window_by_type": {
+  "castle": 84,
+  "motte": 24,
+  "ringwork": 4,
+  "keep": 1
+ },
+ "window_round": 17,
+ "window_round_share": 0.1504424778761062,
+ "window_year1100": 15,
+ "window_1066_1086": 42,
+ "window_1066_1071": 32,
+ "window_1066_1069": 22,
+ "window_by_1086_share": 0.37168141592920356,
+ "window_median_year": 1100.0,
+ "decades": [
+  {
+   "decade": 1060,
+   "n": 22,
+   "n_round": 0,
+   "median_km": 215.2529192615832,
+   "max_km": 354.20195511176956,
+   "cum_n": 22,
+   "cum_p90_km": 339.6659831518753,
+   "cum_max_km": 354.20195511176956,
+   "median_north_km": 210.3665
+  },
+  {
+   "decade": 1070,
+   "n": 11,
+   "n_round": 0,
+   "median_km": 298.9187531571079,
+   "max_km": 599.9025468357339,
+   "cum_n": 33,
+   "cum_p90_km": 351.94442734868767,
+   "cum_max_km": 599.9025468357339,
+   "median_north_km": 303.904
+  },
+  {
+   "decade": 1080,
+   "n": 11,
+   "n_round": 0,
+   "median_km": 297.63067622810655,
+   "max_km": 472.0256803946158,
+   "cum_n": 44,
+   "cum_p90_km": 405.1383093750423,
+   "cum_max_km": 599.9025468357339,
+   "median_north_km": 302.19
+  },
+  {
+   "decade": 1090,
+   "n": 9,
+   "n_round": 0,
+   "median_km": 385.98343474429055,
+   "max_km": 521.2738286323225,
+   "cum_n": 53,
+   "cum_p90_km": 437.7933034389392,
+   "cum_max_km": 599.9025468357339,
+   "median_north_km": 451.998
+  },
+  {
+   "decade": 1100,
+   "n": 22,
+   "n_round": 17,
+   "median_km": 300.5794353226545,
+   "max_km": 545.9551067990847,
+   "cum_n": 75,
+   "cum_p90_km": 439.4125434585465,
+   "cum_max_km": 599.9025468357339,
+   "median_north_km": 180.785
+  },
+  {
+   "decade": 1110,
+   "n": 1,
+   "n_round": 0,
+   "median_km": 38.190184969439464,
+   "max_km": 38.190184969439464,
+   "cum_n": 76,
+   "cum_p90_km": 438.43010368746934,
+   "cum_max_km": 599.9025468357339,
+   "median_north_km": 153.254
+  },
+  {
+   "decade": 1120,
+   "n": 6,
+   "n_round": 0,
+   "median_km": 342.02557107276107,
+   "max_km": 562.3882899892209,
+   "cum_n": 82,
+   "cum_p90_km": 450.09584906486253,
+   "cum_max_km": 599.9025468357339,
+   "median_north_km": 371.026
+  },
+  {
+   "decade": 1130,
+   "n": 7,
+   "n_round": 0,
+   "median_km": 208.56267956180463,
+   "max_km": 379.3895287774822,
+   "cum_n": 89,
+   "cum_p90_km": 444.84309065885634,
+   "cum_max_km": 599.9025468357339,
+   "median_north_km": 216.752
+  },
+  {
+   "decade": 1140,
+   "n": 6,
+   "n_round": 0,
+   "median_km": 273.78538990277536,
+   "max_km": 793.4135721110397,
+   "cum_n": 95,
+   "cum_p90_km": 447.8446668908599,
+   "cum_max_km": 793.4135721110397,
+   "median_north_km": 333.3645
+  },
+  {
+   "decade": 1150,
+   "n": 7,
+   "n_round": 0,
+   "median_km": 204.71923320000982,
+   "max_km": 790.7741935780404,
+   "cum_n": 102,
+   "cum_p90_km": 453.12846926047325,
+   "cum_max_km": 793.4135721110397,
+   "median_north_km": 223.255
+  },
+  {
+   "decade": 1160,
+   "n": 1,
+   "n_round": 0,
+   "median_km": 149.72199834693632,
+   "max_km": 149.72199834693632,
+   "cum_n": 103,
+   "cum_p90_km": 452.87488857851656,
+   "cum_max_km": 793.4135721110397,
+   "median_north_km": 249.866
+  },
+  {
+   "decade": 1170,
+   "n": 2,
+   "n_round": 0,
+   "median_km": 181.37223492628115,
+   "max_km": 299.2668998218814,
+   "cum_n": 105,
+   "cum_p90_km": 452.3677272146033,
+   "cum_max_km": 793.4135721110397,
+   "median_north_km": 271.034
+  },
+  {
+   "decade": 1180,
+   "n": 4,
+   "n_round": 0,
+   "median_km": 391.2293231867359,
+   "max_km": 634.4022808943864,
+   "cum_n": 109,
+   "cum_p90_km": 455.66182467427336,
+   "cum_max_km": 793.4135721110397,
+   "median_north_km": 464.5615
+  },
+  {
+   "decade": 1190,
+   "n": 4,
+   "n_round": 0,
+   "median_km": 507.78481423330135,
+   "max_km": 631.1075974673415,
+   "cum_n": 113,
+   "cum_p90_km": 470.576729036022,
+   "cum_max_km": 793.4135721110397,
+   "median_north_km": 554.9535
+  }
+ ],
+ "decade_peak": {
+  "decade": 1060,
+  "n": 22,
+  "n_round": 0,
+  "median_km": 215.2529192615832,
+  "max_km": 354.20195511176956,
+  "cum_n": 22,
+  "cum_p90_km": 339.6659831518753,
+  "cum_max_km": 354.20195511176956,
+  "median_north_km": 210.3665
+ },
+ "decade_1060s": {
+  "decade": 1060,
+  "n": 22,
+  "n_round": 0,
+  "median_km": 215.2529192615832,
+  "max_km": 354.20195511176956,
+  "cum_n": 22,
+  "cum_p90_km": 339.6659831518753,
+  "cum_max_km": 354.20195511176956,
+  "median_north_km": 210.3665
+ },
+ "furthest_by_1069": {
+  "year": 1069,
+  "label": "York Castle",
+  "built": 1068,
+  "km": 354.20195511176956,
+  "county": "North Yorkshire",
+  "n": 22
+ },
+ "furthest_by_1072": {
+  "year": 1072,
+  "label": "Dunbar Castle",
+  "built": 1070,
+  "km": 599.9025468357339,
+  "county": "East Lothian",
+  "n": 33
+ },
+ "furthest_by_1072_ew": {
+  "year": 1072,
+  "label": "Durham Castle",
+  "built": 1072,
+  "km": 450.84624312286337,
+  "county": "Durham",
+  "n": 32
+ },
+ "furthest_by_1086_ew": {
+  "year": 1086,
+  "label": "Newcastle upon Tyne Castle",
+  "built": 1080,
+  "km": 472.0256803946158,
+  "county": "Tyne and Wear",
+  "n": 41
+ },
+ "furthest_by_1100_ew": {
+  "year": 1100,
+  "label": "Alnwick Castle",
+  "built": 1096,
+  "km": 521.2738286323225,
+  "county": "Northumberland",
+  "n": 66
+ },
+ "n_window_ew": 106,
+ "p1066_1071": {
+  "n": 31,
+  "median_km": 234.57009463271316,
+  "p90_km": 342.1874787788121,
+  "share_over_300": 0.22580645161290322
+ },
+ "p1072_1086": {
+  "n": 10,
+  "median_km": 327.2267396711041,
+  "p90_km": 452.96418685003863,
+  "share_over_300": 0.6
+ },
+ "p1087_1135": {
+  "n": 43,
+  "median_km": 297.4515682880156,
+  "p90_km": 451.3741004625149,
+  "share_over_300": 0.4883720930232558
+ },
+ "p1136_1199": {
+  "n": 22,
+  "median_km": 201.91063940991882,
+  "p90_km": 425.3545880255101,
+  "share_over_300": 0.36363636363636365
+ },
+ "spearman_year_dist_ew": {
+  "rho": 0.1246206960376892,
+  "p": 0.2030876901070065,
+  "n": 106
+ },
+ "slope_km_per_decade_ew": 2.3664495205675635,
+ "spearman_year_dist_ew_noround": {
+  "rho": 0.16371418845279467,
+  "p": 0.12311209174176231,
+  "n": 90
+ },
+ "first_years_over_300": 8,
+ "first_years_n": 32,
+ "n_domesday_castles": 41,
+ "n_domesday_castle_waste_entry": 9,
+ "dc_matched": 35,
+ "dc_matched_dated": 16,
+ "dc_matched_undated": 19,
+ "dc_matched_after1086": 0,
+ "dc_matched_before1066": [
+  {
+   "castle": "Monmouth",
+   "wd_year": 1060
+  },
+  {
+   "castle": "Rockingham",
+   "wd_year": 1000
+  }
+ ],
+ "dc_matched_before1066_n": 2,
+ "dc_unmatched": 6,
+ "dc_after1086_list": [],
+ "dc_undated_examples": [
+  "Cambridge Castle",
+  "Twtil, Castle Motte",
+  "Penwortham Castle",
+  "Trematon Castle",
+  "Rayleigh Castle",
+  "Gloucester Castle",
+  "Wigmore Castle",
+  "Clifford Castle and Barbican",
+  "Richard's Castle",
+  "Ewyas Harold Castle",
+  "Caerleon Castle",
+  "Huntingdon Castle",
+  "Stamford Castle",
+  "Holdgate Castle",
+  "Montacute Castle",
+  "Dunster Castle",
+  "Tutbury Castle",
+  "Eye Castle",
+  "Hastings Castle"
+ ],
+ "known_by_1086_items": 63,
+ "known_by_1086_total": 69,
+ "houses_total": 395,
+ "houses_towns": 9,
+ "houses": [
+  {
+   "town": "Lincoln",
+   "n": 166
+  },
+  {
+   "town": "Norwich",
+   "n": 98
+  },
+  {
+   "town": "Shrewsbury",
+   "n": 51
+  },
+  {
+   "town": "Cambridge",
+   "n": 27
+  },
+  {
+   "town": "Huntingdon",
+   "n": 20
+  },
+  {
+   "town": "Gloucester",
+   "n": 16
+  },
+  {
+   "town": "Wallingford",
+   "n": 8
+  },
+  {
+   "town": "Stamford",
+   "n": 5
+  },
+  {
+   "town": "Warwick",
+   "n": 4
+  }
+ ],
+ "bias": {
+  "earth": {
+   "label": "earthwork (motte or ringwork)",
+   "dated": 0.15418502202643172,
+   "undated": 0.4335414808206958,
+   "dated_n": 35,
+   "undated_n": 972,
+   "p": 5.943161763136573e-16
+  },
+  "grade1": {
+   "label": "Grade I listed",
+   "dated": 0.5991189427312775,
+   "undated": 0.06244424620874219,
+   "dated_n": 136,
+   "undated_n": 140,
+   "p": 6.999070115675566e-131
+  },
+  "listed_any": {
+   "label": "listed building (any grade)",
+   "dated": 0.6960352422907489,
+   "undated": 0.13380909901873328,
+   "dated_n": 158,
+   "undated_n": 300,
+   "p": 5.5901789664460534e-95
+  },
+  "scheduled": {
+   "label": "scheduled monument",
+   "dated": 0.7180616740088106,
+   "undated": 0.4937555753791258,
+   "dated_n": 163,
+   "undated_n": 1107,
+   "p": 1.8439374612767207e-10
+  },
+  "dom": {
+   "label": "named in Domesday",
+   "dated": 0.07048458149779736,
+   "undated": 0.00847457627118644,
+   "dated_n": 16,
+   "undated_n": 19,
+   "p": 4.60378564104675e-13
+  }
+ },
+ "bias_n_dated": 227,
+ "bias_n_undated": 2242,
+ "bias_dist_median_dated": 281.51398100982476,
+ "bias_dist_median_undated": 293.1829646566871,
+ "bias_dist_mwu_p": 0.1547058456695325,
+ "bias_grade1_ratio": 9.59446192573946,
+ "bias_dom_ratio": 8.317180616740089,
+ "dated_share_wales": 0.06519337016574586,
+ "dated_share_england": 0.10741687979539642,
+ "dated_share_scotland": 0.10989010989010989,
+ "county_top": [
+  {
+   "county": "Herefordshire",
+   "nation": "England",
+   "castles": 159,
+   "earthworks": 67,
+   "per_1000km2": 72.92841136110953,
+   "earthworks_per_1000km2": 30.730840007511564,
+   "area_km2": 2180
+  },
+  {
+   "county": "Powys",
+   "nation": "Wales",
+   "castles": 307,
+   "earthworks": 89,
+   "per_1000km2": 59.08373057335441,
+   "earthworks_per_1000km2": 17.128508211819355,
+   "area_km2": 5196
+  },
+  {
+   "county": "West Glamorgan",
+   "nation": "Wales",
+   "castles": 48,
+   "earthworks": 8,
+   "per_1000km2": 58.37724831553554,
+   "earthworks_per_1000km2": 9.729541385922591,
+   "area_km2": 822
+  },
+  {
+   "county": "Gwent",
+   "nation": "Wales",
+   "castles": 87,
+   "earthworks": 33,
+   "per_1000km2": 55.987751781205276,
+   "earthworks_per_1000km2": 21.236733434250276,
+   "area_km2": 1554
+  },
+  {
+   "county": "Shropshire",
+   "nation": "England",
+   "castles": 131,
+   "earthworks": 94,
+   "per_1000km2": 37.580732970328036,
+   "earthworks_per_1000km2": 26.966327474891877,
+   "area_km2": 3486
+  },
+  {
+   "county": "Fife",
+   "nation": "Scotland",
+   "castles": 49,
+   "earthworks": 2,
+   "per_1000km2": 36.97307292073315,
+   "earthworks_per_1000km2": 1.5091050171727816,
+   "area_km2": 1325
+  },
+  {
+   "county": "Dyfed",
+   "nation": "Wales",
+   "castles": 213,
+   "earthworks": 71,
+   "per_1000km2": 36.87150894908343,
+   "earthworks_per_1000km2": 12.290502983027809,
+   "area_km2": 5777
+  },
+  {
+   "county": "East Lothian",
+   "nation": "Scotland",
+   "castles": 25,
+   "earthworks": 0,
+   "per_1000km2": 36.75229390713803,
+   "earthworks_per_1000km2": 0.0,
+   "area_km2": 680
+  }
+ ],
+ "county_top_earth": [
+  {
+   "county": "Herefordshire",
+   "nation": "England",
+   "earthworks": 67,
+   "earthworks_per_1000km2": 30.730840007511564
+  },
+  {
+   "county": "Shropshire",
+   "nation": "England",
+   "earthworks": 94,
+   "earthworks_per_1000km2": 26.966327474891877
+  },
+  {
+   "county": "Gwent",
+   "nation": "Wales",
+   "earthworks": 33,
+   "earthworks_per_1000km2": 21.236733434250276
+  },
+  {
+   "county": "Powys",
+   "nation": "Wales",
+   "earthworks": 89,
+   "earthworks_per_1000km2": 17.128508211819355
+  },
+  {
+   "county": "Bedfordshire",
+   "nation": "England",
+   "earthworks": 16,
+   "earthworks_per_1000km2": 12.956650723904371
+  },
+  {
+   "county": "Dyfed",
+   "nation": "Wales",
+   "earthworks": 71,
+   "earthworks_per_1000km2": 12.290502983027809
+  },
+  {
+   "county": "Northamptonshire",
+   "nation": "England",
+   "earthworks": 24,
+   "earthworks_per_1000km2": 10.13947791190977
+  },
+  {
+   "county": "Buckinghamshire",
+   "nation": "England",
+   "earthworks": 19,
+   "earthworks_per_1000km2": 10.133502302230012
+  }
+ ],
+ "county_min_area_km2": 500,
+ "county_bottom_eng": [
+  {
+   "county": "Lincolnshire",
+   "castles": 41,
+   "per_1000km2": 5.8756430873777035
+  },
+  {
+   "county": "Greater London",
+   "castles": 9,
+   "per_1000km2": 5.699509253976035
+  },
+  {
+   "county": "Greater Manchester",
+   "castles": 7,
+   "per_1000km2": 5.487525981712268
+  }
+ ],
+ "county_lancs": {
+  "county": "Lancashire",
+  "castles": 19,
+  "earthworks": 10,
+  "per_1000km2": 6.186477099745259,
+  "earthworks_per_1000km2": 3.2560405788132942
+ },
+ "county_hereford": {
+  "county": "Herefordshire",
+  "castles": 159,
+  "earthworks": 67,
+  "per_1000km2": 72.92841136110953,
+  "earthworks_per_1000km2": 30.730840007511564
+ },
+ "county_shrop": {
+  "county": "Shropshire",
+  "castles": 131,
+  "earthworks": 94,
+  "per_1000km2": 37.580732970328036,
+  "earthworks_per_1000km2": 26.966327474891877
+ },
+ "density_nation": {
+  "England": {
+   "per_1000km2": 11.98635738690737,
+   "earth_per_1000km2": 5.632974858936648
+  },
+  "Wales": {
+   "per_1000km2": 43.54630792062755,
+   "earth_per_1000km2": 13.08795110984607
+  },
+  "Scotland": {
+   "per_1000km2": 10.409658601388363,
+   "earth_per_1000km2": 1.4362532624626192
+  }
+ },
+ "march_band_km": 40.0,
+ "march_band_area_km2": 22062.501805334265,
+ "march_band_area_share": 0.1458541356822464,
+ "march_band_castles": 872,
+ "march_band_share": 0.3531794248683678,
+ "march_band_earth": 363,
+ "march_band_earth_share": 0.36047666335650447,
+ "march_density": 39.52407608593003,
+ "rest_density": 12.360523466802922,
+ "march_density_ratio": 3.1976053596824747,
+ "march_earth_density": 16.45325644402821,
+ "rest_earth_density": 4.984456551422093,
+ "march_earth_ratio": 3.3009128024867636,
+ "hex_size_km": 15.0,
+ "hex_n": 494,
+ "hex_top": {
+  "n": 69,
+  "per_1000km2": 118.03605503432344,
+  "lon": -3.0209820049047784,
+  "lat": 52.17173665875126,
+  "county": "Herefordshire"
+ },
+ "hex_top10_counties": {
+  "Powys": 4,
+  "Herefordshire": 3,
+  "Gwent": 2,
+  "Shropshire": 1
+ },
+ "nw_dated": [
+  {
+   "label": "Brough Castle",
+   "year": 1092,
+   "county": "Cumbria",
+   "round": 0,
+   "km": 443.34230254285455
+  },
+  {
+   "label": "Carlisle Castle",
+   "year": 1093,
+   "county": "Cumbria",
+   "round": 0,
+   "km": 498.8334321604758
+  },
+  {
+   "label": "Lancaster Castle",
+   "year": 1093,
+   "county": "Lancashire",
+   "round": 0,
+   "km": 413.6752902325687
+  },
+  {
+   "label": "Lowther Castle Stead",
+   "year": 1100,
+   "county": "Cumbria",
+   "round": 1,
+   "km": 464.780923601647
+  },
+  {
+   "label": "Chapel Hill Motte, Arkholme",
+   "year": 1100,
+   "county": "Lancashire",
+   "round": 1,
+   "km": 415.9466443487674
+  },
+  {
+   "label": "Pendragon Castle",
+   "year": 1101,
+   "county": "Cumbria",
+   "round": 1,
+   "km": 433.5179048320842
+  },
+  {
+   "label": "Appleby Castle",
+   "year": 1120,
+   "county": "Cumbria",
+   "round": 0,
+   "km": 453.3820499424299
+  },
+  {
+   "label": "Aldingham Motte",
+   "year": 1125,
+   "county": "Cumbria",
+   "round": 0,
+   "km": 431.29965392636245
+  },
+  {
+   "label": "Triermain Castle",
+   "year": 1157,
+   "county": "Cumbria",
+   "round": 0,
+   "km": 499.34924033986476
+  },
+  {
+   "label": "Manchester Castle",
+   "year": 1184,
+   "county": "Greater Manchester",
+   "round": 0,
+   "km": 340.9711364969182
+  }
+ ],
+ "nw_n_items": 126,
+ "nw_earliest_wd": {
+  "label": "Brough Castle",
+  "year": 1092,
+  "county": "Cumbria",
+  "round": 0,
+  "km": 443.34230254285455
+ },
+ "nw_median_year": 1100.5,
+ "se_median_year": 1091.0,
+ "se_n": 22,
+ "nw_n": 10,
+ "k_lancaster": {
+  "label": "Lancaster Castle",
+  "year": 1093,
+  "round": 0,
+  "type": "castle",
+  "km": 413.6752902325687,
+  "qid": "Q2969640"
+ },
+ "k_clitheroe": {
+  "label": "Clitheroe Castle",
+  "year": 1200,
+  "round": 1,
+  "type": "castle",
+  "km": 382.2465267768956,
+  "qid": "Q5134437"
+ },
+ "k_penwortham": {
+  "label": "Penwortham Castle",
+  "year": null,
+  "round": 0,
+  "type": "castle",
+  "km": 383.7358110705854,
+  "qid": "Q7165387"
+ },
+ "k_hastings": {
+  "label": "Hastings Castle",
+  "year": null,
+  "round": 0,
+  "type": "castle",
+  "km": 10.025631251946184,
+  "qid": "Q5680295"
+ },
+ "k_york": {
+  "label": "York Castle",
+  "year": 1068,
+  "round": 0,
+  "type": "motte",
+  "km": 354.20195511176956,
+  "qid": "Q80637"
+ },
+ "k_durham": {
+  "label": "Durham Castle",
+  "year": 1072,
+  "round": 0,
+  "type": "castle",
+  "km": 450.84624312286337,
+  "qid": "Q752266"
+ },
+ "k_carlisle": {
+  "label": "Carlisle Castle",
+  "year": 1093,
+  "round": 0,
+  "type": "castle",
+  "km": 498.8334321604758,
+  "qid": "Q614836"
+ },
+ "band_year": [
+  {
+   "lo": 0,
+   "hi": 150,
+   "n": 25,
+   "median_year": 1095.0
+  },
+  {
+   "lo": 150,
+   "hi": 300,
+   "n": 39,
+   "median_year": 1100.0
+  },
+  {
+   "lo": 300,
+   "hi": 450,
+   "n": 34,
+   "median_year": 1100.0
+  },
+  {
+   "lo": 450,
+   "hi": 2000,
+   "n": 8,
+   "median_year": 1098.0
+  }
+ ],
+ "scot_window": [
+  {
+   "label": "Dunbar Castle",
+   "year": 1070,
+   "county": "East Lothian",
+   "round": 0
+  },
+  {
+   "label": "Jedburgh Castle",
+   "year": 1100,
+   "county": "Scottish Borders",
+   "round": 1
+  },
+  {
+   "label": "Duffus Castle",
+   "year": 1140,
+   "county": "Moray",
+   "round": 0
+  },
+  {
+   "label": "Spynie Palace",
+   "year": 1150,
+   "county": "Moray",
+   "round": 0
+  },
+  {
+   "label": "Crookston Castle",
+   "year": 1180,
+   "county": "Glasgow City",
+   "round": 0
+  },
+  {
+   "label": "Kerelaw Castle",
+   "year": 1191,
+   "county": "North Ayrshire",
+   "round": 0
+  },
+  {
+   "label": "Ayr Castle",
+   "year": 1197,
+   "county": "South Ayrshire",
+   "round": 0
+  }
+ ],
+ "scot_n_items": 819,
+ "scot_earth": 113,
+ "dp_n": 11974,
+ "dp_waste_share": 0.10380825121095708,
+ "dom_county_waste": [
+  {
+   "countyName": "Cheshire",
+   "n": 381,
+   "waste": 0.5721784776902887,
+   "value_ratio": 0.5532935422589295
+  },
+  {
+   "countyName": "Shropshire",
+   "n": 407,
+   "waste": 0.32678132678132676,
+   "value_ratio": 0.8541574418112161
+  },
+  {
+   "countyName": "Herefordshire",
+   "n": 277,
+   "waste": 0.3140794223826715,
+   "value_ratio": 0.9670186205829111
+  },
+  {
+   "countyName": "Yorkshire",
+   "n": 1780,
+   "waste": 0.27415730337078653,
+   "value_ratio": 0.39151255976416377
+  },
+  {
+   "countyName": "Derbyshire",
+   "n": 211,
+   "waste": 0.1990521327014218,
+   "value_ratio": 0.7103337148364557
+  },
+  {
+   "countyName": "Staffordshire",
+   "n": 265,
+   "waste": 0.19622641509433963,
+   "value_ratio": 1.0316741190143204
+  },
+  {
+   "countyName": "Nottinghamshire",
+   "n": 275,
+   "waste": 0.18545454545454546,
+   "value_ratio": 0.8240397556682887
+  },
+  {
+   "countyName": "Leicestershire",
+   "n": 262,
+   "waste": 0.10687022900763359,
+   "value_ratio": 1.7298317671707428
+  },
+  {
+   "countyName": "Lincolnshire",
+   "n": 748,
+   "waste": 0.06684491978609626,
+   "value_ratio": 1.1204478217994083
+  },
+  {
+   "countyName": "Worcestershire",
+   "n": 200,
+   "waste": 0.06,
+   "value_ratio": 0.9162263879996889
+  },
+  {
+   "countyName": "Northamptonshire",
+   "n": 312,
+   "waste": 0.05128205128205128,
+   "value_ratio": 1.4090098646190787
+  },
+  {
+   "countyName": "Huntingdonshire",
+   "n": 84,
+   "waste": 0.03571428571428571,
+   "value_ratio": 0.92863151672237
+  },
+  {
+   "countyName": "Warwickshire",
+   "n": 266,
+   "waste": 0.03007518796992481,
+   "value_ratio": 1.3321717588769613
+  },
+  {
+   "countyName": "Devon",
+   "n": 851,
+   "waste": 0.021151586368977675,
+   "value_ratio": 1.1662792120396428
+  },
+  {
+   "countyName": "Sussex",
+   "n": 310,
+   "waste": 0.01935483870967742,
+   "value_ratio": 0.8768268507118919
+  },
+  {
+   "countyName": "Buckinghamshire",
+   "n": 210,
+   "waste": 0.01904761904761905,
+   "value_ratio": 0.9707940576362073
+  },
+  {
+   "countyName": "Bedfordshire",
+   "n": 141,
+   "waste": 0.014184397163120567,
+   "value_ratio": 0.7600516078365378
+  },
+  {
+   "countyName": "Somerset",
+   "n": 535,
+   "waste": 0.013084112149532711,
+   "value_ratio": 1.1532315230398693
+  },
+  {
+   "countyName": "Oxfordshire",
+   "n": 250,
+   "waste": 0.012,
+   "value_ratio": 1.2113997484405883
+  },
+  {
+   "countyName": "Gloucestershire",
+   "n": 339,
+   "waste": 0.011799410029498525,
+   "value_ratio": 0.956750550371852
+  },
+  {
+   "countyName": "Essex",
+   "n": 383,
+   "waste": 0.007832898172323759,
+   "value_ratio": 1.262795079176889
+  },
+  {
+   "countyName": "Hampshire",
+   "n": 404,
+   "waste": 0.007425742574257425,
+   "value_ratio": 1.0103693491465908
+  },
+  {
+   "countyName": "Berkshire",
+   "n": 210,
+   "waste": 0.004761904761904762,
+   "value_ratio": 0.9532473230784808
+  },
+  {
+   "countyName": "Suffolk",
+   "n": 525,
+   "waste": 0.0038095238095238095,
+   "value_ratio": 1.3531098475533638
+  },
+  {
+   "countyName": "Wiltshire",
+   "n": 308,
+   "waste": 0.003246753246753247,
+   "value_ratio": 1.1657552397325097
+  },
+  {
+   "countyName": "Norfolk",
+   "n": 609,
+   "waste": 0.0016420361247947454,
+   "value_ratio": 1.6292052894948674
+  },
+  {
+   "countyName": "Kent",
+   "n": 321,
+   "waste": 0.0,
+   "value_ratio": 1.1856705913499215
+  },
+  {
+   "countyName": "Hertfordshire",
+   "n": 158,
+   "waste": 0.0,
+   "value_ratio": 0.8332299201541401
+  },
+  {
+   "countyName": "Cornwall",
+   "n": 296,
+   "waste": 0.0,
+   "value_ratio": 0.8646070186012108
+  },
+  {
+   "countyName": "Dorset",
+   "n": 292,
+   "waste": 0.0,
+   "value_ratio": 1.016090920075722
+  },
+  {
+   "countyName": "Cambridgeshire",
+   "n": 135,
+   "waste": 0.0,
+   "value_ratio": 0.8570749889374826
+  },
+  {
+   "countyName": "Middlesex",
+   "n": 57,
+   "waste": 0.0,
+   "value_ratio": 0.8288179967031901
+  },
+  {
+   "countyName": "Rutland",
+   "n": 33,
+   "waste": 0.0,
+   "value_ratio": 1.6584347826086956
+  },
+  {
+   "countyName": "Surrey",
+   "n": 139,
+   "waste": 0.0,
+   "value_ratio": 1.0273383644717462
+  }
+ ],
+ "yorks_waste": 0.27415730337078653,
+ "yorks_value_ratio": 0.39151255976416377,
+ "yorks_n": 1780,
+ "rest_waste": 0.07406317441632333,
+ "rest_value_ratio": 1.079141082835603,
+ "waste_county_2": {
+  "countyName": "Shropshire",
+  "waste": 0.32678132678132676
+ },
+ "waste_county_3": {
+  "countyName": "Herefordshire",
+  "waste": 0.3140794223826715
+ },
+ "near_n": 588,
+ "near_km": 5,
+ "near_waste": 0.1377551020408163,
+ "far_waste": 0.1020551554540664,
+ "near_waste_diff_within_county": 0.015321934393957537,
+ "near_waste_counties": 33,
+ "near_waste_diff_pts": 1.5321934393957537,
+ "near_value_median_ratio": 1.0,
+ "far_value_median_ratio": 1.0,
+ "near_value_n": 436,
+ "far_value_n": 8108,
+ "near_value_mwu_p": 0.10825830019210353,
+ "near_fell_share": 0.3302752293577982,
+ "far_fell_share": 0.3593981253083374,
+ "near_waste_noyorks": 0.12222222222222222,
+ "far_waste_noyorks": 0.07136938056764036,
+ "near_value_median_ratio_noyorks": 1.0,
+ "far_value_median_ratio_noyorks": 1.0,
+ "yorks_near_waste": 0.3125,
+ "yorks_far_waste": 0.273094688221709,
+ "yorks_near_n": 48,
+ "osm_n": 1310,
+ "osm_by_nation": {
+  "England": 619,
+  "Scotland": 535,
+  "Wales": 156
+ },
+ "osm_within_1km_share": 0.6427480916030535,
+ "osm_with_wd_tag": 971,
+ "osm_wd_in_study": 599,
+ "wd_with_osm_1km_share": 0.26763990267639903,
+ "wd_with_osm_1km_share_earth": 0.1375,
+ "osm_wd_ratio_by_nation": {
+  "England": 0.39578005115089515,
+  "Wales": 0.1723756906077348,
+  "Scotland": 0.6532356532356532
+ }
+}

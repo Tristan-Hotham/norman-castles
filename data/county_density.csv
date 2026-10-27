@@ -1,0 +1,88 @@
+county,nation,area_km2,castles,earthworks,dated,per_1000km2,earthworks_per_1000km2
+South Glamorgan,Wales,475,75,19,2,158.02,40.03
+Dundee City,Scotland,59,6,0,1,101.44,0.00
+Herefordshire,England,2180,159,67,3,72.93,30.73
+Powys,Wales,5196,307,89,6,59.08,17.13
+West Glamorgan,Wales,822,48,8,4,58.38,9.73
+Gwent,Wales,1554,87,33,6,55.99,21.24
+Renfrewshire,Scotland,261,14,2,0,53.56,7.65
+West Dunbartonshire,Scotland,177,7,0,1,39.51,0.00
+Shropshire,England,3486,131,94,4,37.58,26.97
+Fife,Scotland,1325,49,2,6,36.97,1.51
+Dyfed,Wales,5777,213,71,15,36.87,12.29
+East Lothian,Scotland,680,25,0,2,36.75,0.00
+Glasgow City,Scotland,176,6,3,1,34.06,17.03
+Midlothian,Scotland,355,12,0,1,33.84,0.00
+Clwyd,Wales,2910,95,28,12,32.64,9.62
+Mid Glamorgan,Wales,786,25,6,4,31.82,7.64
+East Dunbartonshire,Scotland,174,5,1,0,28.68,5.74
+North Ayrshire,Scotland,884,24,0,1,27.16,0.00
+South Ayrshire,Scotland,1224,31,5,2,25.32,4.08
+Inverclyde,Scotland,161,4,1,0,24.77,6.19
+East Renfrewshire,Scotland,174,4,0,0,23.05,0.00
+East Ayrshire,Scotland,1272,29,1,3,22.81,0.79
+City of Edinburgh,Scotland,264,6,0,3,22.75,0.00
+Bedfordshire,England,1235,27,16,2,21.86,12.96
+Falkirk,Scotland,296,6,1,1,20.24,3.37
+Northamptonshire,England,2367,42,24,2,17.74,10.14
+Rutland,England,395,7,4,0,17.73,10.13
+Warwickshire,England,1976,35,19,3,17.72,9.62
+South Lanarkshire,Scotland,1775,31,8,1,17.46,4.51
+Gwynedd,Wales,3263,55,18,10,16.86,5.52
+Angus,Scotland,2185,36,2,4,16.47,0.92
+Aberdeenshire,Scotland,6317,104,8,13,16.46,1.27
+Aberdeen City,Scotland,186,3,0,0,16.16,0.00
+Buckinghamshire,England,1875,30,19,0,16.00,10.13
+Hertfordshire,England,1641,25,14,3,15.24,8.53
+Gloucestershire,England,3151,47,22,5,14.91,6.98
+Northumberland,England,5028,72,20,7,14.32,3.98
+West Lothian,Scotland,429,6,1,0,13.98,2.33
+Cumbria,England,6820,95,37,10,13.93,5.43
+Dumfries and Galloway,Scotland,6435,88,45,7,13.68,6.99
+Isle of Wight,England,381,5,0,4,13.11,0.00
+North Lanarkshire,Scotland,472,6,2,0,12.71,4.24
+Berkshire,England,1262,16,9,2,12.68,7.13
+Leicestershire,England,2158,27,16,3,12.51,7.41
+Kent,England,3743,46,9,15,12.29,2.40
+West Sussex,England,1992,24,11,2,12.05,5.52
+Worcestershire,England,1741,20,9,1,11.49,5.17
+Moray,Scotland,2239,25,3,3,11.17,1.34
+North Yorkshire,England,8614,92,41,11,10.68,4.76
+Dorset,England,2656,28,12,6,10.54,4.52
+Cheshire,England,2343,24,14,4,10.24,5.98
+Stirling,Scotland,2255,23,6,2,10.20,2.66
+Cornwall,England,3567,36,14,4,10.09,3.93
+West Midlands,England,901,9,4,1,9.99,4.44
+Oxfordshire,England,2607,26,9,3,9.97,3.45
+Scottish Borders,Scotland,4740,47,4,6,9.92,0.84
+Argyll and Bute,Scotland,6976,69,4,12,9.89,0.57
+Wiltshire,England,3484,34,13,3,9.76,3.73
+Suffolk,England,3801,37,12,2,9.73,3.16
+Nottinghamshire,England,2161,20,11,2,9.26,5.09
+Tyne and Wear,England,544,5,2,2,9.19,3.68
+Derbyshire,England,2628,24,13,2,9.13,4.95
+Somerset,England,4179,38,21,3,9.09,5.02
+Bristol,England,110,1,0,0,9.06,0.00
+South Yorkshire,England,1553,14,10,1,9.01,6.44
+Perth and Kinross,Scotland,5383,48,3,5,8.92,0.56
+East Sussex,England,1799,16,4,5,8.89,2.22
+Cambridgeshire,England,3401,30,13,3,8.82,3.82
+Essex,England,3671,31,21,4,8.44,5.72
+Durham,England,2727,23,9,5,8.43,3.30
+Devon,England,6709,55,26,6,8.20,3.88
+Merseyside,England,644,5,3,1,7.76,4.66
+Hampshire,England,3772,29,13,10,7.69,3.45
+West Yorkshire,England,2030,15,11,1,7.39,5.42
+Staffordshire,England,2718,20,7,2,7.36,2.58
+East Riding of Yorkshire,England,2479,18,13,1,7.26,5.24
+Surrey,England,1671,12,4,1,7.18,2.39
+Norfolk,England,5377,38,12,6,7.07,2.23
+Clackmannanshire,Scotland,159,1,0,0,6.27,0.00
+Lancashire,England,3071,19,10,5,6.19,3.26
+Orkney Islands,Scotland,1006,6,0,3,5.97,0.00
+Lincolnshire,England,6978,41,16,4,5.88,2.29
+Greater London,England,1579,9,3,2,5.70,1.90
+Greater Manchester,England,1276,7,4,2,5.49,3.14
+Highland,Scotland,26130,93,11,11,3.56,0.42
+Shetland Islands,Scotland,1451,2,0,1,1.38,0.00
+Na h-Eileanan Siar,Scotland,3056,3,0,0,0.98,0.00

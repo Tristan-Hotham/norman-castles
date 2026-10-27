@@ -1,0 +1,1311 @@
+osm,kind,historic,name,lon,lat,x,y,wikidata,county,nation
+node/1003827442,historic,castle,Hepburn Castle,-1.889477,55.517869,407077,624907,,Northumberland,England
+node/10614819644,castle_type,ruins,Sycharth Castle,-3.180917,52.824551,320524,325878,,Powys,Wales
+node/10984436670,castle_type,castle,St Mary Yard Mound,-2.943395,51.757324,334981,206936,Q24659463,Gwent,Wales
+node/11005980168,historic,castle,Simonburn Castle (Remains),-2.216234,55.057919,386285,573736,,Northumberland,England
+node/11341580101,castle_type,ruins,Erddig Motte,-3.004669,53.030552,332720,348613,,Clwyd,Wales
+node/11922992290,historic,castle,Baconsthorpe Castle,1.152158,52.899132,612110,338174,,Norfolk,England
+node/11962814221,castle_type,castle,Pembroke Castle,-4.919905,51.676517,198216,201566,,Dyfed,Wales
+node/11964217023,castle_type,castle,Defensible Barracks,-4.951876,51.689369,196064,203084,Q17743111,Dyfed,Wales
+node/12009199669,historic,castle,,-4.327349,56.058313,255176,687494,,Stirling,Scotland
+node/12025605669,historic,castle,,-2.356307,57.163154,378548,808089,,Aberdeenshire,Scotland
+node/12025605769,historic,castle,,-2.356466,57.162799,378538,808050,,Aberdeenshire,Scotland
+node/12042148769,historic,castle,,-2.504754,57.198296,369599,812058,,Aberdeenshire,Scotland
+node/12099150662,castle_type,castle,,-2.858062,51.814391,340946,213211,,Gwent,Wales
+node/12380847100,historic,castle,Knockamillie Castle,-4.956752,55.896615,215225,671006,Q56661919,Argyll and Bute,Scotland
+node/1259907402,castle_type,castle,Mettingham Castle,1.471095,52.445701,635986,288749,Q6825492,Suffolk,England
+node/12643647958,castle_type,castle,Eccleshall Castle,-2.256976,52.863332,382797,329570,Q5332222,Staffordshire,England
+node/12768338993,castle_type,castle,Neath Castle,-3.803519,51.665112,275363,197800,Q6984490,West Glamorgan,Wales
+node/12919147007,historic,castle,Craigownie Castle,-4.851445,55.991229,222242,681255,,Argyll and Bute,Scotland
+node/13022434101,castle_type,castle,Llowes Castle Tump,-3.181444,52.058754,319095,240700,Q24659809,Powys,Wales
+node/13022459644,castle_type,castle,Llanthomas Castle Mound,-3.154719,52.056012,320923,240366,Q20594302,Powys,Wales
+node/13050594666,historic,castle,Sandringham Estate Visitors' entrance,0.508555,52.829513,569100,328725,,Norfolk,England
+node/13075750607,historic,castle,,-3.920134,52.419317,269516,281882,,Dyfed,Wales
+node/13075890396,historic,castle,Castell-y-garn,-3.441293,52.351811,301929,273616,,Powys,Wales
+node/13277546752,historic,castle,Glen Parva Moat,-1.151834,52.577621,457573,298094,,Leicestershire,England
+node/1335935750,historic,castle,Tomen Castell,-3.903886,53.051499,272482,352166,Q13131953,Clwyd,Wales
+node/13436038697,castle_type,castle,Hawkshaw Castle,-3.456336,55.468315,308028,620351,,Scottish Borders,Scotland
+node/13641152825,castle_type,castle,Castle of Burwick - promontory fort (ruins),-2.977705,58.742197,343509,984250,,Orkney Islands,Scotland
+node/13824669666,castle_type,castle,,-1.447186,52.658159,437490,306858,,Leicestershire,England
+node/13936792047,historic,castle,Cusop Castle,-3.111519,52.065975,323902,241428,,Herefordshire,England
+node/14107569309,castle_type,castle,Powerstock Castle,-2.679952,50.761116,352139,95945,Q17650637,Dorset,England
+node/14201155410,castle_type,castle,Loch Doon Castle Ruins,-4.378367,55.223811,248816,594756,,East Ayrshire,Scotland
+node/1589646466,historic,castle,Clavering Castle,0.139093,51.966296,547053,231918,Q5129609,Essex,England
+node/1590916431,historic,castle,Bridgnorth Castle,-2.419367,52.532196,371649,292786,,Shropshire,England
+node/1591054161,historic,castle,Ayton Castle,-0.485626,54.252014,498763,485095,Q17526107,North Yorkshire,England
+node/1611820302,castle_type,castle,Castle Canyke,-4.698236,50.461033,208585,65835,Q31114358,Cornwall,England
+node/1617511225,historic,castle,Cawood Castle,-1.129215,53.832283,457407,437687,Q5055225,North Yorkshire,England
+node/166078169,historic,castle,Aberystwyth Castle,-4.089515,52.413326,257979,281535,Q319745,Dyfed,Wales
+node/1746029686,castle_type,castle,Ardrossan Castle,-4.810097,55.641881,223242,642285,Q4788264,North Ayrshire,Scotland
+node/1782021232,historic,castle,,-3.501038,54.712224,303394,536280,,Cumbria,England
+node/1790569772,castle_type,castle,Middleton Stoney Castle,-1.228625,51.905621,453165,223290,Q17676906,Oxfordshire,England
+node/1801565082,castle_type,castle,Cowdray Castle,-0.7317,50.987614,489117,121678,Q5179634,West Sussex,England
+node/1813812073,historic,castle,Morris Castle,-3.93891,51.650382,265957,196402,Q15256328,West Glamorgan,Wales
+node/2018088531,historic,castle,,-1.561712,52.417757,429906,280064,,West Midlands,England
+node/2059685972,historic,castle,Burton Castle (site of),-2.537328,54.1439,364997,472141,Q5000941,North Yorkshire,England
+node/2166050077,castle_type,castle,Evelick Castle,-3.291761,56.419067,320409,725954,,Perth and Kinross,Scotland
+node/2166050864,historic,castle,Balthayock Castle,-3.339326,56.391531,317415,722945,,Perth and Kinross,Scotland
+node/2260681274,historic,castle,Bury Mount,-0.988273,52.133294,469347,248815,Q5001114,Northamptonshire,England
+node/2300819991,castle_type,castle,Hadlow Castle,0.338999,51.222646,563431,149649,Q5638005,Kent,England
+node/2308843362,historic,castle,Woodhouses Hill Fort,-2.735607,53.276505,351045,375755,Q8032761,Cheshire,England
+node/2330199557,historic,castle,Colcombe Castle,-3.064762,50.74667,324975,94659,Q5142148,Devon,England
+node/2389298189,historic,castle,Yester Castle,-2.710954,55.891397,355633,666702,Q8052936,East Lothian,Scotland
+node/2407398100,castle_type,castle,Moccas Castle,-2.951264,52.076691,334903,242464,,Herefordshire,England
+node/2414285756,historic,castle,Mere Castle,-2.27285,51.091947,380988,132551,,Wiltshire,England
+node/247177329,castle_type,castle,Lindsay Tower - Crawford Castle,-3.65577,55.474694,295437,621343,Q5182835,South Lanarkshire,Scotland
+node/2500753360,historic,castle,Ardley Castle,-1.217186,51.942013,453908,227346,Q4788169,Oxfordshire,England
+node/2534526754,historic,castle,Kilchrist Castle,-5.64685,55.40099,169195,617947,Q15238443,Argyll and Bute,Scotland
+node/256877754,castle_type,castle,Framlingham Castle,1.34668,52.22422,628673,263724,Q2524183,Suffolk,England
+node/2586138774,historic,castle,Press Castle,-2.20809,55.881453,387080,665386,Q17847719,Scottish Borders,Scotland
+node/2627367475,castle_type,castle,The Gunholes,-2.517736,56.005655,367812,679312,,East Lothian,Scotland
+node/2627367476,castle_type,castle,The Magazine,-2.518204,56.005478,367783,679292,,East Lothian,Scotland
+node/2660055850,historic,castle,Toot Hill,0.129306,53.307321,541974,381045,,Lincolnshire,England
+node/2660060608,historic,castle,Castle Hill,0.142586,53.316701,542827,382114,,Lincolnshire,England
+node/2660062139,historic,castle,Castle Hill,0.093201,53.330851,539492,383591,Q5042969,Lincolnshire,England
+node/2700686051,castle_type,castle,Somerton Castle,-0.575891,53.117652,495410,358778,Q7559944,Lincolnshire,England
+node/27370910,castle_type,castle,Barden Tower,-1.92396,54.010773,405081,457198,Q17658872,North Yorkshire,England
+node/2832648791,castle_type,castle,Brynffanigl Castle,-3.620122,53.255887,292015,374434,,Clwyd,Wales
+node/29072083,historic,castle,Neville Castle,-0.935168,54.273629,469439,486965,Q17663455,North Yorkshire,England
+node/2913456928,historic,castle,Meppershall Castel,-0.35092,52.009578,513282,235855,,Bedfordshire,England
+node/2948714558,historic,castle,Ormond Castle,-4.179961,57.553611,269653,853596,Q7103439,Highland,Scotland
+node/2956452704,historic,castle,Eglinton Castle,-4.666358,55.644437,232297,642213,,North Ayrshire,Scotland
+node/296022044,historic,castle,Giant's Hill,0.096556,52.291589,543086,268009,,Cambridgeshire,England
+node/2980863588,historic,castle,Wybert's Castle,-0.013628,52.949947,533554,341020,,Lincolnshire,England
+node/2980863589,castle_type,castle,Manwar Ings,-0.150839,52.951747,524331,340974,,Lincolnshire,England
+node/3018750252,castle_type,castle,Wee Cumbrae Castle,-4.942883,55.720154,215257,651339,Q9288134,North Ayrshire,Scotland
+node/3054665940,historic,castle,,-4.838118,55.711109,221794,650059,Q17825314,North Ayrshire,Scotland
+node/316209311,castle_type,castle,Bootham Bar,-1.085084,53.962713,460125,452235,,North Yorkshire,England
+node/319585267,historic,castle,Kirshope Castle,-2.606936,55.255778,361520,595902,Q17664339,Northumberland,England
+node/3250938225,castle_type,castle,,-0.623917,53.007519,492431,346464,,Lincolnshire,England
+node/3251049083,historic,castle,Bampton Castle,-3.485435,50.99275,295847,122534,Q4853530,Devon,England
+node/3254167064,historic,castle,Welbourn Castle,-0.556254,53.077577,496814,354346,,Lincolnshire,England
+node/3268971664,historic,castle,Daw's Castle,-3.341935,51.181354,306300,143314,Q5242247,Somerset,England
+node/3310137040,historic,castle,Gwyrch Castle Northern Towers,-3.627107,53.288231,291631,378042,,Clwyd,Wales
+node/3334151452,historic,castle,Tomen Y Bala,-3.595414,52.911559,292810,336096,Q13131952,Gwynedd,Wales
+node/3336154342,historic,castle,Castell Carreg-y-saeth,-4.020483,52.851917,264042,330182,,Gwynedd,Wales
+node/335699833,historic,castle,Duke Murdoch's Castle,-4.461962,56.180814,247282,701415,Q56661749,Stirling,Scotland
+node/3372080845,castle_type,archaeological_site,Huntingdon Castle,-0.181096,52.327187,524052,271456,Q5945108,Cambridgeshire,England
+node/338774198,historic,castle,Fatlips Castle,-3.638264,55.589048,296844,634042,Q17853505,South Lanarkshire,Scotland
+node/3403701146,castle_type,castle,,-0.116812,53.208445,525867,369586,,Lincolnshire,England
+node/3413586579,historic,castle,Lethendry Castle,-3.522734,57.327971,308413,827407,Q56661934,Highland,Scotland
+node/3540456632,castle_type,castle,Methven Castle,-3.554925,56.416821,304169,726040,Q1964681,Perth and Kinross,Scotland
+node/36266798,historic,castle,Buittle Castle,-3.844707,54.935361,281909,561634,Q4986711,Dumfries and Galloway,Scotland
+node/3656155820,historic,castle,Talla Castle (ruins),-4.301585,56.17458,257212,700377,Q56661748,Stirling,Scotland
+node/370148208,historic,castle,Bolesworth Castle,-2.75562,53.09899,349502,356021,,Cheshire,England
+node/372932891,historic,castle,,-2.414234,50.584638,370770,76182,,Dorset,England
+node/388540569,historic,castle,Staward Peel,-2.31393,54.941295,379987,560782,,Northumberland,England
+node/3900024117,castle_type,castle,Roos Hall,0.046947,52.97368,537548,343774,,Lincolnshire,England
+node/3900024118,castle_type,castle,Wrangle Hall,0.134152,53.032308,543209,350466,,Lincolnshire,England
+node/3911612450,castle_type,castle,Bourne Castle,-0.379099,52.766783,509461,320030,Q15203997,Lincolnshire,England
+node/3986928273,historic,castle,The Castles,-0.38806,53.688246,506546,422517,,Lincolnshire,England
+node/3997487197,historic,castle,Sturminster Castle,-2.307752,50.920529,378464,113497,Q17540254,Dorset,England
+node/4131445073,historic,castle,Braikie Castle,-2.607536,56.648342,362844,750891,Q17576127,Angus,Scotland
+node/416870760,historic,castle,Apley Castle,-2.509275,52.71634,365695,313309,Q4779972,Shropshire,England
+node/4178146017,historic,castle,Whytbank Tower,-2.88791,55.629305,344192,637661,Q123578725,Scottish Borders,Scotland
+node/4228843289,historic,castle,Gresham Castle,1.219736,52.89646,616667,338078,Q5607570,Norfolk,England
+node/4269353393,historic,castle,Stockland Little Castle,-3.094759,50.826898,322991,103611,Q17663168,Devon,England
+node/4269366557,historic,castle,Stockland Great Castle,-3.099948,50.817704,322610,102594,Q17663160,Devon,England
+node/4365446594,historic,castle,Vernons Folly,-1.760067,52.891958,416240,332750,,Derbyshire,England
+node/436618898,castle_type,castle,Ludlow Castle,-2.723014,52.367182,350868,274594,Q576369,Shropshire,England
+node/4443301500,historic,castle,Castle Neroche,-3.038259,50.937196,327143,115819,,Somerset,England
+node/450155403,castle_type,castle,Gainsborough Old Hall,-0.778251,53.400713,481329,390016,Q5517295,Lincolnshire,England
+node/4685126690,historic,castle,Hensol Castle,-3.373609,51.501641,304753,178973,Q14218099,South Glamorgan,Wales
+node/4716412307,castle_type,castle,Rothwell Castle Ruins,-1.48205,53.750016,434253,428307,,West Yorkshire,England
+node/474728866,historic,castle,Skelbo Castle,-4.040672,57.929806,279248,895208,Q7534354,Highland,Scotland
+node/476645460,historic,castle,Hallforest Castle (ruin),-2.370649,57.229027,377721,815427,Q16840842,Aberdeenshire,Scotland
+node/4872637392,castle_type,castle,Cathcart Castle,-4.255906,55.812777,258732,660026,Q5052169,Glasgow City,Scotland
+node/4907272430,historic,castle,Newberry Castle,-4.045553,51.204958,257196,147072,,Devon,England
+node/4908114673,castle_type,castle,Ystrad Peithyll,-3.981931,52.423237,265326,282431,Q8059805,Dyfed,Wales
+node/5006856735,historic,castle,Mereworth Castle,0.390256,51.253811,566898,153230,Q956090,Kent,England
+node/512125307,historic,castle,Sundorne Castle,-2.699881,52.732704,352837,315237,,Shropshire,England
+node/5172625185,historic,castle,Castle Motte,-1.897523,54.257454,406774,484647,,North Yorkshire,England
+node/524192503,castle_type,castle,Braal Castle,-3.481994,58.520152,313776,960065,Q4185814,Highland,Scotland
+node/5271810964,castle_type,castle,Knockin Castle,-2.988107,52.794531,333469,322343,Q6422872,Shropshire,England
+node/5284089664,historic,castle,Bewley Castle,-2.546313,54.584436,364790,521164,,Cumbria,England
+node/529891293,historic,castle,Rothiemay Castle,-2.746884,57.524057,355366,848457,Q9705682,Moray,Scotland
+node/5589837421,castle_type,castle,Weston Hall,-2.287882,52.693037,380640,310634,,Staffordshire,England
+node/5590671686,historic,castle,Upton Castle Gardens,-4.866345,51.706035,202048,204701,,Dyfed,Wales
+node/5658982302,castle_type,castle,,-2.511941,51.087573,364240,132153,,Somerset,England
+node/5664659300,historic,castle,Red Castle,-2.638349,52.861015,357119,329472,,Shropshire,England
+node/5675889897,historic,castle,Hembury Castle,-3.798393,50.501764,272557,68430,Q17647594,Devon,England
+node/5694315663,historic,castle,Caer Williamsburg,-4.299845,53.070793,246013,355091,,Gwynedd,Wales
+node/5737058293,historic,castle,,-3.147515,52.084923,321467,243574,,Powys,Wales
+node/5754866643,historic,castle,Motte Castle Mound,-2.600232,52.918872,359739,335886,,Shropshire,England
+node/577419985,historic,castle,New Castle,-2.803545,51.851401,344749,217284,Q20601891,Gwent,Wales
+node/5778984933,castle_type,castle,Hen Blas,-3.168212,53.252341,322155,373451,Q24660243,Clwyd,Wales
+node/5810470595,castle_type,castle,Prestatyn Castle,-3.394617,53.338575,307238,383315,Q7241757,Clwyd,Wales
+node/5834902485,historic,castle,Orchil Castle,-3.829924,56.285352,286817,711827,,Perth and Kinross,Scotland
+node/5879159698,historic,castle,Turret,-1.275898,54.450218,447050,506333,,North Yorkshire,England
+node/5935316163,castle_type,ruins,Taynton Parva Castle,-2.367736,51.904304,374797,222927,,Gloucestershire,England
+node/5988396902,historic,castle,Upsall Castle,-1.304819,54.276658,445365,487002,Q7899241,North Yorkshire,England
+node/5989551779,historic,castle,Kirby Knowle Castle,-1.296432,54.28083,445906,487472,Q24661267,North Yorkshire,England
+node/6015384566,historic,castle,Asloun Castle,-2.758781,57.222561,354279,814902,Q17985630,Aberdeenshire,Scotland
+node/6015869672,historic,castle,Parbroath Castle,-3.09921,56.346016,332157,717617,Q15265402,Fife,Scotland
+node/6016039624,historic,castle,Oldwoodhouselee Castle,-3.187596,55.8416,325728,661569,Q42887816,Midlothian,Scotland
+node/6018397808,historic,castle,Naughton Castle,-3.016965,56.410477,337346,724713,Q17793091,Fife,Scotland
+node/6019718621,historic,castle,Coroghon Castle,-6.488638,57.060314,127971,805539,Q56661701,Highland,Scotland
+node/6023609829,historic,castle,Boverton Castle,-3.464151,51.404956,298254,168343,Q39011896,South Glamorgan,Wales
+node/6050674824,historic,castle,Whorlton Castle,-1.260005,54.415418,448121,502471,Q7997651,North Yorkshire,England
+node/6213894322,historic,castle,Castell Meredydd,-3.119196,51.591942,322565,188715,Q13126908,Gwent,Wales
+node/6221551985,historic,castle,Westenhanger,1.034366,51.094367,612570,137164,,Kent,England
+node/6341641376,historic,castle,Coity Castle,-3.553238,51.522021,292334,181489,,Mid Glamorgan,Wales
+node/6388760985,historic,castle,Duntreath Castle,-4.348768,56.000337,253623,681089,Q17847259,Stirling,Scotland
+node/648864384,historic,castle,Castell y Fflint,-3.129907,53.251764,324710,373346,Q1428846,Clwyd,Wales
+node/667817380,castle_type,castle,Ogle Castle,-1.781247,55.105759,414055,579061,Q7080090,Northumberland,England
+node/7003358334,historic,castle,The Mount,-2.578833,53.392339,361604,388546,,Cheshire,England
+node/7115097851,historic,castle,Polnoon Castle,-4.254875,55.734592,258514,651325,Q3794162,East Renfrewshire,Scotland
+node/7236258825,historic,castle,Orchardhill Tower,-4.293633,55.800383,256323,658725,,East Renfrewshire,Scotland
+node/7334008394,castle_type,,Caldwell Tower,-4.516052,55.763721,242236,655130,Q2695543,East Renfrewshire,Scotland
+node/7447351085,historic,castle,Castle Duke (historic hill fort),-3.524931,50.582816,292135,77008,Q5050065,Devon,England
+node/745951311,historic,castle,Borve Castle,-7.378481,57.429941,77335,850516,Q2247093,Na h-Eileanan Siar,Scotland
+node/7539636291,historic,castle,Site of Hamilton of Torrance Castle,-4.146047,55.752569,265408,653108,,South Lanarkshire,Scotland
+node/7580935170,historic,castle,Powrie Castle,-2.941667,56.499811,342128,734590,Q7236933,Dundee City,Scotland
+node/7757206556,castle_type,ruins,Cruggleton Castle (ruined),-4.356996,54.757422,248426,542825,,Dumfries and Galloway,Scotland
+node/7920870362,historic,castle,Rhayader Castle,-3.514543,52.300806,296821,268045,Q13126920,Powys,Wales
+node/8248636859,historic,castle,Cumstoun Castle,-4.054396,54.85665,268219,553252,Q56661808,Dumfries and Galloway,Scotland
+node/8373489152,castle_type,castle,Tomen-y-Faerdre,-3.206324,53.09648,319320,356155,,Clwyd,Wales
+node/8638667329,castle_type,castle,East Castle,-1.958292,51.124408,403015,136126,Q17643156,Wiltshire,England
+node/8783394388,historic,castle,Driffield Castle,-0.439653,54.010411,502351,458281,Q5307412,East Riding of Yorkshire,England
+node/8824494322,historic,castle,Eilean Tighe Bhain Castle,-5.170537,56.376138,204317,724940,Q56665769,Argyll and Bute,Scotland
+node/8935673861,castle_type,castle,Crane Castle,-5.318931,50.248564,163484,44003,,Cornwall,England
+node/911163184,historic,castle,Colzium Castle,-4.038954,55.984984,272890,678767,,North Lanarkshire,Scotland
+node/915266429,historic,castle,Winchester Castle,-1.319524,51.063015,447782,129518,Q1704670,Hampshire,England
+node/9276369335,historic,castle,,-0.644549,51.613952,493948,191439,,Buckinghamshire,England
+node/9276369336,historic,castle,,-0.645309,51.61378,493896,191419,,Buckinghamshire,England
+node/9276369337,historic,castle,,-0.645224,51.614017,493901,191446,,Buckinghamshire,England
+node/9392170496,historic,castle,Innerwick Castle,-2.425614,55.95553,373523,673693,Q6035740,East Lothian,Scotland
+node/9556571760,castle_type,castle,Sedgwick Castle,-0.318457,51.03003,518013,126974,,West Sussex,England
+node/9704973031,castle_type,castle,Dodleston Castle,-2.95607,53.141117,336143,360868,Q17673868,Cheshire,England
+node/973860773,castle_type,castle,Fort Redoubt,-1.513952,50.668517,434445,85540,Q5503121,Isle of Wight,England
+node/9769878856,castle_type,castle,Nevern Castle,-4.79745,52.026626,208177,240163,Q31108153,Dyfed,Wales
+node/9868144549,historic,castle,Needles Old Battery,-1.583008,50.662869,429569,84882,,Isle of Wight,England
+node/9937994593,castle_type,archaeological_site,Dun Vlargveg,-6.12781,57.354906,151818,836916,Q31098416,Highland,Scotland
+relation/10379150,castle_type,castle,Pembridge Castle,-2.74485,51.869766,348813,219284,Q7161933,Herefordshire,England
+relation/10541390,castle_type,castle,Stokesay Castle,-2.831362,52.430293,343571,281693,Q7618555,Shropshire,England
+relation/10546888,castle_type,castle,Kenilworth Castle,-1.593047,52.347684,427818,272257,,Warwickshire,England
+relation/1061567,castle_type,castle,Stobo Castle,-3.315441,55.616052,317246,636614,Q7617794,Scottish Borders,Scotland
+relation/10808757,castle_type,castle,Skipton Castle,-2.015027,53.963758,399112,451964,Q7535853,North Yorkshire,England
+relation/11014909,castle_type,castle,Ravenscraig Castle,-3.142332,56.119908,329074,692495,Q3994788,Fife,Scotland
+relation/1118816,castle_type,castle,Arundel Castle,-0.55437,50.856611,501849,107339,Q716667,West Sussex,England
+relation/11532266,castle_type,castle,Usk Castle,-2.903301,51.705084,337677,201091,Q7902005,Gwent,Wales
+relation/11572540,castle_type,castle,Longford Castle,-1.756865,51.039164,417143,126673,Q6673827,Wiltshire,England
+relation/11780694,historic,castle,Black Castle,-2.560969,51.443305,361109,171740,Q4920501,Bristol,England
+relation/11936009,castle_type,castle,Castle Campbell,-3.674787,56.174877,296120,699288,Q1975734,Clackmannanshire,Scotland
+relation/12076030,castle_type,castle,Hever Castle,0.113811,51.186951,547822,145204,Q1132683,Kent,England
+relation/12093686,castle_type,castle,Caisteal Chiosmuil,-7.487529,56.952174,66513,797955,Q79160,Na h-Eileanan Siar,Scotland
+relation/12129817,historic,castle,Findlater Castle,-2.770328,57.692487,354175,867223,Q486587,Aberdeenshire,Scotland
+relation/12146111,castle_type,castle,Devizes Castle,-1.997762,51.351052,400252,161331,Q5267588,Wiltshire,England
+relation/1229902,castle_type,castle,Kinloch Castle,-6.282072,57.013565,140158,799535,Q281232,Highland,Scotland
+relation/12302036,castle_type,castle,Newport Castle,-2.995007,51.590785,331167,188462,Q7018806,Gwent,Wales
+relation/12406640,castle_type,castle,Hengrave Hall,0.672534,52.28487,582390,268556,Q5714331,Suffolk,England
+relation/1246123,castle_type,castle,Bodiam Castle,0.543529,51.002283,578559,125623,Q639208,East Sussex,England
+relation/12517821,castle_type,castle,Bodelwyddan Castle,-3.50204,53.260947,299904,374825,Q2968597,Clwyd,Wales
+relation/12566484,castle_type,castle,Garrison Walls,-6.320867,49.912448,89911,10315,,Cornwall,England
+relation/126477,historic,castle,Brancepeth Castle,-1.654431,54.734194,422350,537745,Q4956323,Durham,England
+relation/12665676,castle_type,castle,Raby Castle,-1.80184,54.590972,412903,521772,Q4583646,Durham,England
+relation/1271336,historic,castle,Dunstaffnage Castle,-5.437734,56.454701,188262,734471,Q178522,Argyll and Bute,Scotland
+relation/12920204,castle_type,castle,Exton Hall,-0.638031,52.692549,492148,311411,Q5422096,Rutland,England
+relation/13539416,historic,castle,Kelly Castle,-2.639526,56.551814,360782,740164,Q17770677,Angus,Scotland
+relation/13576843,historic,castle,,-2.287236,51.317651,380079,157655,,Somerset,England
+relation/13593316,castle_type,castle,,-4.065832,52.897778,261135,335369,,Gwynedd,Wales
+relation/13603587,historic,castle,Dunbar Castle,-2.517634,56.005621,367819,679308,Q2969165,East Lothian,Scotland
+relation/13653463,castle_type,castle,Belvoir Castle,-0.782556,52.894716,482000,333724,Q816295,Leicestershire,England
+relation/13871787,historic,castle,Walkern Hall,-0.111255,51.907902,530024,224948,,Hertfordshire,England
+relation/14018061,castle_type,castle,Dalnaglar Castle,-3.398906,56.766257,314587,764725,Q56618563,Perth and Kinross,Scotland
+relation/1403938,castle_type,castle,Lambeth Palace,-0.119831,51.495605,530615,179083,Q1130266,Greater London,England
+relation/14117456,historic,castle,Dunnideer Castle,-2.646087,57.342271,361211,828158,Q464433,Aberdeenshire,Scotland
+relation/1420592,historic,castle,Castell Dinbych,-3.420754,53.180679,305148,365785,Q1186885,Clwyd,Wales
+relation/1420892,castle_type,castle,Doune Castle,-4.050181,56.185084,272852,701054,Q1252715,Stirling,Scotland
+relation/14211944,historic,castle,Ludgershall Castle,-1.623555,51.259026,426365,151163,Q15243063,Wiltshire,England
+relation/14212011,castle_type,castle,Lullingstone Castle,0.196314,51.357894,553019,164381,Q6702874,Kent,England
+relation/14212037,historic,castle,Lympne Castle,1.023707,51.072104,611925,134658,Q421395,Kent,England
+relation/14213231,historic,castle,Balmoral Castle,-3.230229,57.040653,325447,795069,Q42049,Aberdeenshire,Scotland
+relation/14407882,castle_type,castle,Gifford's Hall,0.938306,51.998608,601804,237428,Q17542271,Suffolk,England
+relation/14410604,castle_type,manor,Penheale Manor,-4.451748,50.665936,226831,88009,,Cornwall,England
+relation/14412242,historic,castle,Thame Park House,-0.963534,51.727727,471683,203731,Q17529044,Oxfordshire,England
+relation/14467324,castle_type,castle,Chillingham Castle,-1.904086,55.525933,406153,625803,Q1072990,Northumberland,England
+relation/1458800,castle_type,castle,Blackness Castle,-3.516247,56.006038,305550,680271,Q1524366,Falkirk,Scotland
+relation/1459252,historic,castle,Inverlochy Castle,-5.082327,56.832282,212043,775437,Q17825866,Highland,Scotland
+relation/14654500,historic,castle,Monzie Castle,-3.826186,56.399282,287384,724500,Q17568173,Perth and Kinross,Scotland
+relation/146749,castle_type,castle,Lumley Castle,-1.553137,54.853436,428788,551051,Q6703353,Durham,England
+relation/14699451,castle_type,castle,Jedburgh Castle,-2.55901,55.474184,364761,620182,Q1602945,Scottish Borders,Scotland
+relation/1515613,historic,castle,Berkeley Castle,-2.456774,51.688574,368521,198968,Q4891993,Gloucestershire,England
+relation/1525518,castle_type,castle,Carreg Cennen Castle,-3.935489,51.854476,266796,219092,Q3403691,Dyfed,Wales
+relation/15336259,historic,castle,Aboyne Castle,-2.783209,57.084689,352628,799571,Q4668681,Aberdeenshire,Scotland
+relation/1539623,castle_type,castle,Blickling Hall,1.231625,52.811664,617891,328685,Q17535638,Norfolk,England
+relation/1567699,castle_type,castle,Palace of Westminster,-0.124566,51.499296,530276,179485,Q62408,Greater London,England
+relation/15766515,castle_type,castle,Ogmore Castle,-3.61161,51.480583,288183,176968,Q1789059,Mid Glamorgan,Wales
+relation/1578648,castle_type,castle,Osborne House,-1.269664,50.750585,451619,94808,Q565155,Isle of Wight,England
+relation/16057566,historic,castle,Spencer House,-0.140243,51.505186,529172,180112,Q2505545,Greater London,England
+relation/1609514,historic,castle,Scone Palace,-3.438474,56.422967,311367,726568,Q1269394,Perth and Kinross,Scotland
+relation/1621542,castle_type,castle,Old Wardour Castle,-2.088886,51.036341,393864,126335,Q7969192,Wiltshire,England
+relation/163719,castle_type,castle,Goodrich Castle,-2.61583,51.876761,357703,219979,Q5583571,Herefordshire,England
+relation/16431,castle_type,castle,Southsea Castle,-1.088793,50.778105,464341,98010,Q1743815,Hampshire,England
+relation/16660856,castle_type,castle,Cairnburgh Castle,-6.379473,56.518921,130726,744914,Q5017682,Argyll and Bute,Scotland
+relation/1669488,castle_type,castle,Lauriston Castle,-3.278503,55.971185,320302,676092,Q2969689,City of Edinburgh,Scotland
+relation/16769442,castle_type,castle,Palace of Holyroodhouse,-3.172346,55.952705,326892,673918,Q505950,City of Edinburgh,Scotland
+relation/1700636,castle_type,castle,Glamis Castle,-3.002127,56.620296,338602,748053,Q1529151,Angus,Scotland
+relation/1708110,castle_type,castle,Duart Castle,-5.654975,56.456129,174891,735321,Q1262718,Argyll and Bute,Scotland
+relation/1715889,castle_type,castle,Castle Ashby House,-0.738616,52.224534,486259,259230,Q5049988,Northamptonshire,England
+relation/1720376,castle_type,castle,Castell Beaumaris Castle,-4.089777,53.264823,260716,376241,,Gwynedd,Wales
+relation/1721074,historic,castle,Raglan Castle,-2.850156,51.770436,341434,208316,Q2630723,Gwent,Wales
+relation/1737793,castle_type,castle,Rhuddlan Castle,-3.464641,53.28918,302463,377914,Q1585938,Clwyd,Wales
+relation/17512197,castle_type,castle,Kingsgate Castle,1.443507,51.383149,639706,170528,Q6413222,Kent,England
+relation/17605689,historic,castle,Bernera Barracks,-5.619929,57.216097,181526,819736,Q2390103,Highland,Scotland
+relation/1802876,historic,castle,Restormel Castle,-4.67045,50.421763,210400,61398,Q1140030,Cornwall,England
+relation/1811303,castle_type,castle,Cockermouth Castle,-3.362346,54.665151,312227,530860,Q5139587,Cumbria,England
+relation/18208397,historic,castle,Gidleigh Castle,-3.883363,50.680244,267036,88424,Q5559718,Devon,England
+relation/18466468,castle_type,castle,Skelmorlie Castle,-4.884719,55.851686,219519,665818,Q7534501,North Ayrshire,Scotland
+relation/18468216,castle_type,,St Briavels Castle,-2.640719,51.738282,355854,204592,Q7592704,Gloucestershire,England
+relation/18786544,historic,castle,Wentworth Castle,-1.518911,53.524292,431992,403177,Q7983010,South Yorkshire,England
+relation/18915159,historic,castle,Grimsthorpe Castle,-0.452321,52.792398,504460,322770,Q1546926,Lincolnshire,England
+relation/19131171,castle_type,castle,Sandal Castle,-1.491208,53.658868,433722,418162,,West Yorkshire,England
+relation/19453198,castle_type,castle,Lowther Castle,-2.741869,54.607281,352178,523821,,Cumbria,England
+relation/1949549,castle_type,castle,Oxburgh Hall,0.570392,52.581026,574252,301238,Q7115152,Norfolk,England
+relation/19779482,historic,castle,Abergairn Castle,-3.059235,57.063294,335862,797415,,Aberdeenshire,Scotland
+relation/20050244,castle_type,castle,Somerhill House,0.300217,51.18289,560862,145143,Q7559754,Kent,England
+relation/20423568,historic,castle,Goldielands Tower,-2.825844,55.407507,347806,612930,,Scottish Borders,Scotland
+relation/20512243,castle_type,,Covington Tower,-3.63033,55.641742,297482,639894,,South Lanarkshire,Scotland
+relation/2089661,castle_type,castle,Penrhyn Castle,-4.094494,53.225985,260275,371930,Q3402621,Gwynedd,Wales
+relation/21104,castle_type,castle,Hampton Court Palace,-0.338065,51.403527,515699,168477,Q205666,Greater London,England
+relation/21171679,historic,castle,Balvenie Castle,-3.124658,57.453271,332611,840889,Q805847,Moray,Scotland
+relation/2301658,historic,castle,Peveril Castle,-1.777395,53.339918,414919,382580,,Derbyshire,England
+relation/2368840,castle_type,castle,Royal Citadel,-4.137605,50.364596,248064,53817,Q7373944,Devon,England
+relation/2401661,castle_type,,Nothe Fort,-2.443831,50.607387,368690,78724,Q8962991,Dorset,England
+relation/2420826,castle_type,castle,Scotney Castle,0.408191,51.092812,568735,135369,Q7435720,Kent,England
+relation/270962,castle_type,castle,Linlithgow Palace,-3.600854,55.978692,300204,677347,Q564868,West Lothian,Scotland
+relation/2755833,castle_type,castle,Clifford's Tower,-1.08002,53.95583,460467,451474,Q80637,North Yorkshire,England
+relation/2793849,historic,castle,Bolingbroke Castle,0.016951,53.165173,534935,365016,,Lincolnshire,England
+relation/303066,historic,castle,Blenheim Palace,-1.361352,51.841825,444096,216106,Q208181,Oxfordshire,England
+relation/3032096,castle_type,castle,Dupplin Castle,-3.528733,56.358197,305640,719479,Q26869147,Perth and Kinross,Scotland
+relation/3131864,castle_type,castle,Apethorpe Palace,-0.492461,52.547184,502324,295438,Q4779401,Northamptonshire,England
+relation/3134597,castle_type,castle,Haddon Hall,-1.649638,53.193838,423505,366363,Q3080996,Derbyshire,England
+relation/3174519,castle_type,castle,Rochester Castle,0.501224,51.39021,574123,168654,Q1125527,Kent,England
+relation/317958,castle_type,castle,Maxstoke Castle,-1.671539,52.499391,422395,289105,Q6796030,Warwickshire,England
+relation/3218557,castle_type,castle,Chirk Castle,-3.089594,52.935248,326864,338095,Q3306356,Clwyd,Wales
+relation/3293344,castle_type,castle,Allington Castle,0.511441,51.293388,575203,157913,Q4732691,Kent,England
+relation/3353687,castle_type,castle,Compton Wynyates,-1.51884,52.073815,433075,241826,Q5157180,Warwickshire,England
+relation/3361771,castle_type,castle,Burghley House,-0.452476,52.642435,504808,306090,Q1015079,Cambridgeshire,England
+relation/3609581,castle_type,castle,Fulham Palace,-0.215678,51.470554,524030,176130,Q5507927,Greater London,England
+relation/3704610,castle_type,castle,Tretower Court,-3.184143,51.88328,318592,221187,Q7838880,Powys,Wales
+relation/3733576,castle_type,manor,Ightham Mote,0.269583,51.258501,558461,153484,Q1254903,Kent,England
+relation/3825399,historic,castle,Eilean Donan Castle,-5.516168,57.273877,188120,825834,Q20816698,Highland,Scotland
+relation/3851561,castle_type,castle,Hurst Castle,-1.551942,50.706657,431735,89765,Q628622,Hampshire,England
+relation/3879106,historic,castle,St Donats Castle,-3.533287,51.401863,293438,168097,Q1485119,South Glamorgan,Wales
+relation/3958084,castle_type,castle,Castle of Mey,-3.224812,58.647168,329013,973904,Q1049589,Highland,Scotland
+relation/4054834,castle_type,castle,Stafford Castle,-2.147343,52.797944,390163,322275,Q11814,Staffordshire,England
+relation/4059799,historic,castle,Castell Cydweli,-4.305801,51.739467,240890,207046,Q1585849,Dyfed,Wales
+relation/4067880,historic,castle,,-4.634183,52.057028,219499,243125,,Dyfed,Wales
+relation/4148076,historic,castle,Castle Hill,-3.896935,51.040238,267106,128477,Q5050119,Devon,England
+relation/4229902,historic,castle,Lindisfarne Castle,-1.784534,55.669053,413651,641748,Q2627072,Northumberland,England
+relation/4489758,historic,castle,Ardverikie Castle,-4.454831,56.955156,250808,787561,Q17570947,Highland,Scotland
+relation/4514469,historic,castle,Ballindalloch Castle,-3.369301,57.411844,317839,836547,Q1965099,Moray,Scotland
+relation/4629036,historic,castle,Edzell Castle,-2.681945,56.811732,358462,769121,Q2373236,Angus,Scotland
+relation/4638576,castle_type,castle,Kielder Castle,-2.580216,55.233904,363198,593453,Q26590116,Northumberland,England
+relation/5208404,castle_type,castle,Buckingham Palace,-0.142461,51.500916,529030,179633,Q42182,Greater London,England
+relation/5249805,castle_type,castle,Bothwell Castle,-4.095153,55.809422,268793,659337,Q2412005,South Lanarkshire,Scotland
+relation/5272331,castle_type,castle,Kilchurn Castle,-5.027333,56.403765,213292,727615,Q1741258,Argyll and Bute,Scotland
+relation/5303851,castle_type,castle,Ardtornish Castle,-5.75362,56.519137,169199,742657,Q2968118,Highland,Scotland
+relation/5303968,castle_type,castle,Castle Tioram,-5.829067,56.784522,166211,772428,Q1049531,Highland,Scotland
+relation/5304065,historic,castle,,-5.665478,55.947965,171235,678839,,Argyll and Bute,Scotland
+relation/5307399,castle_type,castle,Innis Chonnell Castle,-5.267787,56.256568,197682,711921,Q32725,Argyll and Bute,Scotland
+relation/5307420,castle_type,castle,,-5.209369,56.108452,200532,695274,Q168342,Argyll and Bute,Scotland
+relation/5332921,castle_type,castle,Carnasserie Castle,-5.480645,56.151207,183911,700848,Q1043908,Argyll and Bute,Scotland
+relation/5343188,castle_type,castle,Caerlaverock Castle,-3.523972,54.975655,302554,565623,Q1025398,Dumfries and Galloway,Scotland
+relation/5345104,historic,castle,Kilmahew Castle,-4.642904,55.972607,235167,678666,Q1741395,Argyll and Bute,Scotland
+relation/5356355,castle_type,castle,Hoddom Castle,-3.322881,55.044376,315569,573008,Q5875992,Dumfries and Galloway,Scotland
+relation/5365845,castle_type,castle,Huntly Castle,-2.781575,57.454695,353200,840758,Q64597,Aberdeenshire,Scotland
+relation/5365923,castle_type,castle,Drum Castle,-2.337986,57.095002,379619,800497,Q1923521,Aberdeenshire,Scotland
+relation/5369390,historic,castle,Spynie Palace,-3.290874,57.675911,323109,865850,Q1127580,Moray,Scotland
+relation/5375551,castle_type,castle,Brodie Castle,-3.708997,57.598504,297957,857785,Q625533,Moray,Scotland
+relation/5393383,castle_type,castle,Hailes Castle,-2.683125,55.973222,357463,675791,Q2740508,East Lothian,Scotland
+relation/5396478,historic,castle,Aros Castle,-5.965086,56.533529,156292,744989,Q2805188,Argyll and Bute,Scotland
+relation/5403599,historic,castle,Red Castle,-2.510666,56.650395,368786,751071,Q7303864,Angus,Scotland
+relation/5442212,castle_type,castle,Bass Castle,-2.641629,56.076464,360160,687257,Q9705135,East Lothian,Scotland
+relation/545040,castle_type,castle,Saint James's Palace,-0.138013,51.504471,529328,180036,Q272162,Greater London,England
+relation/5450530,historic,castle,Tor Castle,-5.06502,56.861101,213243,778596,Q7825240,Highland,Scotland
+relation/5450657,historic,castle,Mingary Castle,-6.080073,56.692776,150281,763112,Q1712207,Highland,Scotland
+relation/5451333,castle_type,castle,Balhousie Castle,-3.436897,56.40338,311419,724386,Q4850823,Perth and Kinross,Scotland
+relation/5515428,historic,castle,Beeston Castle and Woodland Park,-2.691427,53.127202,353831,359116,,Cheshire,England
+relation/5524093,historic,castle,Rockingham Castle,-0.724026,52.513061,486689,291340,Q3939808,Northamptonshire,England
+relation/553839,castle_type,castle,Warwick Castle,-1.585128,52.279577,428401,264684,Q941276,Warwickshire,England
+relation/5539486,historic,castle,Newark Castle,-2.778011,56.200909,351827,701195,,Fife,Scotland
+relation/5678213,historic,castle,Lochwood Castle,-3.441819,55.256845,308458,596800,Q56661838,Dumfries and Galloway,Scotland
+relation/5725300,historic,castle,Craigie Castle,-4.524577,55.552945,240847,631700,,South Ayrshire,Scotland
+relation/5762655,historic,castle,Burgess Gate,-3.420821,53.182582,305148,365997,,Clwyd,Wales
+relation/6577697,historic,castle,Castell Coety,-3.55339,51.522072,292323,181495,Q1107288,Mid Glamorgan,Wales
+relation/6702853,castle_type,castle,Manorbier Castle,-4.79951,51.645505,206406,197791,Q1508342,Dyfed,Wales
+relation/6711479,castle_type,,Bowood House,-2.037708,51.42853,397475,169948,Q444145,Wiltshire,England
+relation/67358,castle_type,ruins,Pevensey Castle,0.334185,50.81916,564517,104776,Q2970215,East Sussex,England
+relation/6941053,castle_type,castle,Leeds Castle,0.629972,51.248824,583643,153247,Q746876,Kent,England
+relation/7125146,historic,castle,Y Castell Newydd,-3.583246,51.508882,290220,180072,Q2614444,Mid Glamorgan,Wales
+relation/7207805,historic,castle,Chiddingstone Castle,0.142161,51.185639,549807,145115,Q5096598,Kent,England
+relation/7294015,historic,castle,Niddry Castle,-3.450726,55.953741,309513,674363,Q2970137,West Lothian,Scotland
+relation/7420815,historic,castle,,-3.002632,52.873258,332612,331114,,Shropshire,England
+relation/7441299,castle_type,castle,Dudley Castle,-2.079442,52.514362,394706,290722,Q5311832,West Midlands,England
+relation/8188851,castle_type,castle,Dean Castle,-4.483913,55.623175,243691,639421,Q5246061,East Ayrshire,Scotland
+relation/8236206,castle_type,castle,Herstmonceux Castle,0.338697,50.869464,564657,110379,Q2652207,East Sussex,England
+relation/8271255,historic,castle,Loch Doon Castle (re-located),-4.384832,55.225976,248413,595011,,East Ayrshire,Scotland
+relation/8395203,castle_type,castle,Kinnaird Castle,-2.598722,56.704295,363439,757114,Q18126847,Angus,Scotland
+relation/8436807,castle_type,castle,Croft Castle,-2.808454,52.284379,344947,265446,Q5187474,Herefordshire,England
+relation/8519446,historic,castle,Earl's Palace,-3.31536,59.129971,324815,1027758,Q2393208,Orkney Islands,Scotland
+relation/8673244,castle_type,castle,Chatsworth House,-1.611783,53.227975,426014,370174,Q1068289,Derbyshire,England
+relation/904705,castle_type,castle,Kensington Palace,-0.188133,51.505172,525848,180027,Q207385,Greater London,England
+relation/9506151,historic,castle,Rosyth Castle,-3.431367,56.023465,310882,682097,Q6980281,Fife,Scotland
+way/1000733689,historic,castle,Whithaugh Tower,-2.804445,55.183843,348874,588024,,Scottish Borders,Scotland
+way/1001808582,historic,castle,Upton Castle,-4.866325,51.706022,202049,204699,Q21999745,Dyfed,Wales
+way/100365047,historic,castle,Boturich Castle,-4.588844,56.026774,238765,684565,Q17848841,West Dunbartonshire,Scotland
+way/100542995,castle_type,castle,Stirling Castle,-3.948305,56.124195,278982,694095,Q756268,Stirling,Scotland
+way/1006531166,castle_type,castle,Urquhart Castle,-4.442113,57.324046,253052,828583,Q913981,Highland,Scotland
+way/100657492,castle_type,castle,Dumbarton Castle,-4.563853,55.936653,239950,674480,Q2177200,West Dunbartonshire,Scotland
+way/1008667096,historic,castle,Almond Castle,-3.673614,55.977189,295660,677287,Q17816792,Falkirk,Scotland
+way/1009158003,castle_type,archaeological_site,Tomen Cefn Coch,-3.330106,52.826449,310475,326265,,Powys,Wales
+way/101101053,historic,castle,Great Hall,-1.319811,51.062629,447762,129475,Q68683802,Hampshire,England
+way/1013564263,castle_type,castle,,-2.880336,57.31104,347067,824839,,Aberdeenshire,Scotland
+way/101726501,castle_type,castle,Coupland Castle,-2.104017,55.574187,393540,631174,Q5178005,Northumberland,England
+way/101933503,castle_type,castle,Bothal Castle,-1.624927,55.172247,423989,586502,Q4948619,Northumberland,England
+way/1019379004,castle_type,house,Greys Court,-0.95612,51.545032,472485,183420,,Oxfordshire,England
+way/1019695124,historic,castle,Barholm Castle,-4.305538,54.84953,252074,552961,,Dumfries and Galloway,Scotland
+way/1019712450,historic,castle,Benton Castle,-4.889431,51.72512,200537,206886,,Dyfed,Wales
+way/102003555,castle_type,castle,Wolvesey Castle,-1.310301,51.05916,448432,129095,Q8030602,Hampshire,England
+way/102003562,castle_type,castle,Bishop's Palace,-1.310745,51.058729,448401,129047,Q96276762,Hampshire,England
+way/1020277888,castle_type,castle,,-3.043409,52.343077,329014,272179,,Powys,Wales
+way/1021740267,historic,castle,Blackcraig Castle,-3.456571,56.664291,310821,753450,,Perth and Kinross,Scotland
+way/1022565144,historic,castle,Fort Belvedere,-0.612093,51.404493,496637,168188,Q1438460,Surrey,England
+way/1023925085,historic,castle,Blervie Castle,-3.556213,57.59511,307079,857188,,Moray,Scotland
+way/103144682,castle_type,castle,Floors Castle,-2.460118,55.604965,371109,634691,Q11838960,Scottish Borders,Scotland
+way/1032545403,historic,castle,Cadzow Castle (ruin),-4.018184,55.760761,273458,653779,Q17850103,South Lanarkshire,Scotland
+way/1034948367,castle_type,castle,The Mynde,-2.951619,51.609757,334200,190532,Q65079839,Gwent,Wales
+way/1036784509,historic,castle,Caister Castle,1.701542,52.650517,650472,312297,Q5017844,Norfolk,England
+way/104015382,historic,castle,Tynemouth Priory and Castle,-1.417848,55.017696,437322,569394,Q7860523,Tyne and Wear,England
+way/1041694229,historic,castle,Castlecary Castle,-3.945928,55.97537,278663,677530,Q5050023,Falkirk,Scotland
+way/1041697655,historic,castle,Castle Levan,-4.858722,55.947099,221585,676365,Q5050179,Inverclyde,Scotland
+way/1041726308,historic,castle,Clifford Castle,-3.105473,52.104251,324381,245679,Q5132895,Herefordshire,England
+way/1041730893,historic,castle,Codnor Castle,-1.355146,53.045219,443329,349967,Q1988622,Derbyshire,England
+way/104277567,castle_type,castle,Dunrobin Castle,-3.945441,57.981728,285054,900821,Q946702,Highland,Scotland
+way/1044261964,historic,castle,Craignethan Castle,-3.88633,55.696112,281535,646352,Q1092053,South Lanarkshire,Scotland
+way/1050243834,castle_type,castle,Dale Fort,-5.151124,51.702604,182359,205131,Q29496579,Dyfed,Wales
+way/10524564,castle_type,castle,Calshot Castle,-1.307564,50.819864,448873,102486,Q5023957,Hampshire,England
+way/1054348853,historic,castle,Tiverton Castle,-3.488186,50.906205,295460,112914,Q7810399,Devon,England
+way/105504530,historic,castle,Traquair House,-3.064258,55.608322,333053,635483,Q1307609,Scottish Borders,Scotland
+way/1059641050,historic,castle,Farnham Castle,-0.802775,51.218987,483710,147324,,Surrey,England
+way/1059644040,historic,castle,Flamborough Castle,-0.126126,54.114445,522589,470353,Q26364996,East Riding of Yorkshire,England
+way/1059645068,historic,castle,Fordyce Castle,-2.746209,57.661855,355576,863797,Q16837347,Aberdeenshire,Scotland
+way/1060557837,castle_type,castle,Tutbury Castle,-1.690504,52.859704,420935,329180,Q7856912,Staffordshire,England
+way/1061783935,castle_type,archaeological_site,,-4.280233,50.89104,239723,112650,,Devon,England
+way/1062308530,historic,castle,Gilnockie Tower,-2.969644,55.09779,338222,578582,Q2627274,Dumfries and Galloway,Scotland
+way/1062309782,historic,castle,Gleaston Castle,-3.13169,54.133488,326153,471441,Q5567411,Cumbria,England
+way/1062386065,historic,castle,Haggs Castle,-4.295907,55.836387,256313,662736,Q5638720,Glasgow City,Scotland
+way/1062393734,castle_type,castle,Hemyock Castle,-3.231319,50.912542,313532,113286,Q15223566,Devon,England
+way/1063265659,castle_type,castle,Frostenden Mound,1.660581,52.364404,649317,280346,,Suffolk,England
+way/106327986,castle_type,castle,Beaufort Castle,-4.490363,57.452782,250672,843014,Q2757635,Highland,Scotland
+way/1064532886,castle_type,castle,Holt Castle Ruins,-2.880158,53.07801,341135,353783,Q5884534,Clwyd,Wales
+way/1064806689,castle_type,castle,Kingencleugh Castle,-4.370841,55.501772,250348,625665,Q6412718,East Ayrshire,Scotland
+way/1064813071,historic,castle,Knepp Castle,-0.344477,50.975767,516324,120899,Q6421967,West Sussex,England
+way/1065559054,historic,castle,Leicester Castle,-1.13989,52.63234,458310,304190,,Leicestershire,England
+way/1065559840,historic,castle,Leslie Castle,-2.666256,57.312328,359964,824836,Q6530697,Aberdeenshire,Scotland
+way/1065567209,castle_type,castle,St Quintin's Castle,-3.456415,51.457575,298908,174184,Q7595410,South Glamorgan,Wales
+way/1065570025,historic,castle,Llangibby Castle,-2.921032,51.671839,336405,197409,Q13127487,Gwent,Wales
+way/1065570816,historic,castle,Lochhouse Tower,-3.44858,55.315717,308164,603360,Q7548754,Dumfries and Galloway,Scotland
+way/1065572700,historic,castle,Lochnaw Castle,-5.135795,54.919686,199133,562835,Q17571022,Dumfries and Galloway,Scotland
+way/106559938,historic,castle,Moy Castle,-5.859209,56.35492,161681,724754,Q129460,Argyll and Bute,Scotland
+way/1067926801,historic,castle,Bovisand,-4.125955,50.337061,248805,50732,,Devon,England
+way/1069016252,castle_type,manor,Withington Hall,-2.283611,53.247093,381172,372268,,Cheshire,England
+way/106967186,castle_type,castle,Elvaston Castle,-1.39528,52.892962,440781,333006,Q5367993,Derbyshire,England
+way/1069928464,historic,castle,Castle Cluggy,-3.880901,56.38861,283975,723403,Q17847695,Perth and Kinross,Scotland
+way/1070051682,historic,castle,Pinwherry Castle,-4.829313,55.142378,219773,586769,,South Ayrshire,Scotland
+way/107295705,castle_type,castle,Neidpath Castle,-3.215572,55.651907,323606,640489,Q9704508,Scottish Borders,Scotland
+way/107429705,historic,castle,Mulgrave Castle,-0.692241,54.501298,484788,512562,Q17540917,North Yorkshire,England
+way/1075528617,historic,castle,Maybole Castle,-4.681152,55.354793,230122,610026,,South Ayrshire,Scotland
+way/1075537615,castle_type,castle,Moynes Court,-2.694924,51.615169,351981,190934,Q15260127,Gwent,Wales
+way/1075831975,historic,castle,Stowey Castle,-3.163923,51.149478,318686,139557,Q7620710,Somerset,England
+way/1075838226,castle_type,castle,New Tavern Fort,0.376851,51.443383,565279,174278,Q7012049,Kent,England
+way/1075844001,historic,castle,Newport Castle,-4.832523,52.014361,205718,238893,Q15262178,Dyfed,Wales
+way/1076385397,castle_type,ruins,Old Beaupre Castle,-3.427466,51.438751,300879,172051,Q7083449,South Glamorgan,Wales
+way/1076395293,historic,castle,Castell Oxwich,-4.168262,51.555526,249778,186300,Q3403319,West Glamorgan,Wales
+way/1077040086,historic,castle,Pencoed Castle,-2.858996,51.600293,340601,189400,Q15265864,Gwent,Wales
+way/1077041463,historic,castle,Penkill Castle,-4.783701,55.249188,223153,598534,Q7163069,South Ayrshire,Scotland
+way/1078017472,castle_type,fort,Fort Popton,-5.0492,51.692937,189355,203757,Q7229652,Dyfed,Wales
+way/1078046019,historic,castle,Reigate Castle,-0.207782,51.238953,525208,150389,Q7310075,Surrey,England
+way/1078266007,historic,castle,Roch Castle,-5.079029,51.849133,188028,221210,Q7353760,Dyfed,Wales
+way/1078276900,historic,castle,Fort Charles,-3.776703,50.22887,273370,38051,Q7403768,Devon,England
+way/1078323338,castle_type,castle,Dalemain,-2.812293,54.634583,347665,526910,Q15978966,Cumbria,England
+way/1080795983,castle_type,castle,Dartmouth Castle,-3.565967,50.342288,288666,50325,,Devon,England
+way/1082792754,castle_type,manor,Breccles Hall,0.889704,52.512985,596186,294491,,Norfolk,England
+way/1082792755,historic,castle,Compton Park House,-1.959535,51.070415,402932,130121,,Wiltshire,England
+way/1082792756,castle_type,manor,Baverstock Manor,-1.961848,51.088669,402769,132151,,Wiltshire,England
+way/1082955914,castle_type,manor,Weare Giffard Hall,-4.185634,50.978106,246662,122130,,Devon,England
+way/1083340275,castle_type,,Great Chalfield Manor,-2.202327,51.367663,386011,163197,,Wiltshire,England
+way/108538775,historic,castle,Yarmouth Castle,-1.500183,50.706643,435390,89786,Q8049393,Isle of Wight,England
+way/108868151,historic,castle,Tattershall Castle,-0.193454,53.101358,521049,357542,Q2628361,Lincolnshire,England
+way/1093259587,historic,castle,Cardiff Castle,-3.181335,51.4824,318064,176600,Q1035742,South Glamorgan,Wales
+way/109371387,castle_type,castle,Farleigh Hungerford Castle,-2.28668,51.317334,380117,157620,Q5435410,Somerset,England
+way/111325342,castle_type,castle,Barrington Court,-2.858377,50.96079,339812,118280,Q4863658,Somerset,England
+way/1113371718,historic,castle,The Gatehouse,-3.51219,50.850942,293646,106804,,Devon,England
+way/111529136,historic,castle,Elcho Castle,-3.354611,56.374617,316434,721081,Q2049209,Perth and Kinross,Scotland
+way/1115705017,castle_type,castle,Elsham Hall,-0.44362,53.59457,503106,412014,,Lincolnshire,England
+way/1117227021,castle_type,castle,Dunsland House,-4.260069,50.823872,240912,105138,,Devon,England
+way/111866467,castle_type,castle,Highclere Castle,-1.360547,51.326577,444652,158803,Q1508450,Hampshire,England
+way/1126085443,castle_type,castle,Boghall Castle,-3.525194,55.617031,304038,636993,Q17845338,South Lanarkshire,Scotland
+way/1130936455,castle_type,castle,Llantrisant Castle,-3.374771,51.541638,304756,183423,Q21037221,Mid Glamorgan,Wales
+way/114447428,historic,castle,Beckington Castle,-2.288065,51.262283,379997,151498,Q813726,Somerset,England
+way/1147957077,historic,castle,Crumbles Castle,-0.12033,51.539329,530456,183944,,Greater London,England
+way/114807110,castle_type,castle,Fishguard Fort,-4.970127,52.001136,196217,237799,,Dyfed,Wales
+way/114814101,castle_type,castle,Sudeley Castle,-1.956264,51.947399,403103,227657,Q631473,Gloucestershire,England
+way/114845908,castle_type,manor,Fetteresso Castle,-2.260509,56.960374,384256,785490,Q1145710,Aberdeenshire,Scotland
+way/115568681,historic,castle,Glen House,-3.115243,55.585971,329801,633046,Q17571951,Scottish Borders,Scotland
+way/1157923873,historic,castle,Ruins of Auchinleck Castle,-4.376024,55.479721,249937,623223,,East Ayrshire,Scotland
+way/1165642647,historic,castle,Innerpeffray Castle,-3.773282,56.340422,290480,717864,,Perth and Kinross,Scotland
+way/1165642648,historic,castle,Innerpeffray Castle,-3.773286,56.340429,290480,717865,,Perth and Kinross,Scotland
+way/116946923,castle_type,castle,Pontefract Castle,-1.304109,53.695456,446046,422337,Q1949590,West Yorkshire,England
+way/117120787,castle_type,castle,New Wardour Castle,-2.104285,51.041796,392785,126943,Q15262106,Wiltshire,England
+way/1172191314,castle_type,castle,Sockburn Hall,-1.462231,54.458992,434960,507201,Q7552991,Durham,England
+way/117329524,historic,castle,Lee Castle,-3.824558,55.698656,285424,646531,Q6513205,South Lanarkshire,Scotland
+way/117407449,castle_type,castle,Castell Harlech,-4.109093,52.859933,258102,331245,Q540964,Gwynedd,Wales
+way/1175929460,historic,castle,Tower House,-5.088459,51.685062,186605,202995,,Dyfed,Wales
+way/117730322,castle_type,castle,Lulworth Castle,-2.208829,50.639076,385329,82175,Q1436731,Dorset,England
+way/117798812,castle_type,castle,Ferniehirst Castle,-2.55118,55.454319,365239,617967,Q5445113,Scottish Borders,Scotland
+way/117807870,castle_type,castle,Chester Castle,-2.892608,53.185324,340450,365731,Q505858,Cheshire,England
+way/1182955498,castle_type,,YHA Chester Trafford Hall,-2.823861,53.243661,345118,372166,,Cheshire,England
+way/118483469,castle_type,castle,Nunney Castle,-2.378301,51.210175,373671,145731,Q427746,Somerset,England
+way/118831401,historic,castle,Malpas Castle Hill,-2.767264,53.019987,348629,347241,Q17661890,Cheshire,England
+way/1193634319,historic,castle,Inverallochy Castle,-1.933156,57.65639,404088,862945,Q6059992,Aberdeenshire,Scotland
+way/119516718,historic,castle,Darnaway Castle,-3.683143,57.574322,299435,855055,Q5224104,Moray,Scotland
+way/121080184,castle_type,castle,Powderham Castle,-3.460564,50.642916,296824,83599,Q2106892,Devon,England
+way/121814606,castle_type,castle,Canterbury Castle,1.074531,51.275655,614538,157435,Q2968772,Kent,England
+way/1218994668,historic,castle,Boyne Castle,-2.653024,57.679066,361154,865655,Q17775907,Aberdeenshire,Scotland
+way/1221451048,castle_type,castle,Redoubt Fortress,0.300452,50.773972,562297,99677,Q3422926,East Sussex,England
+way/122219687,castle_type,castle,Brownsea Castle,-1.958224,50.68843,403047,87643,Q18708353,Dorset,England
+way/1222825089,historic,castle,Bognie Castle,-2.677247,57.493427,359503,845003,Q4937671,Aberdeenshire,Scotland
+way/122326553,castle_type,castle,Newby Hall,-1.469383,54.101673,434795,467439,Q7017290,North Yorkshire,England
+way/1224555934,historic,castle,Corse Castle,-2.747714,57.155177,354865,807393,,Aberdeenshire,Scotland
+way/1227214900,castle_type,castle,Hamsterley Hall,-1.779305,54.895261,414253,555636,Q5646430,Durham,England
+way/1231392857,castle_type,,,0.752137,51.444664,591350,175334,Q105197566,Kent,England
+way/1231920543,castle_type,castle,Frendraught Castle,-2.63382,57.465643,362077,841885,Q17570822,Aberdeenshire,Scotland
+way/123596491,castle_type,castle,,-4.090181,52.413451,257934,281550,,Dyfed,Wales
+way/1236562791,historic,castle,Castle of Balquhain,-2.447076,57.302167,373160,823597,Q805507,Aberdeenshire,Scotland
+way/1236633024,historic,castle,Harthill Castle,-2.522015,57.316056,368656,825175,Q17571145,Aberdeenshire,Scotland
+way/123915173,historic,castle,Langley Castle,-2.259603,54.956628,383473,562474,Q2969643,Northumberland,England
+way/124048237,historic,castle,Old Mulgrave Castle,-0.705536,54.493488,483943,511677,Q6933971,North Yorkshire,England
+way/124283879,castle_type,castle,Dunvegan Castle,-6.590217,57.44844,124732,849099,Q1266330,Highland,Scotland
+way/1243730502,historic,castle,Pitcaple Castle,-2.454561,57.324343,372725,826069,Q17571136,Aberdeenshire,Scotland
+way/1243851099,historic,castle,Ardmaddy Castle,-5.579096,56.2886,178593,716442,Q17779482,Argyll and Bute,Scotland
+way/124730341,historic,castle,,-3.00767,55.826419,336970,659701,,Midlothian,Scotland
+way/124857982,castle_type,ruins,St. Michael's Tower,-2.698708,51.144712,351220,138615,Q105674688,Somerset,England
+way/125155979,historic,castle,Glenapp Castle,-4.988464,55.084076,209355,580707,,South Ayrshire,Scotland
+way/125513830,castle_type,castle,Inveraray Castle,-5.073508,56.237428,209617,709237,Q1671720,Argyll and Bute,Scotland
+way/125675788,historic,castle,Duart Castle,-5.654378,56.4557,174925,735272,,Argyll and Bute,Scotland
+way/125737031,historic,castle,Sheriff Hutton Castle,-1.004909,54.087831,465189,466227,Q7494970,North Yorkshire,England
+way/126352228,castle_type,castle,Beaufront Castle,-2.057966,54.988185,396389,565956,Q4877490,Northumberland,England
+way/126355228,castle_type,castle,Dobroyd Castle,-2.108099,53.710598,392962,423803,Q5286862,West Yorkshire,England
+way/126823465,castle_type,castle,Dudhope Castle,-2.983948,56.46433,339469,730677,Q5311750,Dundee City,Scotland
+way/126832133,historic,castle,Canon's Gate House,1.321738,51.126626,632526,141619,,Kent,England
+way/126834537,historic,castle,Citadel Battery,1.290475,51.115745,630393,140311,,Kent,England
+way/127030005,castle_type,castle,Morpeth Castle,-1.687504,55.163592,420007,585519,Q6913330,Northumberland,England
+way/127078702,historic,castle,Skipsea Castle,-0.229714,53.978686,516196,455075,Q7535837,East Riding of Yorkshire,England
+way/127108128,historic,castle,Deal Castle,1.403611,51.219475,637775,152203,Q1180981,Kent,England
+way/1279790369,castle_type,castle,Cayton Park House,-0.839154,51.518449,480643,180586,,Berkshire,England
+way/128076815,castle_type,castle,Burton Constable Hall,-0.195903,53.813813,518880,436790,Q5000832,East Riding of Yorkshire,England
+way/128359578,historic,castle,Torosay Castle,-5.68703,56.454972,172910,735298,Q129472,Argyll and Bute,Scotland
+way/129127769,castle_type,castle,Longleat House,-2.274463,51.18576,380914,142984,Q1726158,Wiltshire,England
+way/129582447,historic,castle,Cromarty House,-4.02565,57.676814,279295,867022,,Highland,Scotland
+way/129877528,castle_type,castle,Alnwick Castle,-1.706287,55.415798,418692,613581,Q1320427,Northumberland,England
+way/130113202,historic,castle,Cramond Tower,-3.298095,55.978795,319095,676962,Q5181857,City of Edinburgh,Scotland
+way/130127379,historic,castle,Carbisdale Castle,-4.408995,57.925563,257424,895453,Q491165,Highland,Scotland
+way/1301391398,historic,castle,Castell Grogwynion,-3.878782,52.33549,272086,272485,,Dyfed,Wales
+way/1301703283,historic,castle,Llanthomas Castle Mound,-3.154764,52.056002,320920,240365,,Powys,Wales
+way/1301930088,historic,castle,,-4.377376,54.889921,247615,557609,,Dumfries and Galloway,Scotland
+way/1302476248,historic,castle,"The Spur, Dover Castle",1.319889,51.131064,632374,142106,,Kent,England
+way/1304777319,historic,castle,Sir John De Graham's Castle,-4.118686,56.047305,268130,685851,Q1455194,Stirling,Scotland
+way/130573288,historic,castle,Balvaird Castle,-3.342725,56.288899,316982,711527,Q3938333,Perth and Kinross,Scotland
+way/1307325623,historic,castle,Llanover House,-2.990349,51.769415,331759,208324,,Gwent,Wales
+way/131203271,historic,castle,Hertford Castle Gate House,-0.080657,51.795148,532459,212464,Q2363520,Hertfordshire,England
+way/131223977,historic,castle,Lochindorb Castle,-3.708247,57.405688,297462,836322,Q43372925,Highland,Scotland
+way/1314440380,historic,castle,,0.33456,50.819198,564543,104781,Q113646324,East Sussex,England
+way/1317298162,historic,castle,Newport Castle (site),-4.8311,52.020072,205841,239524,,Dyfed,Wales
+way/1318847187,historic,castle,Earlstoun Castle,-4.177505,55.131137,261268,584028,,Dumfries and Galloway,Scotland
+way/1319921308,castle_type,castle,Sandgate Castle 1539,1.148823,51.073439,620682,135174,,Kent,England
+way/133387801,castle_type,castle,Edlingham Castle,-1.818477,55.37674,411601,609210,Q4185871,Northumberland,England
+way/133390895,castle_type,castle,Brodick Castle,-5.150782,55.593947,201566,637875,Q924505,North Ayrshire,Scotland
+way/1343988952,castle_type,castle,The Old Watchtower,-4.332771,53.41498,245057,393444,,Gwynedd,Wales
+way/1346506674,historic,castle,Dunduff Castle,-4.731179,55.410702,227196,616369,Q11054645,South Ayrshire,Scotland
+way/1352210976,castle_type,castle,Sundrum Castle,-4.514966,55.459299,241076,621260,Q9704653,South Ayrshire,Scotland
+way/1352942415,castle_type,castle,Plas Llanfaelog,-4.502063,53.235341,233108,373845,,Gwynedd,Wales
+way/1359540449,castle_type,castle,,-2.419431,52.532169,371645,292783,,Shropshire,England
+way/1361427961,castle_type,ruins,Totnes Castle,-3.69118,50.432354,279984,60534,Q2445840,Devon,England
+way/1361433626,historic,castle,Cromwell's Castle,-6.349544,49.96223,88175,15967,Q5187650,Cornwall,England
+way/1361437235,castle_type,castle,Tretower Castle,-3.1857,51.883966,318487,221265,Q7838881,Powys,Wales
+way/136191851,castle_type,castle,Bletchingdon Park,-1.26759,51.858536,450537,218026,Q15978903,Oxfordshire,England
+way/1361944587,castle_type,castle,Marshwood Castle,-2.84585,50.775734,340456,97692,Q17553985,Dorset,England
+way/136287465,historic,castle,Glympton Park,-1.385288,51.893018,442399,221786,Q5572817,Oxfordshire,England
+way/1363617921,castle_type,castle,Court Farm Castle,-2.881002,51.339116,338727,160372,,Somerset,England
+way/1365338524,historic,castle,Eccleshall Castle,-2.256538,52.86337,382826,329574,,Staffordshire,England
+way/136981512,castle_type,castle,North Aston Hall,-1.302603,51.956583,448021,228907,Q26587934,Oxfordshire,England
+way/137033709,castle_type,castle,Moniack Castle,-4.41576,57.459574,255174,843608,Q6899866,Highland,Scotland
+way/1374197594,castle_type,castle,Wallingford Castle,-1.121684,51.603075,460927,189725,Q1632423,Oxfordshire,England
+way/1374212646,castle_type,castle,Wattlesborough Castle,-2.955903,52.707419,335512,312624,Q7974997,Shropshire,England
+way/1374220777,historic,castle,Wingfield Castle,1.261373,52.348052,622228,277227,Q8025197,Suffolk,England
+way/1374229214,historic,castle,Wressle castle,-0.928947,53.775901,470682,431595,Q8037764,East Riding of Yorkshire,England
+way/1379383799,historic,castle,Whittington Castle,-3.003105,52.873136,332580,331101,Q7996904,Shropshire,England
+way/1384255408,historic,castle,,-3.482518,50.647536,295282,84144,,Devon,England
+way/1384255409,castle_type,castle,,-3.485371,50.649192,295084,84332,,Devon,England
+way/138500255,castle_type,castle,Burton Agnes Hall,-0.316773,54.053577,510289,463268,Q5000804,East Riding of Yorkshire,England
+way/1386877840,castle_type,archaeological_site,Rubh' an Dunain,-6.308532,57.160236,139584,815945,Q31099087,Highland,Scotland
+way/138704315,historic,castle,Castell y Bere,-3.971218,52.658199,266769,308544,Q1048693,Gwynedd,Wales
+way/1388943362,historic,castle,Castle Keep,-0.206995,51.238604,525264,150352,,Surrey,England
+way/139237813,castle_type,castle,Eyam Hall,-1.676673,53.284937,421653,376489,Q5422567,Derbyshire,England
+way/1395916621,historic,castle,Tillycairn Castle,-2.556237,57.192381,366483,811424,Q17568418,Aberdeenshire,Scotland
+way/1408866732,historic,castle,Fingask Castle,-3.253714,56.433049,322784,727467,Q5450189,Perth and Kinross,Scotland
+way/1418030462,castle_type,castle,Oystermouth Castle,-4.002683,51.576991,261322,188359,Q7116379,West Glamorgan,Wales
+way/1421775864,castle_type,castle,Trematon Castle,-4.237767,50.400426,241061,58011,,Cornwall,England
+way/1422827565,historic,castle,Castell Cwm Aran,-3.24424,52.324313,315297,270309,,Powys,Wales
+way/1422861576,historic,castle,Castell Rhonyn,-4.509837,53.387926,233185,390834,,Gwynedd,Wales
+way/142793808,castle_type,castle,Bywell Castle,-1.924498,54.95067,404934,561783,Q5004686,Northumberland,England
+way/142798233,historic,castle,Pendennis Castle,-5.047169,50.146806,182392,31863,Q2371954,Cornwall,England
+way/142799732,historic,castle,Little Dennis,-5.042142,50.144083,182739,31545,Q17529446,Cornwall,England
+way/1428335269,historic,castle,Fairburn Tower,-4.558221,57.535302,246948,852348,Q17569798,Highland,Scotland
+way/143114928,historic,castle,Corfe Castle,-2.059081,50.639955,395918,82253,Q1236511,Dorset,England
+way/143333975,castle_type,castle,Layer Marney Tower,0.796845,51.822673,592847,217482,Q1809395,Essex,England
+way/143837684,historic,castle,Penrice Castle,-4.170408,51.575327,249695,188506,Q7164590,West Glamorgan,Wales
+way/144168614,historic,castle,Orford Castle,1.530733,52.094285,641944,249875,Q1964047,Suffolk,England
+way/1446006186,castle_type,fort,Plymouth Breakwater Fort,-4.148982,50.334394,247158,50483,,Devon,England
+way/1446905821,historic,castle,Ravenstone Castle,-4.474442,54.767273,240908,544181,Q17570954,Dumfries and Galloway,Scotland
+way/144930497,castle_type,castle,Little Moreton Hall,-2.251807,53.127099,383248,358911,Q2943130,Cheshire,England
+way/146786032,castle_type,castle,Little Wenham Castle,1.030562,52.010997,608078,239066,Q17541537,Suffolk,England
+way/147476398,castle_type,castle,Portland Castle,-2.446715,50.568274,368460,74376,Q1638741,Dorset,England
+way/147497386,historic,castle,Castle Mound,0.770517,51.958865,590456,232556,,Essex,England
+way/148727997,castle_type,castle,Hume Castle,-2.470972,55.665084,370471,641386,Q5940598,Scottish Borders,Scotland
+way/148755411,historic,castle,Brough Castle,-2.32355,54.521673,379155,514091,Q2351225,Cumbria,England
+way/148758487,historic,castle,Helmsley Castle,-1.064272,54.244678,461075,483625,Q4185868,North Yorkshire,England
+way/148822083,historic,castle,Conisbrough Castle,-1.22657,53.484103,451421,398877,Q3662579,South Yorkshire,England
+way/148829580,castle_type,castle,Scarborough Castle,-0.389555,54.287006,504933,489127,Q1963850,North Yorkshire,England
+way/1491326354,historic,castle,Carleton Castle,-4.93244,55.164716,213306,589525,Q17840313,South Ayrshire,Scotland
+way/149504034,historic,castle,Old Sarum Castle,-1.804764,51.093218,413769,132675,,Wiltshire,England
+way/149532514,castle_type,castle,Fort Victoria,-1.521695,50.706683,433871,89781,Q5472222,Isle of Wight,England
+way/150189798,historic,castle,Greenknowe Tower,-2.574681,55.677753,363958,642846,Q2374513,Scottish Borders,Scotland
+way/150267433,castle_type,castle,Bowes Castle,-2.013407,54.516772,399230,513497,Q4950955,Durham,England
+way/150320543,castle_type,castle,Cowes Castle - Royal Yacht Squadron,-1.301139,50.766545,449382,96561,Q17555880,Isle of Wight,England
+way/1503579297,historic,castle,Saltcoat Castle (remains);Saltcoats Castle (Remains),-2.827219,56.027049,348542,681880,Q7406057,East Lothian,Scotland
+way/150931583,castle_type,castle,Hylton Castle,-1.443168,54.922566,435787,558794,Q635086,Tyne and Wear,England
+way/152536865,historic,castle,,-0.923662,53.200928,471996,367635,,Nottinghamshire,England
+way/152539900,historic,castle,Gaddick Hill Motte and Bailey,-0.900471,53.212653,473525,368963,,Nottinghamshire,England
+way/1525954500,castle_type,castle,Castle Batch,-2.918291,51.368802,336171,163705,Q5049991,Somerset,England
+way/152742849,castle_type,castle,Castle Mound,-0.533462,52.755823,499071,318587,,Lincolnshire,England
+way/1527957900,castle_type,castle,Ritton Castle,-2.968957,52.572842,334429,297666,,Shropshire,England
+way/153291147,historic,castle,Hownam Kings Fort,-2.332988,55.468026,379046,619405,,Scottish Borders,Scotland
+way/153318286,historic,castle,Corbet Tower,-2.35525,55.508264,377661,623890,,Scottish Borders,Scotland
+way/1533605383,historic,castle,Cardrona Tower,-3.11188,55.629263,330090,637860,,Scottish Borders,Scotland
+way/1534398796,castle_type,castle,Blair Castle,-3.857501,56.773401,286579,766186,Q532627,Perth and Kinross,Scotland
+way/1535249538,historic,castle,Roundhay Castle (Folly),-1.492485,53.841233,433492,438451,Q26547712,West Yorkshire,England
+way/1535656880,historic,castle,Comyn's Tower,-3.857279,56.77325,286592,766169,,Perth and Kinross,Scotland
+way/1544571297,historic,castle,Sandgate Castle 1539,1.148802,51.073707,620680,135203,,Kent,England
+way/156603300,historic,castle,House of the Binns,-3.523137,55.990526,305082,678554,Q5915597,West Lothian,Scotland
+way/158241720,castle_type,castle,Claypotts Castle,-2.889959,56.476431,345278,731945,Q1812387,Dundee City,Scotland
+way/158261637,castle_type,castle,Standen Park House,-2.776517,54.047088,349254,461515,,Lancashire,England
+way/159191864,historic,castle,Gwrych Castle,-3.608815,53.283347,292838,377471,Q3395336,Clwyd,Wales
+way/159481028,castle_type,castle,Triangular Lodge,-0.779866,52.43934,483038,283074,Q7380877,Northamptonshire,England
+way/161222666,historic,castle,Fenton Tower,-2.734409,56.029558,354329,682094,Q10383704,East Lothian,Scotland
+way/161753107,historic,castle,St Mawes Castle,-5.023769,50.155422,184102,32752,,Cornwall,England
+way/161800467,historic,castle,Marlborough House,-0.136061,51.504982,529462,180097,Q565532,Greater London,England
+way/162578773,castle_type,castle,Charlton House,0.037128,51.480681,541557,177715,Q3656999,Greater London,England
+way/163664229,historic,castle,Patterton Tower,-4.332974,55.789746,253817,657624,,East Renfrewshire,Scotland
+way/16459858,historic,castle,Nottingham Castle,-1.154531,52.94935,456904,339442,Q17642916,Nottinghamshire,England
+way/165491426,historic,castle,Castle Cottage,-4.659536,51.163024,214141,143783,,Devon,England
+way/166612287,historic,castle,Castle Rising,0.468988,52.792927,566575,324564,Q1049485,Norfolk,England
+way/167782318,castle_type,castle,Monmouth Castle,-2.716937,51.812317,350672,212875,Q525635,Gwent,Wales
+way/168001936,castle_type,castle,Wickhamford Manor House,-1.902222,52.078219,406798,242211,,Worcestershire,England
+way/169563667,historic,castle,St Mawes Castle,-5.024052,50.15528,184082,32737,Q3662856,Cornwall,England
+way/170342435,castle_type,castle,Carberry Tower,-3.020594,55.916017,336308,669685,Q5037851,East Lothian,Scotland
+way/170372345,historic,castle,Scalloway Castle,-1.27409,60.135586,440425,1139228,Q2278591,Shetland Islands,Scotland
+way/170379299,historic,castle,Muness Castle,-0.849186,60.688738,462951,1201165,Q2278554,Shetland Islands,Scotland
+way/170658041,historic,castle,Edinample Castle,-4.26575,56.375526,260172,722663,Q5338115,Stirling,Scotland
+way/171966190,castle_type,castle,Wray Castle,-2.96427,54.40065,337498,501004,Q8037645,Cumbria,England
+way/172235571,historic,castle,Redcastle,-4.365705,57.51346,258385,849500,Q7305546,Highland,Scotland
+way/172569730,historic,castle,Betchworth Castle,-0.296275,51.237332,519035,150062,Q4897394,Surrey,England
+way/173830514,historic,castle,Carrick Castle,-4.905714,56.108863,219409,694483,Q32698,Argyll and Bute,Scotland
+way/174931892,historic,castle,Bishop's Palace,-3.217595,51.49459,315569,177997,Q15199454,South Glamorgan,Wales
+way/175606745,historic,castle,Drumlanrig Castle,-3.809248,55.274233,285157,599280,Q2184812,Dumfries and Galloway,Scotland
+way/177023800,castle_type,castle,Tissington Hall,-1.740852,53.06811,417462,352350,Q7809651,Derbyshire,England
+way/178206517,historic,castle,Balgray Tower,-4.229454,55.887203,260656,668254,Q17811017,Glasgow City,Scotland
+way/178539382,historic,castle,Amberley Castle,-0.539983,50.908983,502746,113183,Q4741357,West Sussex,England
+way/178551367,castle_type,,Winton Castle,-2.90047,55.915212,343814,669491,Q8026614,East Lothian,Scotland
+way/178807847,historic,castle,,-0.69606,51.370783,490863,164331,Q582085,Surrey,England
+way/179159254,historic,castle,Lennox Castle,-4.235606,55.977401,260596,678302,Q17568297,East Dunbartonshire,Scotland
+way/180165788,historic,castle,Ballone Castle,-3.805286,57.830304,292890,883735,Q20013922,Highland,Scotland
+way/181364588,castle_type,manor,Tyrells Hall,0.036473,52.109338,539558,247624,,Cambridgeshire,England
+way/185414185,historic,castle,Newark Castle,-2.919757,55.554768,342077,629393,Q2100417,Scottish Borders,Scotland
+way/187153778,historic,castle,Castle of Pitsligo,-2.106682,57.692386,393739,866955,Q9705658,Aberdeenshire,Scotland
+way/187153780,historic,castle,Castle of Pittulie,-2.093536,57.693018,394523,867025,,Aberdeenshire,Scotland
+way/187453687,historic,castle,Helmingham Hall,1.196599,52.174045,618671,257683,Q12059832,Suffolk,England
+way/188118769,castle_type,castle,,-2.761671,53.899671,350049,445103,,Lancashire,England
+way/188147808,historic,castle,Dinton Folly,-0.891522,51.79734,476539,211547,Q5278736,Buckinghamshire,England
+way/188283032,historic,castle,Highcliffe Castle,-1.71381,50.738008,420292,93194,Q5757915,Dorset,England
+way/188698013,historic,castle,Chesterhouse Tower,-2.361474,55.476059,377249,620308,,Scottish Borders,Scotland
+way/189966655,castle_type,castle,Farnham Castle,-0.802188,51.218621,483752,147284,Q5436016,Surrey,England
+way/190116370,castle_type,castle,Castle Leod,-4.534995,57.598472,248601,859326,Q5050177,Highland,Scotland
+way/190293233,historic,castle,Castle (site of),-1.56176,52.417697,429902,280057,,West Midlands,England
+way/190655746,castle_type,citywalls,Roman walled town at Horncastle,-0.11719,53.208321,525842,369571,,Lincolnshire,England
+way/190824944,historic,castle,Boothby Hall,-0.559311,52.86505,497084,330702,Q26459085,Lincolnshire,England
+way/190846628,historic,castle,Old Hawarden Castle,-3.01986,53.18088,331940,365350,Q3404121,Clwyd,Wales
+way/190852361,historic,castle,Corsbie Tower (ruin),-2.625735,55.686431,360756,643839,,Scottish Borders,Scotland
+way/193457121,castle_type,castle,Caludon Castle,-1.451792,52.418052,437381,280148,Q5024019,West Midlands,England
+way/194660482,historic,castle,Corgarff Castle,-3.23426,57.162802,325448,808670,Q2157892,Aberdeenshire,Scotland
+way/195551073,castle_type,castle,Narberth Castle,-4.742451,51.796366,210984,214416,Q6965584,Dyfed,Wales
+way/198162100,historic,castle,Dolforwyn Castle,-3.252175,52.546454,315184,295026,Q1235495,Powys,Wales
+way/19830757,castle_type,castle,Kew Palace,-0.295079,51.483824,518481,177475,Q1050082,Greater London,England
+way/198677355,castle_type,castle,Bolsover Castle,-1.297627,53.231358,446983,370710,Q2968590,Derbyshire,England
+way/198844270,castle_type,ruins,Acton Burnell Castle,-2.689786,52.61287,353391,301901,Q4677663,Shropshire,England
+way/199199380,historic,castle,Hopton Castle,-2.931857,52.395826,336689,277943,Q9293795,Shropshire,England
+way/199274535,historic,castle,Craigcrook Castle,-3.265733,55.95495,321066,674271,,City of Edinburgh,Scotland
+way/199894161,castle_type,castle,Castle Sween,-5.665547,55.947999,171231,678843,Q3174,Argyll and Bute,Scotland
+way/199990003,historic,castle,Dunselma,-4.899581,55.985355,219213,680727,,Argyll and Bute,Scotland
+way/200690847,historic,castle,Ravensworth Castle Gatehouse,-1.782082,54.464563,414223,507709,,North Yorkshire,England
+way/202650082,historic,castle,Etal Castle,-2.120811,55.647298,392495,639313,Q17527573,Northumberland,England
+way/203867228,historic,castle,,-0.192818,53.101783,521091,357591,,Lincolnshire,England
+way/203867229,historic,castle,,-0.192205,53.101603,521132,357572,,Lincolnshire,England
+way/203867230,historic,castle,,-0.192834,53.101116,521091,357517,,Lincolnshire,England
+way/204317322,historic,castle,Thirlestane Castle (Ruin),-2.694031,55.717917,356498,647384,,Scottish Borders,Scotland
+way/204331943,historic,castle,Cubbie Roo's Castle,-2.976822,59.119825,344174,1026296,Q2459452,Orkney Islands,Scotland
+way/204569206,castle_type,castle,Castell Dolwyddelan,-3.908374,53.052962,272185,352337,Q2369922,Clwyd,Wales
+way/204661302,castle_type,castle,Balfour Castle,-2.916762,59.031655,347478,1016430,Q4850755,Orkney Islands,Scotland
+way/204998520,historic,castle,Brougham Castle,-2.718994,54.653962,353709,529000,Q2968700,Cumbria,England
+way/205001517,castle_type,castle,Carlisle Castle,-2.942041,54.897208,339682,556237,Q614836,Cumbria,England
+way/205506104,castle_type,castle,Bickleigh Castle,-3.512541,50.851455,293623,106861,Q4903673,Devon,England
+way/207657299,castle_type,castle,Newton St Loe Castle,-2.441003,51.374041,369400,163980,Q7020368,Somerset,England
+way/207779686,historic,castle,Bolingbroke Castle,0.016877,53.16518,534930,365017,Q3241847,Lincolnshire,England
+way/208046270,castle_type,castle,Carolside,-2.696389,55.650483,356274,639881,Q5045291,Scottish Borders,Scotland
+way/208491598,castle_type,castle,Cowdenknowes House,-2.672823,55.625206,357730,637053,Q17568499,Scottish Borders,Scotland
+way/210247248,historic,castle,Insole Court,-3.225186,51.492085,315037,177728,Q6038209,South Glamorgan,Wales
+way/210280965,castle_type,castle,Sandsfoot Castle,-2.460825,50.595232,367479,77380,Q1164888,Dorset,England
+way/210552183,historic,castle,Taymouth Castle,-3.981341,56.594683,278437,746510,Q1541584,Perth and Kinross,Scotland
+way/211191247,castle_type,castle,Breachacha Castle,-6.627968,56.590734,115994,753901,,Argyll and Bute,Scotland
+way/211191249,castle_type,castle,Breachacha House,-6.629626,56.591609,115899,754005,Q15116815,Argyll and Bute,Scotland
+way/213217400,historic,castle,Kinnaird Castle,-3.232506,56.44615,324118,728901,,Perth and Kinross,Scotland
+way/213851354,castle_type,castle,Castle Menzies,-3.897164,56.623933,283695,749619,Q1049450,Perth and Kinross,Scotland
+way/215118905,historic,castle,Dundonald Castle,-4.597329,55.576786,236358,634522,Q2844574,South Ayrshire,Scotland
+way/215831528,castle_type,castle,Duntarvie Castle,-3.458916,55.97267,309046,676480,Q5315754,West Lothian,Scotland
+way/216528615,castle_type,castle,Thornton Manor,-3.051957,53.327703,330035,381715,Q7796547,Merseyside,England
+way/216883959,castle_type,castle,Megginch Castle,-3.230114,56.407517,324188,724599,,Perth and Kinross,Scotland
+way/217186326,historic,castle,Stansted Mountfitchet Castle,0.201652,51.902927,551564,225000,Q16248130,Essex,England
+way/217356741,historic,castle,Shirburn Castle,-0.994387,51.658405,469658,195992,Q7498342,Oxfordshire,England
+way/217834653,historic,castle,Fowlis Castle,-3.103399,56.487219,332150,733337,Q16981278,Angus,Scotland
+way/219378505,historic,castle,,-2.64072,51.738284,355854,204592,,Gloucestershire,England
+way/219650194,castle_type,castle,Featherstone Castle,-2.510532,54.942193,367392,560956,Q5439646,Northumberland,England
+way/219814352,castle_type,castle,Bellister Castle,-2.469005,54.960384,370066,562962,Q4884057,Northumberland,England
+way/220925997,castle_type,castle,Athelhampton House,-2.326539,50.747686,377059,94282,Q19832956,Dorset,England
+way/221405468,historic,castle,Locking Head Castle,-2.914843,51.343416,336376,160879,,Somerset,England
+way/221610493,castle_type,castle,Glenbarr Abbey - Clan Macalister Museum & Tea Room,-5.696772,55.565049,167007,636359,Q17770472,Argyll and Bute,Scotland
+way/221846437,castle_type,castle,Leith Hall,-2.764739,57.356231,354087,829786,Q6520390,Aberdeenshire,Scotland
+way/222122369,castle_type,castle,Loughor Castle,-4.07741,51.662196,256413,197979,Q6686227,West Glamorgan,Wales
+way/222766489,historic,castle,Pennard Castle,-4.102179,51.57658,254426,188507,Q4185855,West Glamorgan,Wales
+way/223554899,historic,castle,Castle Lachlan,-5.197238,56.111336,201301,695560,Q11839510,Argyll and Bute,Scotland
+way/224143298,historic,castle,Pollok Castle,-4.355523,55.782661,252377,656884,,East Renfrewshire,Scotland
+way/224281268,historic,castle,Crookston Castle,-4.35584,55.835124,252556,662721,Q1966112,Glasgow City,Scotland
+way/224487643,historic,castle,Meggernie Castle,-4.356162,56.583917,255385,746039,,Perth and Kinross,Scotland
+way/225091594,historic,castle,Evelaw Tower (remains of),-2.541617,55.765245,366114,652566,,Scottish Borders,Scotland
+way/225476573,castle_type,castle,Mount Edgcumbe House,-4.175959,50.354315,245303,52754,Q6920546,Cornwall,England
+way/228014356,historic,castle,Edrington Castle (Ruins),-2.0965,55.773731,394045,653382,,Scottish Borders,Scotland
+way/228532001,historic,castle,Riber Castle,-1.54312,53.127841,430669,359061,Q7322322,Derbyshire,England
+way/228989320,castle_type,castle,Richmond Castle,-1.737373,54.401656,417147,500719,Q6645746,North Yorkshire,England
+way/22948468,historic,castle,Kinneil House,-3.63421,56.007152,298197,680562,Q6414052,Falkirk,Scotland
+way/229752726,historic,castle,Foss Castle,-0.717483,54.494406,483167,511765,,North Yorkshire,England
+way/229903962,historic,castle,Mains Castle,-4.18924,55.778169,262787,656042,Q17567700,South Lanarkshire,Scotland
+way/231443457,castle_type,castle,Chilham Castle,0.959865,51.243043,606688,153481,Q5098912,Kent,England
+way/231680255,historic,castle,Scaleby Castle,-2.861755,54.953693,344908,562456,Q7429730,Cumbria,England
+way/231942152,castle_type,castle,Skaill House,-3.336486,59.047704,323423,1018623,Q1996368,Orkney Islands,Scotland
+way/232119717,castle_type,castle,Saddell Castle,-5.504537,55.527442,178911,631547,Q168089,Argyll and Bute,Scotland
+way/232490930,castle_type,archaeological_site,Duffield Castle,-1.489526,52.99263,434362,344044,Q2073299,Derbyshire,England
+way/232569919,historic,castle,Thurso Castle,-3.507962,58.599442,312462,968926,Q2745807,Highland,Scotland
+way/232578467,historic,castle,St Andrews Castle,-2.790012,56.342256,351263,716936,Q2287936,Fife,Scotland
+way/232664199,castle_type,building,Vicar's Pele,-2.019439,54.974268,398854,564406,Q5169784,Northumberland,England
+way/232823958,historic,castle,Thirlestane Castle,-2.743818,55.722393,353375,647915,Q17567863,Scottish Borders,Scotland
+way/233183202,historic,castle,Drummond Castle,-3.87115,56.340648,284432,718049,Q5309218,Perth and Kinross,Scotland
+way/233337437,historic,castle,,-1.867257,52.093045,409191,243864,,Worcestershire,England
+way/233574700,historic,castle,Launceston Castle,-4.36206,50.63721,233067,84610,Q402848,Cornwall,England
+way/233574701,historic,castle,Launceston Castle,-4.36146,50.637566,233110,84648,,Cornwall,England
+way/233911485,historic,castle,Glentruim Castle,-4.174504,57.026591,268106,794933,,Highland,Scotland
+way/23524731,castle_type,castle,Hardwick Hall,-1.308721,53.168836,446309,363747,Q2526406,Derbyshire,England
+way/23580556,historic,castle,Windsor Castle,-0.60486,51.483586,496973,176993,Q42646,Berkshire,England
+way/23600122,castle_type,castle,Thornbury Castle Hotel,-2.530302,51.613911,363378,190698,Q7796332,Gloucestershire,England
+way/236177284,historic,castle,Odiham Castle,-0.961633,51.261399,472549,151872,Q7077792,Hampshire,England
+way/237140835,castle_type,castle,Drumin Castle,-3.357325,57.35625,318435,830344,Q3303787,Moray,Scotland
+way/240018532,castle_type,castle,Spofforth Castle,-1.452476,53.954881,436027,451115,Q7578812,North Yorkshire,England
+way/24006318,castle_type,castle,Caerphilly Castle,-3.220313,51.576051,315531,187060,Q682601,Gwent,Wales
+way/24057691,historic,castle,Blaise Castle,-2.637338,51.502553,355859,178372,Q31109020,Bristol,England
+way/240605517,historic,castle,Sneaton Castle Centre,-0.642426,54.483334,488052,510624,,North Yorkshire,England
+way/241620017,castle_type,castle,Caisteal Maol,-5.720519,57.272628,175800,826351,Q440438,Highland,Scotland
+way/241873812,castle_type,,Cloncaird Castle,-4.590236,55.334633,235801,607565,Q17841913,South Ayrshire,Scotland
+way/24304491,historic,castle,Berkhamsted Castle,-0.559145,51.763899,499532,208228,Q4892150,Hertfordshire,England
+way/243476694,historic,castle,Twizel Castle,-2.187717,55.684,388295,643407,Q7858638,Northumberland,England
+way/243605111,historic,castle,Norham Castle,-2.151004,55.721094,390613,647530,Q388705,Northumberland,England
+way/243672045,castle_type,castle,New Slains Castle,-1.83228,57.415325,410174,836118,Q779211,Aberdeenshire,Scotland
+way/243764607,castle_type,castle,Crichton Castle,-2.991336,55.839557,338014,661149,Q2576658,Midlothian,Scotland
+way/243856789,castle_type,castle,Skipness Castle,-5.336368,55.768071,190809,657789,Q486383,Argyll and Bute,Scotland
+way/243949451,historic,castle,Tarbert Castle,-5.409619,55.863896,186741,668671,Q1754745,Argyll and Bute,Scotland
+way/244349050,historic,castle,Oxenfoord Castle,-2.979527,55.878772,338816,665502,Q7115182,Midlothian,Scotland
+way/245872264,castle_type,castle,Saint Catherine's Castle,-4.644512,50.328257,211872,50937,Q1377108,Cornwall,England
+way/246018581,historic,castle,Candleston Castle,-3.626833,51.482918,287132,177251,Q2614456,Mid Glamorgan,Wales
+way/246038277,historic,castle,Wilton Castle,-1.102359,54.568769,458134,519653,Q8023366,North Yorkshire,England
+way/246737318,castle_type,castle,Kilmartin Castle,-5.484709,56.135581,183570,699123,Q6408002,Argyll and Bute,Scotland
+way/248633871,castle_type,castle,Dalcross Castle,-4.040299,57.508373,277858,848301,Q17567907,Highland,Scotland
+way/249334136,historic,castle,Achnacarry House,-4.99921,56.946935,217672,787968,Q3299043,Highland,Scotland
+way/250382844,castle_type,castle,Hoar Cross Hall,-1.819014,52.805572,412298,323129,Q5874525,Staffordshire,England
+way/250946280,historic,castle,Tilquhillie Castle,-2.460053,57.037549,372179,794145,,Aberdeenshire,Scotland
+way/254613618,castle_type,castle,Erchless Castle,-4.649193,57.429619,241044,840797,Q5385208,Highland,Scotland
+way/254744618,historic,castle,Stobs Castle,-2.78073,55.369692,350615,608689,,Scottish Borders,Scotland
+way/256167879,historic,castle,Lewes Castle - Barbican gate,0.008357,50.872845,541405,110071,,East Sussex,England
+way/256167880,historic,castle,Lewes Castle - Shell Keep,0.007517,50.872811,541346,110065,,East Sussex,England
+way/256497415,castle_type,castle,Torrisdale Castle Estate,-5.501272,55.568839,179350,636141,Q7827157,Argyll and Bute,Scotland
+way/256784055,historic,castle,Lochranza Castle,-5.291127,55.705308,193314,650672,Q2340545,North Ayrshire,Scotland
+way/257907987,historic,castle,Slingsby Castle,-0.935439,54.165037,469604,474883,Q17649980,North Yorkshire,England
+way/259847422,historic,castle,Bedlay Castle,-4.094034,55.90579,269188,670057,Q4879296,North Lanarkshire,Scotland
+way/26003437,castle_type,castle,Kenilworth Castle,-1.591906,52.347982,427896,272291,Q1738764,Warwickshire,England
+way/260640724,historic,castle,Craster Tower,-1.604277,55.469429,425116,619582,,Northumberland,England
+way/262103059,castle_type,castle,Balgonie Castle,-3.109443,56.19386,331251,700692,Q4850794,Fife,Scotland
+way/262749815,castle_type,castle,Hilfield Castle,-0.335122,51.653551,515271,196286,Q5761802,Hertfordshire,England
+way/262826888,castle_type,castle,Port Eliot,-4.309428,50.397188,235957,57806,Q7230603,Cornwall,England
+way/263081628,historic,castle,Balintore Castle,-3.161177,56.717393,329026,759014,Q4850964,Angus,Scotland
+way/263093518,castle_type,castle,Castle Fraser,-2.460578,57.20312,372272,812576,Q1049410,Aberdeenshire,Scotland
+way/264140155,historic,castle,Fa'side Castle,-2.997467,55.927824,337772,670978,Q5427531,East Lothian,Scotland
+way/264644146,historic,castle,Brynkir Tower,-4.200852,52.967796,252293,343427,Q29484005,Gwynedd,Wales
+way/264922846,castle_type,castle,Askerton Castle,-2.70481,55.015938,355029,569270,Q15192686,Cumbria,England
+way/26658038,castle_type,castle,Dover Castle,1.32255,51.12842,632574,141821,Q950970,Kent,England
+way/266638801,castle_type,castle,Duncraig Castle,-5.63361,57.338087,181425,833349,Q15618499,Highland,Scotland
+way/26679879,historic,castle,Castell Llanhuadain,-4.797653,51.822279,207289,217442,Q2637887,Dyfed,Wales
+way/26680442,castle_type,castle,Carew Castle,-4.829904,51.698381,204532,203752,Q752721,Dyfed,Wales
+way/267656827,castle_type,castle,Rode Hall,-2.272135,53.112951,381881,357342,Q7356511,Cheshire,England
+way/27102675,castle_type,castle,Hastings Castle,0.585069,50.856057,582043,109466,Q5680295,East Sussex,England
+way/27133347,castle_type,castle,Caverswall Castle,-2.07464,52.982606,395086,342810,Q5055092,Staffordshire,England
+way/271590696,historic,castle,Castle Craig,-4.293479,57.643408,263200,863813,Q5050486,Highland,Scotland
+way/271728318,historic,castle,Battle Abbey,0.485941,50.915041,574846,115785,Q810981,East Sussex,England
+way/271903259,castle_type,castle,Earlshall Castle,-2.868217,56.37896,346480,721079,Q17574377,Fife,Scotland
+way/272604813,historic,castle,Twthill Castle,-3.461794,53.28687,302647,377653,Q7859519,Clwyd,Wales
+way/274810567,historic,castle,Barnard Castle,-1.926368,54.543488,404861,516472,Q17644043,Durham,England
+way/274810581,historic,castle,,-1.925457,54.543068,404920,516426,,Durham,England
+way/274812914,historic,castle,,-1.924947,54.543727,404953,516499,,Durham,England
+way/27570926,castle_type,castle,Craig-y-Nos Castle,-3.684181,51.82508,284027,215393,Q5180663,Powys,Wales
+way/275932847,historic,castle,Gylen Castle,-5.556657,56.379395,180504,726469,Q1357566,Argyll and Bute,Scotland
+way/276673910,castle_type,castle,Castle Stalker,-5.386072,56.571537,192085,747309,Q217058,Argyll and Bute,Scotland
+way/27782649,castle_type,castle,Hedingham Castle,0.601429,51.992479,578707,235865,Q1146583,Essex,England
+way/27788465,castle_type,castle,Pickering Castle,-0.775911,54.250156,479855,484522,Q7190805,North Yorkshire,England
+way/279579285,castle_type,castle,Dunster Castle,-3.443703,51.181665,299188,143484,Q2969173,Somerset,England
+way/28035807,castle_type,ruins,Halton Castle,-2.695926,53.333119,353753,382027,Q2301986,Cheshire,England
+way/280922297,historic,castle,Kenmure Castle,-4.138356,55.063269,263533,576400,Q16893264,Dumfries and Galloway,Scotland
+way/28334205,castle_type,castle,The Archbishop's Palace,0.521078,51.27105,575960,155452,Q4785587,Kent,England
+way/28528350,historic,castle,,-3.148782,55.932586,328326,671654,,City of Edinburgh,Scotland
+way/285826485,historic,castle,Motte,0.337449,51.904222,560900,225435,,Essex,England
+way/285871977,historic,castle,Law Castle,-4.848104,55.696089,221098,648413,Q6502991,North Ayrshire,Scotland
+way/285871979,historic,castle,Portencross Castle,-4.904935,55.699353,217543,648925,Q7231565,North Ayrshire,Scotland
+way/28621900,historic,castle,Colchester Castle,0.903146,51.890496,599871,225310,Q198287,Essex,England
+way/28759731,castle_type,,Robin Hood Tower,-1.082078,53.964618,460319,452450,,North Yorkshire,England
+way/287803825,historic,castle,Lickleyhead Castle,-2.620342,57.302038,362720,823664,,Aberdeenshire,Scotland
+way/288971548,historic,castle,Dunaverty Castle,-5.644214,55.30696,168814,607481,Q31095458,Argyll and Bute,Scotland
+way/290175059,historic,castle,Halkyn Castle,-3.185703,53.229312,320946,370909,Q5642524,Clwyd,Wales
+way/291513793,historic,castle,Brochel Castle,-6.026769,57.44231,158467,846272,Q923441,Highland,Scotland
+way/29264611,historic,castle,Haverfordwest Castle,-4.970188,51.802677,195312,215733,Q5683760,Dyfed,Wales
+way/293334418,castle_type,castle,Ackergil Tower,-3.111388,58.475435,335279,954670,Q2968039,Highland,Scotland
+way/293598135,historic,castle,Dartmouth Castle,-3.565762,50.341757,288679,50265,Q675259,Devon,England
+way/295565763,castle_type,castle,Castle Coeffin,-5.49244,56.536793,185357,743772,Q81950586,Argyll and Bute,Scotland
+way/295565765,historic,castle,Achadun Castle,-5.568551,56.49416,180433,739271,Q3662454,Argyll and Bute,Scotland
+way/296332065,historic,castle,Castle Keep North,-4.65956,51.162976,214140,143778,,Devon,England
+way/296332653,historic,castle,Castle Keep East,-4.659453,51.162914,214147,143771,,Devon,England
+way/296332654,historic,castle,Castle Keep South,-4.659601,51.162898,214136,143769,,Devon,England
+way/296332655,historic,castle,Marisco Castle,-4.659304,51.162939,214157,143773,Q17536384,Devon,England
+way/296332656,historic,castle,Marisco Castle,-4.659638,51.162946,214134,143775,,Devon,England
+way/297367809,castle_type,castle,Saltwood Castle,1.08467,51.081844,616150,135918,Q402419,Kent,England
+way/297369262,castle_type,castle,Dymchurch Redoubt,1.036581,51.048949,612933,132121,Q3422931,Kent,England
+way/297495782,castle_type,castle,Camber Castle,0.733682,50.933581,592182,118462,Q2968747,East Sussex,England
+way/297495783,castle_type,ruins,Cooling Castle,0.522403,51.45524,575348,175935,Q5167493,Kent,England
+way/297495786,castle_type,castle,Upnor Castle,0.527013,51.406862,575853,170567,Q7898392,Kent,England
+way/297502776,castle_type,castle,Castle Goring,-0.435386,50.839934,510262,105656,Q5050092,West Sussex,England
+way/297502777,historic,castle,Lewes Castle,0.007535,50.87287,541347,110072,Q386703,East Sussex,England
+way/29846121,castle_type,castle,Portchester Castle,-1.114525,50.837375,462448,104578,Q732249,Hampshire,England
+way/298654392,castle_type,castle,Castle Stuart,-4.10304,57.520705,274142,849788,Q5050311,Highland,Scotland
+way/299593900,historic,castle,Fairlie Castle,-4.849313,55.754274,221289,654889,Q17830889,North Ayrshire,Scotland
+way/300815287,historic,castle,Hunterston Castle,-4.87879,55.723018,219295,651489,Q15115311,North Ayrshire,Scotland
+way/301619946,historic,castle,Hawarden Castle,-3.01604,53.181759,332196,365444,Q370127,Clwyd,Wales
+way/301645315,castle_type,castle,Bamburgh Castle,-1.7103,55.609103,418349,635093,Q2026185,Northumberland,England
+way/303529017,castle_type,castle,Powis Castle,-3.16096,52.649946,321555,306434,Q1377263,Powys,Wales
+way/30475890,historic,castle,Liberton Tower,-3.177402,55.914573,326504,669680,Q6541506,City of Edinburgh,Scotland
+way/30489383,historic,castle,Finlarig Castle,-4.315022,56.474965,257502,733830,,Stirling,Scotland
+way/305147686,historic,castle,Castell Cilgerran / Cilgeran Castle,-4.634321,52.056944,219489,243116,Q1774870,Dyfed,Wales
+way/305446966,historic,castle,Eye Castle,1.150141,52.320118,614789,273785,Q5422609,Suffolk,England
+way/305573766,historic,castle,Tickhill Castle,-1.108296,53.42921,459346,392861,Q2970813,South Yorkshire,England
+way/305580845,historic,castle,Tullibole Castle,-3.528036,56.188357,305264,700577,Q17569986,Perth and Kinross,Scotland
+way/306426048,historic,castle,Drumtochty Castle,-2.494574,56.910764,369982,780046,,Aberdeenshire,Scotland
+way/30665953,historic,castle,"Osborne House, Garden and Grounds",-1.266326,50.750544,451855,94806,Q565155,Isle of Wight,England
+way/308924228,castle_type,castle,Braemar Castle,-3.391337,57.014689,315612,792367,Q897169,Aberdeenshire,Scotland
+way/309063854,historic,castle,Caldicot Castle,-2.742567,51.593125,348657,188514,Q2968744,Gwent,Wales
+way/309116675,castle_type,castle,Inverness Castle,-4.225671,57.476439,266637,845096,Q6060213,Highland,Scotland
+way/311202239,castle_type,castle,Haldon Belvedere (Lawrence Castle),-3.592746,50.664122,287529,86150,Q17534686,Devon,England
+way/31249534,historic,castle,Clearwell Castle,-2.624604,51.766364,356993,207705,Q5130970,Gloucestershire,England
+way/31396161,historic,castle,Dundas Castle,-3.414727,55.975073,311809,676690,Q5314756,City of Edinburgh,Scotland
+way/31404857,castle_type,castle,Barnbougle Castle,-3.33439,55.992448,316860,678524,Q4861457,City of Edinburgh,Scotland
+way/314201737,castle_type,castle,Castle Piece,-1.718761,50.879291,419883,108904,Q17671859,Hampshire,England
+way/314617709,historic,castle,Johnstone Castle,-4.507601,55.827901,243024,662252,Q17837865,Renfrewshire,Scotland
+way/315710904,historic,castle,,-4.462433,51.769901,230191,210783,,Dyfed,Wales
+way/315821674,historic,castle,Dairsie Castle,-2.949798,56.333061,341372,716037,Q5209554,Fife,Scotland
+way/317391728,castle_type,manor,Vale Royal Abbey,-2.542576,53.224519,363873,369857,Q1623747,Cheshire,England
+way/318341250,castle_type,castle,Castell Newydd Emlyn,-4.46332,52.039099,231144,240720,Q4516540,Dyfed,Wales
+way/320496359,castle_type,castle,Muncaster Castle,-3.380887,54.354677,310353,496340,Q6935640,Cumbria,England
+way/321914645,historic,castle,Glandyfi Castle,-3.930519,52.552287,269206,296690,,Dyfed,Wales
+way/322463017,historic,castle,Old Largie Castle,-5.645743,55.674179,170862,648325,,Argyll and Bute,Scotland
+way/324049962,castle_type,castle,Merchiston Tower,-3.21392,55.933336,324258,671807,Q1921452,City of Edinburgh,Scotland
+way/32594241,historic,castle,The Gatehouse,-1.591442,52.347223,427928,272206,,Warwickshire,England
+way/32594582,castle_type,castle,Leicester's Building,-1.592535,52.34748,427853,272235,,Warwickshire,England
+way/32594584,castle_type,castle,The Keep,-1.592737,52.348054,427839,272298,,Warwickshire,England
+way/32594594,historic,castle,Gaunt Tower,-1.593484,52.347946,427788,272286,,Warwickshire,England
+way/32594595,castle_type,castle,The Kitchen,-1.593136,52.348005,427812,272293,,Warwickshire,England
+way/32594596,castle_type,castle,,-1.593094,52.347597,427815,272247,,Warwickshire,England
+way/326543547,castle_type,castle,Isel Hall,-3.307078,54.691046,315845,533674,Q6079634,Cumbria,England
+way/327768958,castle_type,castle,Hutton-in-the-Forest,-2.839027,54.714115,346045,535780,Q5951100,Cumbria,England
+way/327970316,historic,castle,Greystoke Castle,-2.87693,54.670113,343542,530913,Q5608483,Cumbria,England
+way/32825099,historic,castle,Severndroog Castle,0.060045,51.466634,543192,176197,Q12407683,Greater London,England
+way/328438633,historic,castle,The Peel,-3.580246,53.285463,294748,377664,,Clwyd,Wales
+way/330640896,castle_type,castle,Carlowrie Castle,-3.375594,55.955509,314208,674464,Q66446808,City of Edinburgh,Scotland
+way/331407045,castle_type,castle,Hay Castle,-3.126122,52.073903,322914,242325,Q15114193,Powys,Wales
+way/331526791,historic,castle,Dacre Castle,-2.837434,54.630658,346037,526492,Q5207734,Cumbria,England
+way/332444152,historic,castle,Eshott Castle,-1.686717,55.281406,419998,598630,Q17643301,Northumberland,England
+way/333902323,historic,castle,Craiglockhart Castle,-3.238343,55.919304,322705,670273,Q5181716,City of Edinburgh,Scotland
+way/335345484,historic,castle,Trematon Castle,-4.238013,50.400224,241043,57989,Q7838051,Cornwall,England
+way/337577096,historic,castle,Armathwaite Castle,-2.770463,54.805298,350573,545875,Q4792899,Cumbria,England
+way/338302460,historic,castle,Kirkoswald Castle,-2.686086,54.762165,355950,541019,Q6415799,Cumbria,England
+way/338444486,castle_type,castle,Howgill Castle,-2.52057,54.657753,366514,529309,Q17530607,Cumbria,England
+way/338953244,historic,castle,High Head Castle,-2.930105,54.781356,340277,543336,Q12060055,Cumbria,England
+way/340534811,castle_type,castle,Sanquhar Castle,-3.918357,55.361979,278495,609228,Q194538,Dumfries and Galloway,Scotland
+way/34159833,historic,castle,Strome Castle,-5.5559,57.359133,186222,835442,Q2970732,Highland,Scotland
+way/343001044,castle_type,castle,Melville Castle,-3.104327,55.891014,331030,666982,Q144909,Midlothian,Scotland
+way/343197023,castle_type,castle,Lincoln Castle,-0.54105,53.234981,497476,371876,Q727760,Lincolnshire,England
+way/343267061,historic,castle,Dalton Castle,-3.186463,54.155441,322615,473942,Q5211673,Cumbria,England
+way/343421873,historic,castle,Brougham Hall,-2.73281,54.648145,352811,528362,Q4975776,Cumbria,England
+way/343455514,historic,castle,Naworth Castle,-2.688677,54.95601,355995,562591,Q17530474,Cumbria,England
+way/344277132,castle_type,castle,Ford Castle,-2.089784,55.631408,394445,637541,Q4185866,Northumberland,England
+way/344505637,historic,castle,Rosslyn Castle,-3.160058,55.852589,327473,662763,Q1761393,Midlothian,Scotland
+way/344726905,historic,castle,Etal Castle,-2.120231,55.64733,392531,639316,Q1981061,Northumberland,England
+way/345311459,castle_type,castle,Invercauld House,-3.362027,57.015685,317394,792442,Q6060038,Aberdeenshire,Scotland
+way/345493132,castle_type,castle,Barmoor Castle,-2.006039,55.652438,399718,639878,Q2968445,Northumberland,England
+way/346241093,historic,castle,Heaton Castle (remains of),-2.158869,55.670695,390106,641922,,Northumberland,England
+way/346970796,historic,castle,Donnington Castle,-1.338306,51.419653,446108,169167,Q849861,Berkshire,England
+way/350627267,castle_type,castle,Chepstow Castle,-2.675507,51.643996,353355,194127,Q1070187,Gwent,Wales
+way/351745029,historic,castle,Douglas Castle,-3.837093,55.566428,284247,631838,Q5301320,South Lanarkshire,Scotland
+way/353698189,historic,castle,Knock Castle,-5.847311,57.110226,167139,808714,Q2646429,Highland,Scotland
+way/353722849,historic,castle,Duntulm Castle,-6.346926,57.684307,140997,874365,Q1266302,Highland,Scotland
+way/354645360,castle_type,castle,Dunollie Castle,-5.484581,56.426574,185218,731488,Q43374,Argyll and Bute,Scotland
+way/354648861,castle_type,castle,Armadale Castle,-5.894797,57.072604,164027,804693,Q676462,Highland,Scotland
+way/355356485,historic,castle,Fincharn Castle,-5.388161,56.185403,189839,704365,,Argyll and Bute,Scotland
+way/355385332,historic,castle,Dunyvaig Castle,-6.122995,55.633612,140602,645496,Q1266322,Argyll and Bute,Scotland
+way/3580387,castle_type,castle,Spitbank Fort,-1.098955,50.770496,463635,97155,Q2311360,Hampshire,England
+way/35902933,castle_type,castle,Castle Howard,-0.906024,54.121575,471599,470076,Q1049514,North Yorkshire,England
+way/359195181,castle_type,castle,Lochmaben Castle,-3.430841,55.116366,308835,581154,Q2920767,Dumfries and Galloway,Scotland
+way/359480200,castle_type,castle,Culzean Castle,-4.78936,55.35464,223264,610279,Q899545,South Ayrshire,Scotland
+way/35954768,castle_type,castle,Guildford Castle,-0.572442,51.234281,499763,149312,Q139629,Surrey,England
+way/359868681,historic,castle,Threave Castle,-3.96965,54.939189,273917,562278,Q607339,Dumfries and Galloway,Scotland
+way/360370450,castle_type,castle,Invermark Castle,-2.91761,56.911503,344223,780394,Q15228770,Angus,Scotland
+way/360803045,castle_type,castle,Fatlips Castle,-2.662914,55.480046,358199,620892,Q5437900,Scottish Borders,Scotland
+way/361065093,castle_type,castle,Comlongon Castle (Hotel),-3.440855,55.006548,307944,568948,Q5152050,Dumfries and Galloway,Scotland
+way/361274728,historic,castle,General's Tower,-2.76136,55.515377,352021,624888,,Scottish Borders,Scotland
+way/361352369,historic,castle,Rednock Castle,-4.257063,56.191446,260037,702163,,Stirling,Scotland
+way/361361592,castle_type,castle,Menstrie Castle,-3.853639,56.15054,284945,696864,Q6817357,Clackmannanshire,Scotland
+way/361369936,historic,castle,Dunderave Castle,-4.997834,56.242973,214332,709647,Q1265565,Argyll and Bute,Scotland
+way/361372994,historic,castle,Fraoch Eilean Castle (ruins),-5.064833,56.381004,210866,725185,,Argyll and Bute,Scotland
+way/361484453,castle_type,castle,Castle Sinclair Girnigoe,-3.067976,58.478042,337816,954919,Q489282,Highland,Scotland
+way/361828923,historic,castle,Kilcoy Castle,-4.378878,57.528818,257656,851236,Q6406680,Highland,Scotland
+way/362811862,historic,castle,Picton Castle,-4.885329,51.784071,201080,213429,Q7191106,Dyfed,Wales
+way/363891197,castle_type,ruins,Dunskey Castle,-5.109883,54.83548,200377,553395,Q3716308,Dumfries and Galloway,Scotland
+way/364367300,historic,castle,Ethie Castle,-2.510908,56.61247,368740,746850,Q868429,Angus,Scotland
+way/364430950,historic,castle,Duntrune Castle,-5.549185,56.101915,179373,695583,Q786640,Argyll and Bute,Scotland
+way/364820562,castle_type,castle,Broughty Castle,-2.869906,56.462803,346494,730413,Q2278449,Dundee City,Scotland
+way/364827012,castle_type,castle,Abergeldie Castle,-3.176445,57.04326,328715,795302,Q319583,Aberdeenshire,Scotland
+way/365033320,castle_type,castle,Kilravock Castle,-3.981709,57.51892,281402,849371,Q2969481,Highland,Scotland
+way/366502757,castle_type,castle,Winkburn Hall,-0.93767,53.117478,471198,358338,Q8025451,Nottinghamshire,England
+way/366867403,historic,castle,Llandovery Castle,-3.796477,51.992764,276749,234226,Q1493071,Dyfed,Wales
+way/366937128,historic,castle,Gunthorpe Hall,-0.717129,52.641161,486904,305596,,Rutland,England
+way/367043187,historic,castle,Invergarry Castle,-4.780591,57.065563,231503,800604,Q6060088,Highland,Scotland
+way/368980592,historic,castle,Abergavenny Castle,-3.0174,51.81977,329970,213950,Q4667087,Gwent,Wales
+way/368980598,castle_type,castle,Castell Y Fenni,-3.01789,51.819856,329937,213960,,Gwent,Wales
+way/369106487,castle_type,castle,Cardoness Castle,-4.198187,54.872388,259045,555283,Q2479330,Dumfries and Galloway,Scotland
+way/369113116,castle_type,castle,Carsluith Castle,-4.346675,54.859483,249470,554156,Q2648610,Dumfries and Galloway,Scotland
+way/369122217,castle_type,castle,Old Caerlaverock Castle,-3.521628,54.974184,302700,565456,Q61889894,Dumfries and Galloway,Scotland
+way/369135772,historic,castle,White Tower,-0.075966,51.508107,533624,180552,Q1528473,Greater London,England
+way/369357460,castle_type,castle,Mount Stuart House,-5.018934,55.79176,210830,659510,,Argyll and Bute,Scotland
+way/370870741,castle_type,castle,Tower of London,-0.076486,51.507904,533588,180528,Q62378,Greater London,England
+way/371069082,historic,castle,Castle Hill,-0.624369,53.007316,492401,346441,,Lincolnshire,England
+way/371472395,castle_type,castle,Beeston Castle,-2.693389,53.128693,353701,359283,Q539538,Cheshire,England
+way/371627102,castle_type,castle,Loudoun Castle,-4.372738,55.610559,250642,637772,Q1871345,East Ayrshire,Scotland
+way/372160385,castle_type,ruins,Okehampton Castle,-4.008099,50.730864,258377,94284,Q1419982,Devon,England
+way/372533547,castle_type,castle,Plean Castle,-3.848649,56.061713,284990,686971,Q11839490,Stirling,Scotland
+way/373871698,historic,castle,Colinton Castle,-3.254821,55.910812,321658,669346,,City of Edinburgh,Scotland
+way/37621913,castle_type,castle,Carisbrooke Castle,-1.312716,50.687542,448647,87768,Q328595,Isle of Wight,England
+way/377003891,castle_type,castle,Kyme Tower,-0.258887,53.031144,516858,349624,Q17530788,Lincolnshire,England
+way/378132805,castle_type,castle,Auckland Castle,-1.670368,54.666538,421359,530212,Q4819493,Durham,England
+way/381703822,historic,castle,Castle Kennedy,-4.948967,54.907227,211045,560929,,Dumfries and Galloway,Scotland
+way/382292292,historic,castle,Ardvreck Castle,-4.99397,58.16641,223980,923637,Q2552418,Highland,Scotland
+way/382706332,castle_type,,Wydale Hall,-0.577732,54.237148,492796,483316,,North Yorkshire,England
+way/38329530,castle_type,,Norwich Castle Museum,1.296402,52.628599,623188,308529,Q1672292,Norfolk,England
+way/383543575,castle_type,castle,Keiss Castle,-3.106255,58.538055,335693,961637,Q6383873,Highland,Scotland
+way/384433923,castle_type,castle,Rossend Castle,-3.240228,56.058719,322865,685790,Q7369777,Fife,Scotland
+way/38508605,historic,castle,Benmore House,-4.988359,56.025562,213870,685436,Q17775909,Argyll and Bute,Scotland
+way/387216817,historic,castle,Castle Varrich,-4.435461,58.475713,258071,956739,Q3662944,Highland,Scotland
+way/389305993,castle_type,castle,Hatton Castle,-3.137418,56.556442,330183,741076,Q5682149,Angus,Scotland
+way/390468216,historic,castle,Carn Brea Castle,-5.244895,50.222463,168634,40869,Q5043753,Cornwall,England
+way/390650092,historic,castle,Mearns Castle,-4.309373,55.76969,255223,655343,Q1661077,East Renfrewshire,Scotland
+way/390958280,historic,castle,Castle Forbes,-2.629133,57.26111,362148,819113,Q5050075,Aberdeenshire,Scotland
+way/39218139,historic,castle,Walmer Castle,1.399678,51.200266,637599,150055,Q2543161,Kent,England
+way/392866142,castle_type,castle,Middleton Towers,0.470213,52.729879,566898,317555,Q17536107,Norfolk,England
+way/392949843,castle_type,manor,Wallington Hall,0.403302,52.641615,562708,307586,,Norfolk,England
+way/39327323,historic,castle,Harbottle Castle,-2.108144,55.33736,393238,604818,Q5654774,Northumberland,England
+way/394633569,castle_type,castle,Hafodunos Hall,-3.696683,53.188215,286729,367025,Q5638415,Clwyd,Wales
+way/395319803,historic,castle,Belmont Castle,-3.163869,56.581658,328605,743909,,Perth and Kinross,Scotland
+way/396750474,historic,castle,Dunure Castle,-4.761756,55.405073,225236,615819,Q5315780,South Ayrshire,Scotland
+way/399199151,historic,castle,Fonmon Castle,-3.370865,51.403756,304740,168084,Q5465047,South Glamorgan,Wales
+way/39949525,castle_type,castle,Great Tower,-0.389581,54.287553,504930,489187,,North Yorkshire,England
+way/399619658,historic,castle,Castle Craig Hospital,-3.37499,55.684214,313646,644272,,Scottish Borders,Scotland
+way/40024799,historic,castle,Ralph Allen’s Sham Castle,-2.337549,51.382292,376605,164859,Q7487351,Somerset,England
+way/403494967,castle_type,castle,Knowsley Hall,-2.837483,53.438149,344463,393813,Q6423480,Merseyside,England
+way/405852050,historic,castle,Sutton Valence Castle,0.597799,51.212387,581542,149116,Q17677452,Kent,England
+way/40609405,castle_type,castle,Crownhill Fort,-4.130261,50.413387,248742,59227,Q5189558,Devon,England
+way/407107655,castle_type,castle,Midhope Castle,-3.487855,55.992135,307287,678685,Q6842247,West Lothian,Scotland
+way/407753393,castle_type,,,-4.277259,53.139496,247769,362684,,Gwynedd,Wales
+way/408198694,castle_type,castle,Castell Trefaldwyn,-3.149922,52.563474,322148,296804,Q3400816,Powys,Wales
+way/408288456,castle_type,manor,Yarner House,-3.731219,50.590112,277550,78140,Q26389689,Devon,England
+way/409069163,castle_type,castle,The Old Bishop's Palace,-3.444531,53.256153,303729,374212,Q39006431,Clwyd,Wales
+way/40946192,historic,castle,Hornby Castle,-2.632318,54.111416,358759,468578,Q1628393,Lancashire,England
+way/410663953,historic,castle,Colliston Castle,-2.632904,56.607927,361247,746406,Q5147520,Angus,Scotland
+way/413076761,historic,castle,Branxholme Castle,-2.84733,55.395955,346430,611661,Q4957731,Scottish Borders,Scotland
+way/413492248,castle_type,castle,Brechin Castle,-2.659223,56.72906,359761,759905,Q9705138,Angus,Scotland
+way/414026836,historic,castle,Gardyne Castle,-2.696456,56.62902,357370,748792,Q5522658,Angus,Scotland
+way/415136999,castle_type,castle,Melgund Castle,-2.742799,56.696529,354608,756336,Q3302289,Angus,Scotland
+way/415657308,castle_type,castle,Orchardton Castle,-3.854238,54.859109,281073,553167,Q17792581,Dumfries and Galloway,Scotland
+way/417405721,castle_type,castle,Couston Castle,-3.336984,56.051333,316825,685081,Q5178847,Fife,Scotland
+way/417595102,historic,castle,Chipchase Castle,-2.185658,55.076086,388244,575752,Q5101582,Northumberland,England
+way/417617998,castle_type,castle,Oakham Castle,-0.727417,52.670999,486149,308903,Q2968294,Rutland,England
+way/417976227,castle_type,castle,Tawstock Castle,-4.063787,51.058441,255466,130816,Q26545384,Devon,England
+way/418765932,historic,castle,Ballumbie Castle (remains),-2.900706,56.499226,344649,734491,,Angus,Scotland
+way/418821289,castle_type,castle,Stisted Hall,0.607152,51.892208,579499,224729,Q17557657,Essex,England
+way/418903489,castle_type,castle,Greenan Castle,-4.670048,55.438631,231184,619326,Q9704234,South Ayrshire,Scotland
+way/42003074,historic,castle,Borthwick Castle Hotel,-3.007543,55.826678,336979,659730,Q17567402,Midlothian,Scotland
+way/42003475,castle_type,castle,Bruce Castle,-0.075461,51.599143,533392,190676,Q991572,Greater London,England
+way/42231295,historic,castle,Castle of Old Wick,-3.081529,58.423256,336927,948832,,Highland,Scotland
+way/42686471,castle_type,castle,Hermitage Castle,-2.793274,55.255966,349676,596042,Q1613640,Scottish Borders,Scotland
+way/42826750,castle_type,castle,Bailrigg House,-2.78745,54.014818,348498,457932,Q26670743,Lancashire,England
+way/4301292,castle_type,castle,Edinburgh Castle,-3.200565,55.948675,325122,673500,Q212065,City of Edinburgh,Scotland
+way/430858305,historic,castle,Snape Castle,-1.599262,54.25449,426206,484387,Q17538156,North Yorkshire,England
+way/432347171,historic,castle,Castell Ewloe,-3.067096,53.199964,328814,367519,Q5419069,Clwyd,Wales
+way/432535203,historic,castle,,-2.740329,54.058557,351637,462765,Q7271374,Lancashire,England
+way/435101261,historic,castle,Triermain Castle,-2.635008,54.994128,359471,566801,,Cumbria,England
+way/4362072,castle_type,castle,Wimpole Hall,-0.049785,52.141211,533556,251006,Q8023577,Cambridgeshire,England
+way/436715102,castle_type,castle,Pentney Abbey Gatehouse,0.514742,52.680434,570096,312160,Q7165255,Norfolk,England
+way/439140854,castle_type,castle,Ashton Hall,-2.822821,54.008871,346173,457297,Q4806040,Lancashire,England
+way/441495856,historic,castle,Bronllys Castle,-3.240591,52.003611,314936,234635,Q17743079,Powys,Wales
+way/441514312,historic,castle,Shaw Castle,-1.868172,53.673049,408807,419628,,West Yorkshire,England
+way/442098034,castle_type,castle,Bishops Palace,-2.716835,52.053671,350943,239719,,Herefordshire,England
+way/443171603,historic,castle,Duns Castle,-2.356006,55.782353,377770,654395,Q920068,Scottish Borders,Scotland
+way/443809052,castle_type,castle,Fordell Castle,-3.371286,56.053696,314694,685386,Q5468048,Fife,Scotland
+way/443811615,castle_type,castle,Buchanan Castle,-4.472262,56.065461,246183,688603,Q13581703,Stirling,Scotland
+way/449234330,historic,castle,Beverston Castle,-2.201497,51.644211,386154,193954,Q4899641,Gloucestershire,England
+way/452660278,historic,castle,,-1.857888,54.965216,409197,563408,,Northumberland,England
+way/460814056,historic,castle,Motte and Bailey,-2.766004,54.076822,349978,464816,,Lancashire,England
+way/463288519,castle_type,ruins,Lydford Castle,-4.109534,50.643596,250942,84781,Q6707560,Devon,England
+way/463918949,castle_type,castle,Homme House,-2.505568,51.98395,365376,231842,Q55887035,Herefordshire,England
+way/466196747,castle_type,castle,Knock Castle,-4.884582,55.826423,219411,663007,Q6422763,North Ayrshire,Scotland
+way/47075297,castle_type,castle,Castell Aberlleiniog,-4.077356,53.292652,261634,379312,Q2275648,Gwynedd,Wales
+way/47189011,castle_type,castle,Forde Abbey,-2.91149,50.842598,335920,105182,Q689615,Dorset,England
+way/4727180,historic,castle,Sowerby Castle,-1.940779,53.706304,404007,423321,Q17675921,West Yorkshire,England
+way/475733514,castle_type,castle,St Catherine's Fort,-4.691762,51.670608,213963,200302,Q7592760,Dyfed,Wales
+way/475975280,castle_type,castle,East Orchard Castle,-3.397916,51.403073,302857,168044,Q24636887,South Glamorgan,Wales
+way/476741785,castle_type,castle,Lambton Castle,-1.536825,54.867134,429825,552582,Q6481592,Durham,England
+way/478867930,castle_type,castle,Hovingham Hall,-0.98076,54.172479,466633,475667,Q5917233,North Yorkshire,England
+way/479856206,historic,castle,Blobb Hill Castle,-2.870152,53.130169,341876,359577,Q4713789,Cheshire,England
+way/48296427,historic,castle,Castell Biwmares / Beaumaris Castle,-4.089766,53.264707,260716,376228,Q756815,Gwynedd,Wales
+way/485004500,historic,castle,Balmuto Castle,-3.253885,56.093917,322086,689723,Q17804178,Fife,Scotland
+way/48815019,castle_type,castle,Lancaster Castle,-2.805162,54.049747,347382,461832,Q2969640,Lancashire,England
+way/48853303,castle_type,castle,Eastnor Castle,-2.387595,52.029752,373505,236887,Q5330815,Herefordshire,England
+way/48854593,historic,castle,Bronsil Castle,-2.366652,52.032794,374944,237218,Q4974032,Herefordshire,England
+way/48870880,historic,castle,Dunstanburgh Castle,-1.594387,55.490858,425728,621970,Q515105,Northumberland,England
+way/48938057,historic,castle,Stogursey Castle,-3.141809,51.176961,320280,142589,Q7618366,Somerset,England
+way/489951097,castle_type,castle,Kenfig Castle,-3.730137,51.530284,280083,182683,Q2614463,Mid Glamorgan,Wales
+way/495715955,castle_type,castle,Cound Hall,-2.650859,52.643799,356058,305317,Q5176596,Shropshire,England
+way/496514650,castle_type,castle,Achallader Castle (ruins),-4.731794,56.560223,232215,744258,Q4673443,Argyll and Bute,Scotland
+way/497520623,castle_type,castle,Muchalls Castle,-2.17983,57.017514,389179,791835,Q10332979,Aberdeenshire,Scotland
+way/497881194,castle_type,castle,Boydston Castle,-4.821292,55.658175,222611,644127,,North Ayrshire,Scotland
+way/504120046,historic,castle,Swansea Castle,-3.941169,51.620443,265712,193077,Q7653666,West Glamorgan,Wales
+way/504422636,castle_type,castle,Dunnottar Castle,-2.196713,56.945977,388131,783874,Q746983,Aberdeenshire,Scotland
+way/506478633,historic,castle,Dunbeath Castle,-3.435547,58.235047,315804,928266,Q5314182,Highland,Scotland
+way/50833872,castle_type,castle,Bolton Castle,-1.949659,54.322116,403372,491838,Q495086,North Yorkshire,England
+way/510499006,historic,castle,,-3.002716,52.873664,332607,331159,,Shropshire,England
+way/511509737,historic,castle,Weobley Castle,-4.199392,51.6128,247812,192733,Q7983096,West Glamorgan,Wales
+way/512487227,historic,castle,South Cowton Castle,-1.547662,54.416042,429453,502383,Q7566919,North Yorkshire,England
+way/512633418,historic,castle,Clytha Castle,-2.923207,51.770488,336393,208383,Q5137179,Gwent,Wales
+way/512641525,historic,castle,Crayke Castle,-1.145982,54.129051,455906,470692,Q5183045,North Yorkshire,England
+way/512911561,historic,castle,Woodsford Castle,-2.343947,50.712575,375812,90383,Q17532667,Dorset,England
+way/512916352,historic,castle,Fillingham Castle,-0.563921,53.362449,495664,386025,Q17532818,Lincolnshire,England
+way/514435698,historic,castle,Moot Hall,-2.100796,54.971576,393646,564111,Q17527451,Northumberland,England
+way/515778232,historic,castle,,-3.444221,51.181467,299151,143462,,Somerset,England
+way/516430426,castle_type,castle,Kirby Muxloe Castle,-1.226874,52.63661,452418,304598,Q17674633,Leicestershire,England
+way/519543579,castle_type,castle,Castle of St John,-5.026003,54.904407,206094,560826,Q3663082,Dumfries and Galloway,Scotland
+way/52467063,castle_type,castle,Conwy Castle,-3.825509,53.280069,278383,377454,Q756830,Clwyd,Wales
+way/524987530,castle_type,archaeological_site,Dùn Ringill,-6.035822,57.179513,156189,817079,Q1265223,Highland,Scotland
+way/527341425,castle_type,castle,Kingswear Castle,-3.559922,50.342072,289096,50292,Q2969487,Devon,England
+way/527470701,historic,castle,Broncroft Castle,-2.671678,52.476994,354477,286775,,Shropshire,England
+way/531553123,historic,castle,Banwell Castle,-2.860277,51.323803,340151,158652,Q4857340,Somerset,England
+way/532885161,historic,castle,Freswick Castle,-3.071563,58.587771,337801,967139,Q1258706,Highland,Scotland
+way/532886772,castle_type,castle,Bucholly Castle,-3.064069,58.575982,338216,965820,Q56661929,Highland,Scotland
+way/534824296,castle_type,castle,Ardvourlie Castle,-6.758286,57.994815,118934,910531,Q2968114,Na h-Eileanan Siar,Scotland
+way/53573360,castle_type,castle,Clitheroe Castle,-2.393174,53.870789,374245,441692,Q5134437,Lancashire,England
+way/543293268,historic,castle,Bavelaw Castle,-3.331398,55.85103,316743,662783,Q4873693,City of Edinburgh,Scotland
+way/54433967,historic,castle,Castle Drogo,-3.81113,50.695962,272182,90045,Q746819,Devon,England
+way/54478457,castle_type,castle,Clarence House,-0.138495,51.504032,529296,179987,Q565521,Greater London,England
+way/546571167,castle_type,castle,Kelburn Castle,-4.843365,55.770783,221737,656711,Q6385519,North Ayrshire,Scotland
+way/54978541,castle_type,castle,Uttershill Castle,-3.21701,55.822089,323848,659430,Q40812708,Midlothian,Scotland
+way/549937747,historic,castle,Hawthornden Castle,-3.14195,55.860907,328622,663670,Q5685543,Midlothian,Scotland
+way/55079805,historic,castle,St Michael's Mount Castle,-5.478444,50.116473,151429,29839,Q1431121,Cornwall,England
+way/555224084,historic,castle,Comrie Castle,-3.978521,56.613491,278670,748598,Q17838231,Perth and Kinross,Scotland
+way/556712447,historic,castle,Sham Castle,-3.895414,51.042584,267219,128735,Q26401355,Devon,England
+way/559399341,historic,castle,,-2.503101,50.948963,364754,116735,,Dorset,England
+way/560043281,historic,castle,Ivy Tower,-3.770793,51.670059,277640,198295,Q29490147,West Glamorgan,Wales
+way/560566503,castle_type,castle,Guthrie Castle,-2.715539,56.643868,356216,750457,Q5621767,Angus,Scotland
+way/56072358,historic,castle,Castell Cricieth,-4.232524,52.916062,249987,337739,Q1139896,Gwynedd,Wales
+way/561085415,historic,castle,Kames Castle,-5.096,55.862266,206351,667566,Q6357025,Argyll and Bute,Scotland
+way/561085416,castle_type,castle,Wester Kames Castle,-5.099251,55.866668,206169,668065,Q129446,Argyll and Bute,Scotland
+way/561606708,historic,castle,Culcreuch Castle,-4.217597,56.062033,262022,687683,Q1143381,Stirling,Scotland
+way/561817797,historic,castle,Preston Tower,-2.97817,55.955673,339022,674060,Q1573840,East Lothian,Scotland
+way/561818821,historic,castle,Orchardton Tower,-3.84533,54.876837,281697,555124,Q1827633,Dumfries and Galloway,Scotland
+way/561819132,castle_type,castle,Cortachy Castle,-2.984803,56.723671,339831,759544,Q1844193,Angus,Scotland
+way/561828684,historic,castle,Blairquhan Castle,-4.577452,55.3161,236536,605473,Q4924231,South Ayrshire,Scotland
+way/561844298,historic,castle,Newark Castle,-4.677925,55.934524,232818,674514,Q2159678,Inverclyde,Scotland
+way/561845252,historic,castle,Morton Castle,-3.747595,55.274463,289074,599205,Q2155463,Dumfries and Galloway,Scotland
+way/561845969,historic,castle,Burleigh Castle,-3.406472,56.225832,312893,704587,Q2238800,Perth and Kinross,Scotland
+way/561846463,castle_type,castle,Delgatie Castle,-2.411924,57.544283,375441,850537,Q2060243,Aberdeenshire,Scotland
+way/561847070,historic,castle,Knockhall Castle,-2.01234,57.328704,399356,826463,Q1777347,Aberdeenshire,Scotland
+way/561848650,historic,castle,Ballikinrain Castle,-4.30947,56.056366,256282,687240,Q4851689,Stirling,Scotland
+way/561850891,historic,castle,Balfour Castle,-3.082549,56.678432,333770,754599,Q4850752,Angus,Scotland
+way/561857258,historic,castle,Drumcoltran Tower,-3.768558,54.9964,286959,568300,Q2302778,Dumfries and Galloway,Scotland
+way/561858534,historic,castle,Tolquhon Castle,-2.213392,57.348126,387257,828645,Q2448015,Aberdeenshire,Scotland
+way/561860454,historic,castle,Craigston Castle,-2.399356,57.584539,376220,855014,Q2969080,Aberdeenshire,Scotland
+way/561870652,historic,castle,Minard Castle,-5.260889,56.09789,197274,694250,,Argyll and Bute,Scotland
+way/562230828,historic,castle,Kinlochaline Castle,-5.748958,56.564042,169759,747635,Q2969485,Highland,Scotland
+way/563995751,historic,castle,Pengersick Castle,-5.383379,50.106432,158173,28411,Q17529529,Cornwall,England
+way/564741752,castle_type,castle,Brunton House,-2.794847,54.036098,348040,460305,,Lancashire,England
+way/568794249,castle_type,castle,Cardigan Castle,-4.660504,52.081488,217794,245911,Q3395294,Dyfed,Wales
+way/577787223,castle_type,castle,Netley Castle,-1.360223,50.877559,445108,108869,Q17650211,Hampshire,England
+way/57993288,castle_type,castle,Sizergh Castle,-2.771699,54.284183,349857,487891,Q2290997,Cumbria,England
+way/58073711,historic,castle,Shrewsbury Castle,-2.74972,52.711082,349447,312866,Q2280236,Shropshire,England
+way/591819918,historic,castle,Inverquharity Castle,-2.963272,56.709502,341126,757948,Q6060317,Angus,Scotland
+way/59304725,castle_type,castle,Caisteal Leòdhais,-6.394387,58.211575,141990,933175,Q2969723,Na h-Eileanan Siar,Scotland
+way/59464569,castle_type,castle,Huntingtower Castle,-3.488279,56.409455,308263,725129,Q2475039,Perth and Kinross,Scotland
+way/59708553,castle_type,castle,Prudhoe Castle,-1.858483,54.965085,409159,563393,Q4185858,Northumberland,England
+way/59806740,castle_type,castle,Tantallon Castle,-2.650372,56.056492,359595,685040,Q57803,East Lothian,Scotland
+way/604025287,castle_type,castle,Flemington Castle,-2.774998,56.689956,352628,755626,Q17770492,Angus,Scotland
+way/60448631,castle_type,,,0.752574,51.444634,591381,175332,Q105197566,Kent,England
+way/60578761,castle_type,castle,Seaton Delaval Hall,-1.496662,55.08229,432231,576543,Q2915561,Northumberland,England
+way/60732901,historic,castle,Loch Leven Castle,-3.391621,56.200757,313757,701778,Q514388,Perth and Kinross,Scotland
+way/60770033,castle_type,castle,Garrison Point Fort,0.744523,51.446772,590813,175549,Q5524054,Kent,England
+way/610228443,castle_type,castle,Kinnettles Castle,-2.934325,56.610163,342748,746867,Q17777204,Angus,Scotland
+way/610232407,castle_type,castle,Finavon Castle,-2.825984,56.697228,349514,756472,Q5449775,Angus,Scotland
+way/610237730,historic,castle,Farnell Castle,-2.614938,56.689614,362431,755489,Q15217396,Angus,Scotland
+way/610240489,castle_type,castle,Careston Castle,-2.768766,56.728232,353057,759883,Q15207565,Angus,Scotland
+way/610242463,castle_type,castle,Airlie Castle,-3.155254,56.656101,329273,752186,Q1766007,Angus,Scotland
+way/610242965,historic,castle,Affleck Castle,-2.823983,56.538361,349425,738788,Q9703666,Angus,Scotland
+way/610614160,historic,castle,Danby Castle,-0.89533,54.455534,471716,507244,Q17526147,North Yorkshire,England
+way/61161239,historic,castle,Craigmillar Castle,-3.140495,55.92594,328832,670906,Q432422,City of Edinburgh,Scotland
+way/612046803,castle_type,manor,Cuckfield Park,-0.152046,51.004546,529753,124420,,West Sussex,England
+way/61215723,historic,castle,Harewood House,-1.527373,53.896939,431155,444633,,West Yorkshire,England
+way/614129463,historic,castle,Glenborrodale Castle,-5.909587,56.678194,160620,760881,Q17574876,Highland,Scotland
+way/61921336,historic,castle,Prior Castell's Tower,-1.655725,55.617054,421782,635994,,Northumberland,England
+way/621948029,castle_type,manor,Docwra's Manor,0.032158,52.112533,539252,247971,,Cambridgeshire,England
+way/622327063,historic,castle,Cliffe Castle,-1.913715,53.875157,405771,442110,,West Yorkshire,England
+way/62452643,castle_type,castle,Cawdor Castle,-3.926459,57.524208,284727,849864,Q1051919,Highland,Scotland
+way/628270808,castle_type,castle,Fernie Castle,-3.10705,56.32043,331626,714777,,Fife,Scotland
+way/629249738,historic,castle,Aynhoe Park,-1.253128,51.993555,451379,233053,Q4831524,Northamptonshire,England
+way/632274684,castle_type,castle,Redhouse Castle,-2.8628,55.983611,346264,677073,Q7305923,East Lothian,Scotland
+way/635393773,castle_type,,Belmont House and Gardens,0.845508,51.271751,598584,156357,Q4884384,Kent,England
+way/638213985,historic,castle,Robgill Tower,-3.178249,55.033551,324790,571638,Q7352173,Dumfries and Galloway,Scotland
+way/638291624,historic,castle,Dunphail Castle,-3.659036,57.512169,300708,848101,Q18481993,Moray,Scotland
+way/638499674,historic,castle,The Bass and Little Bass,-2.364712,57.275491,378107,820598,Q810456,Aberdeenshire,Scotland
+way/638981699,historic,castle,Southside Castle,-3.009344,55.863648,336926,663846,Q17828200,Midlothian,Scotland
+way/639080456,castle_type,castle,Gordon Castle,-3.088756,57.621387,335066,859568,Q11838964,Moray,Scotland
+way/64003108,historic,castle,Spur Caponier,1.320327,51.130681,632407,142065,,Kent,England
+way/64003114,castle_type,castle,The Great Tower,1.321314,51.129594,632481,141948,,Kent,England
+way/64298773,castle_type,castle,Oswestry Castle,-3.055253,52.861064,329051,329808,Q20713795,Shropshire,England
+way/64302837,historic,castle,Newton Castle,-3.350483,56.592047,317165,745276,,Perth and Kinross,Scotland
+way/648448108,historic,castle,Women's Prison,0.735822,50.949924,592265,120285,,East Sussex,England
+way/648448116,castle_type,castle,Rye Castle,0.735596,50.949786,592250,120269,Q7384956,East Sussex,England
+way/653338720,historic,castle,Rye House Gatehouse,0.006946,51.771129,538574,209956,Q7384968,Hertfordshire,England
+way/655896100,historic,castle,Barra Castle,-2.346513,57.321848,379231,825752,,Aberdeenshire,Scotland
+way/663942031,historic,castle,Birkhill Castle,-3.077398,56.397851,333595,723365,Q101424653,Fife,Scotland
+way/66568150,castle_type,castle,Kendal Castle,-2.736427,54.324948,352201,492403,Q6388845,Cumbria,England
+way/667029182,castle_type,castle,Fox Hall,-0.737345,50.908054,488873,112824,Q17553668,West Sussex,England
+way/669957323,historic,castle,Dalmoak Castle,-4.590961,55.959262,238352,677059,,West Dunbartonshire,Scotland
+way/670588128,castle_type,castle,Sauchie Tower,-3.777903,56.141255,289623,695707,Q7427021,Clackmannanshire,Scotland
+way/67491714,castle_type,castle,Newark Castle,-0.812694,53.077755,479635,354051,Q2970132,Nottinghamshire,England
+way/676617620,castle_type,castle,Watch Tower,-3.175432,54.073988,323185,464868,Q26513564,Cumbria,England
+way/679528208,castle_type,castle,,-2.808566,53.95409,347037,451191,Q26327107,Lancashire,England
+way/68536540,historic,castle,Fyvie Castle,-2.39498,57.443409,376390,839301,Q2969293,Aberdeenshire,Scotland
+way/690208609,castle_type,castle,Beaumont Cote Manor,-2.769121,54.0877,349787,466028,Q26327204,Lancashire,England
+way/692626084,castle_type,castle,Clun Castle,-3.032934,52.421247,329852,280864,Q5136615,Shropshire,England
+way/693914406,castle_type,castle,Whitson Court,-2.908474,51.557746,337115,184709,Q17741111,Gwent,Wales
+way/696401441,historic,castle,Craigneith Castle,-4.132808,55.772519,266307,655303,Q16890703,South Lanarkshire,Scotland
+way/699938585,historic,castle,Warkworth Castle,-1.61179,55.345357,424718,605771,Q922422,Northumberland,England
+way/70264991,castle_type,castle,Castell Caernarfon,-4.27698,53.139342,247787,362666,Q275128,Gwynedd,Wales
+way/706127054,historic,castle,Forter Castle,-3.339135,56.766145,318240,764639,Q17776653,Angus,Scotland
+way/707981667,historic,castle,Norwich Castle,1.296069,52.628381,623166,308503,,Norfolk,England
+way/713913453,historic,castle,Brecon Castle,-3.393756,51.948743,304305,228723,,Powys,Wales
+way/72056369,castle_type,castle,Dirleton Castle,-2.778149,56.045756,351624,683927,Q1955420,East Lothian,Scotland
+way/72499436,historic,castle,Star Castle,-6.321018,49.9154,89919,10643,Q3968286,Cornwall,England
+way/725280485,historic,castle,Cleish Castle,-3.47924,56.165463,308237,697963,,Perth and Kinross,Scotland
+way/726983094,castle_type,castle,Wimbourne House,-0.141783,51.506706,529060,180278,Q17549391,Greater London,England
+way/728024978,castle_type,castle,Dornoch Castle,-4.029576,57.879673,279738,889608,Q5298134,Highland,Scotland
+way/728118762,historic,castle,Mauchline Castle,-4.380856,55.51596,249770,627265,Q15251968,East Ayrshire,Scotland
+way/729731184,castle_type,castle,Dargavel House,-4.507152,55.890836,243306,669253,,Renfrewshire,Scotland
+way/734150726,castle_type,castle,Luffness House,-2.843854,56.013998,347487,680440,,East Lothian,Scotland
+way/73689706,castle_type,castle,Astley Castle,-1.542368,52.502374,431162,289484,Q4810907,Warwickshire,England
+way/738353617,historic,castle,,-1.92555,54.544137,404914,516545,,Durham,England
+way/738353619,historic,castle,,-1.925289,54.544143,404931,516545,,Durham,England
+way/738353620,historic,castle,,-1.925764,54.544036,404900,516533,,Durham,England
+way/739909465,historic,castle,Gilbertfield Castle,-4.150619,55.802969,265295,658725,Q5561343,South Lanarkshire,Scotland
+way/742041659,historic,castle,Lomond Castle,-4.623762,56.022602,236572,684183,,Argyll and Bute,Scotland
+way/74412998,historic,castle,Dunscaith Castle,-5.975999,57.136561,159523,812089,Q3250852,Highland,Scotland
+way/749036300,historic,castle,Dunans Castle,-5.149524,56.072519,204069,691106,Q5314090,Argyll and Bute,Scotland
+way/749706118,castle_type,castle,Halton Castle,-2.00602,55.005146,399713,567842,Q5643626,Northumberland,England
+way/751945193,historic,castle,Kilconqhar Castle,-2.818728,56.214219,349318,702706,,Fife,Scotland
+way/752160060,historic,castle,Auchans,-4.611236,55.577291,235484,634611,Q4819378,South Ayrshire,Scotland
+way/75280299,castle_type,castle,Knaresborough Castle,-1.469334,54.007202,434877,456928,Q6421781,North Yorkshire,England
+way/75318239,castle_type,,Cotehele House,-4.225774,50.495976,242231,68608,Q1568029,Cornwall,England
+way/754548223,historic,castle,,-5.659987,55.815941,170800,664138,Q6406547,Argyll and Bute,Scotland
+way/75483843,castle_type,castle,Drummuir Castle,-3.050103,57.482852,337136,844110,,Moray,Scotland
+way/75739303,historic,castle,Tamworth Castle,-1.696752,52.632604,420621,303915,Q7681908,Staffordshire,England
+way/758547778,historic,castle,Knock Castle,-3.069229,57.042905,335220,795155,Q17771289,Aberdeenshire,Scotland
+way/759807995,historic,castle,Barr Castle,-4.379774,55.598448,250153,636440,Q17791341,East Ayrshire,Scotland
+way/760994460,castle_type,castle,The Great Hall,-1.593363,52.347771,427797,272267,,Warwickshire,England
+way/761046258,historic,castle,Polmaise Castle,-3.966933,56.102212,277755,691681,,Stirling,Scotland
+way/764101325,castle_type,castle,Dunalastair House,-4.107848,56.703634,271043,758865,Q5314055,Perth and Kinross,Scotland
+way/774711944,historic,castle,Venlaw Castle,-3.189068,55.658832,325287,641231,Q11039824,Scottish Borders,Scotland
+way/775415199,historic,castle,Monimail Tower,-3.135819,56.314025,329835,714093,Q7126246,Fife,Scotland
+way/781764730,castle_type,castle,Ashby de la Zouch Castle,-1.466468,52.746486,436113,316674,,Leicestershire,England
+way/781832502,historic,castle,Peel Castle,-4.244719,55.777835,259307,656116,,South Lanarkshire,Scotland
+way/789048068,historic,castle,Rowallan Castle,-4.488827,55.650029,243489,642420,,East Ayrshire,Scotland
+way/789972753,historic,castle,Hafton Castle,-4.924806,55.977215,217602,679888,,Argyll and Bute,Scotland
+way/79058112,castle_type,castle,Waytemore Castle (remains),0.162924,51.871951,549002,221475,Q4917439,Hertfordshire,England
+way/791918488,historic,castle,Craufurdland Castle,-4.45454,55.636098,245591,640793,,East Ayrshire,Scotland
+way/793012662,historic,castle,Bungay Castle,1.436055,52.455948,633551,289774,,Suffolk,England
+way/797039269,historic,castle,Cawood Castle,-1.129358,53.832325,457398,437692,,North Yorkshire,England
+way/801291810,castle_type,castle,Carmarthen Castle,-4.305909,51.855679,241292,219969,Q14906524,Dyfed,Wales
+way/80331439,historic,castle,Castell Coch,-3.254384,51.53581,313094,182625,,South Glamorgan,Wales
+way/804169843,castle_type,castle,Site of Kilbride Castle (Laigh Mains Motte),-4.189383,55.779165,262782,656153,Q42376614,South Lanarkshire,Scotland
+way/804169844,castle_type,castle,Castlehill (Motte & ditches),-4.221269,55.773087,260761,655540,,South Lanarkshire,Scotland
+way/804174745,castle_type,yes,Castle Hill of Busby,-4.251613,55.779196,258880,656281,,East Renfrewshire,Scotland
+way/810830187,historic,castle,Baltersan Castle,-4.709828,55.342775,228253,608760,Q2693578,South Ayrshire,Scotland
+way/813429129,castle_type,castle,Brympton House,-2.684771,50.936388,351979,115439,Q17530070,Somerset,England
+way/81522967,castle_type,castle,Durham Castle,-1.576512,54.775499,427340,542369,Q752266,Durham,England
+way/815932119,historic,castle,Ince Castle,-4.250073,50.386826,240141,56525,,Cornwall,England
+way/823243160,castle_type,castle,Witton Castle,-1.76354,54.668627,415349,530420,Q8028618,Durham,England
+way/823838081,historic,castle,,-2.194209,55.09318,387703,577656,,Northumberland,England
+way/824647137,historic,castle,Blairfindy Castle,-3.333569,57.341199,319831,828640,,Moray,Scotland
+way/824785622,historic,castle,Elgin Castle,-3.322128,57.648437,321185,862827,,Moray,Scotland
+way/83156108,castle_type,castle,Tonbridge Castle Gatehouse,0.273897,51.196506,558976,146600,Q7820768,Kent,England
+way/832202733,castle_type,castle,Ochiltree Castle,-3.551094,55.956087,303252,674760,Q7076327,West Lothian,Scotland
+way/835591912,historic,castle,Aldourie Castle,-4.329822,57.40368,260115,837208,Q17571082,Highland,Scotland
+way/842153473,historic,castle,Kilmory Castle,-5.421498,56.025924,186891,686729,Q17770777,Argyll and Bute,Scotland
+way/842463335,historic,castle,,-4.942884,55.720145,215257,651338,,North Ayrshire,Scotland
+way/843492744,historic,castle,Skibo Castle,-4.13233,57.872953,273622,889047,Q2252914,Highland,Scotland
+way/85665418,castle_type,castle,The Bishop's Palace,-2.642561,51.209376,355210,145771,Q4917433,Somerset,England
+way/860466059,castle_type,castle,Stoneypath Tower,-2.648649,55.933463,359573,671346,Q7619444,East Lothian,Scotland
+way/86222492,historic,castle,Strathaven Castle,-4.063099,55.676025,270359,644433,Q2899116,South Lanarkshire,Scotland
+way/86345387,historic,castle,Sherborne Castle,-2.500707,50.946054,364920,116410,Q2970700,Dorset,England
+way/863479117,castle_type,,Langdon Court Manor,-4.087838,50.328649,251491,49720,Q6485806,Devon,England
+way/86355465,castle_type,castle,Sherborne Old Castle,-2.501352,50.949825,364878,116830,Q17532356,Dorset,England
+way/865994160,castle_type,castle,Ardross Castle,-4.333882,57.73519,261141,874110,Q17569162,Highland,Scotland
+way/871856803,castle_type,castle,Y Castell Gwyn,-2.902098,51.845969,337954,216759,Q1985853,Gwent,Wales
+way/871861588,castle_type,castle,Castell y Grysmwnt,-2.866087,51.91541,340526,224453,Q3402778,Gwent,Wales
+way/871921861,historic,castle,Minster Lovell Hall and Dovecot,-1.530764,51.799788,432454,211342,Q12061850,Oxfordshire,England
+way/872017678,castle_type,castle,Castell Coch,-3.254751,51.535853,313068,182630,Q2704850,South Glamorgan,Wales
+way/873149390,castle_type,castle,Brampton Bryan Castle,-2.92583,52.347655,337031,272580,Q4956215,Herefordshire,England
+way/874126131,historic,castle,Ecclesgreig Castle,-2.430293,56.783447,373807,765847,,Aberdeenshire,Scotland
+way/875910280,castle_type,castle,Longthorpe Tower,-0.28684,52.570843,516204,298380,Q3533390,Cambridgeshire,England
+way/876241485,historic,castle,Pitheavlis Castle,-3.450907,56.389024,310521,722806,Q17570916,Perth and Kinross,Scotland
+way/881231274,castle_type,castle,Smailholm Tower,-2.576202,55.60425,363795,634666,Q2696684,Scottish Borders,Scotland
+way/88313263,castle_type,castle,Crathes Castle,-2.439836,57.061495,373423,796802,Q2748806,Aberdeenshire,Scotland
+way/88379287,historic,castle,Piel Castle,-3.173644,54.062351,323280,463571,Q2970220,Cumbria,England
+way/884073970,castle_type,castle,Sorbie Tower,-4.411016,54.79415,245091,547029,Q7563327,Dumfries and Galloway,Scotland
+way/884317093,historic,castle,Knockdolian Castle,-4.945724,55.127108,212284,585378,,South Ayrshire,Scotland
+way/884422874,castle_type,castle,Dalquharran Castle,-4.725086,55.283156,227026,602165,Q17321090,South Ayrshire,Scotland
+way/884422882,historic,castle,Old Dalquharran Castle,-4.721428,55.280694,227248,601882,Q17325524,South Ayrshire,Scotland
+way/884687067,castle_type,castle,Sorn Castle,-4.301022,55.514314,254804,626912,,East Ayrshire,Scotland
+way/886457626,historic,castle,Castell Dolbadarn,-4.114337,53.116693,258591,359813,Q2078555,Gwynedd,Wales
+way/888257458,historic,castle,Castle of Park,-2.689398,57.602376,358898,857139,Q17571723,Aberdeenshire,Scotland
+way/888475448,castle_type,castle,Hatton Castle,-2.40703,57.512289,375713,846974,,Aberdeenshire,Scotland
+way/88916983,historic,castle,Caer y Belan,-4.332267,53.122662,244029,360930,Q3399299,Gwynedd,Wales
+way/889381178,historic,castle,Cairnbulg Castle,-1.973603,57.665604,401674,863969,,Aberdeenshire,Scotland
+way/889923059,historic,castle,Merdon Castle,-1.401248,51.036653,442079,126536,,Hampshire,England
+way/890577629,castle_type,castle,Castle Hill,-4.385793,55.629881,249894,639950,,East Ayrshire,Scotland
+way/892797544,historic,castle,Barscobe Castle,-4.102099,55.101993,265978,580638,Q4864982,Dumfries and Galloway,Scotland
+way/895667920,castle_type,castle,Castle Howe,-2.845443,58.887365,351368,1000309,Q56661920,Orkney Islands,Scotland
+way/89616909,castle_type,castle,Pendragon Castle,-2.337817,54.418668,378176,502633,Q15265868,Cumbria,England
+way/896780453,castle_type,castle,Castercliff,-2.176503,53.841752,388484,438404,Q5049859,Lancashire,England
+way/89952625,castle_type,castle,Kinpurnie Castle,-3.165175,56.551321,328467,740534,,Angus,Scotland
+way/900802699,historic,castle,Cakemuir Castle,-2.940252,55.821738,341187,659121,,Midlothian,Scotland
+way/90370065,historic,castle,Dinefwr Castle,-4.018414,51.876792,261154,221729,Q2713117,Dyfed,Wales
+way/904217034,castle_type,castle,Castell Talacharn,-4.462005,51.769591,230220,210748,Q911714,Dyfed,Wales
+way/905182065,historic,castle,Inverugie Castle,-1.830869,57.524758,410229,848301,Q6060581,Aberdeenshire,Scotland
+way/905745154,historic,castle,Haggerston Castle Tower,-1.93497,55.686967,404187,643723,,Northumberland,England
+way/90640062,castle_type,castle,Maclellan's Castle,-4.053046,54.837088,268242,551073,Q6722014,Dumfries and Galloway,Scotland
+way/907163715,historic,castle,Caprington Castle,-4.528421,55.593708,240770,636244,Q15790956,East Ayrshire,Scotland
+way/908826942,historic,castle,Old Soar Manor,0.319946,51.263085,561959,154104,Q7084990,Kent,England
+way/909436646,historic,castle,Castle Huntly,-3.134003,56.448862,330195,729098,,Perth and Kinross,Scotland
+way/909952770,castle_type,castle,Strathallan Castle,-3.749146,56.319397,291913,715486,,Perth and Kinross,Scotland
+way/911155815,castle_type,castle,Starborough Castle,0.038738,51.178441,542602,144109,Q7601480,Surrey,England
+way/911639207,castle_type,castle,Cessnock Castle,-4.364661,55.590388,251074,635511,,East Ayrshire,Scotland
+way/912335382,castle_type,castle,Newmilns Tower,-4.324884,55.607762,253645,637359,,East Ayrshire,Scotland
+way/915735444,historic,castle,Kerelaw Castle,-4.752261,55.648356,226910,642860,Q6393772,North Ayrshire,Scotland
+way/91888555,historic,castle,Fishergate Postern Tower,-1.076832,53.954412,460678,451319,Q101070586,North Yorkshire,England
+way/91964590,castle_type,castle,Newcastle Castle - Keep,-1.610352,54.968816,425043,563869,,Tyne and Wear,England
+way/921011121,castle_type,castle,Glenbervie House,-2.382929,56.914006,376782,780363,Q17770895,Aberdeenshire,Scotland
+way/922719079,historic,castle,Old Tulliallan Castle,-3.725841,56.079726,292686,688778,Q7852170,Fife,Scotland
+way/923661118,historic,castle,Wedderburn Castle,-2.307002,55.768788,380837,652870,,Scottish Borders,Scotland
+way/925336239,historic,castle,,-3.004421,59.320615,342931,1048677,,Orkney Islands,Scotland
+way/925355934,historic,castle,Noltland Castle,-3.004492,59.320717,342927,1048689,,Orkney Islands,Scotland
+way/925945419,historic,castle,Warblingon Castle,-0.965966,50.844928,472897,105554,Q7968843,Hampshire,England
+way/92729166,castle_type,castle,Round Tower,-0.604352,51.483951,497007,177034,Q138769362,Berkshire,England
+way/93046910,castle_type,castle,The Citadel,1.296507,51.117637,630805,140540,,Kent,England
+way/932382696,historic,castle,Thornton Castle,-2.513765,56.836775,368751,771819,Q17775451,Aberdeenshire,Scotland
+way/933248249,historic,castle,Dunimarle Castle,-3.64378,56.055016,297727,685903,,Fife,Scotland
+way/93329256,historic,castle,Calder House,-3.484416,55.889449,307256,667253,Q15790822,West Lothian,Scotland
+way/93648604,historic,castle,Sandgate Castle,1.148793,51.073525,620680,135183,Q3028291,Kent,England
+way/940792908,historic,castle,Kilbryde Castle,-4.007172,56.209311,275599,703671,,Stirling,Scotland
+way/942258132,castle_type,castle,Halston Hall,-2.983158,52.878274,333931,331654,Q17529595,Shropshire,England
+way/95070727,historic,castle,Harewood Castle,-1.511643,53.905952,432182,445643,Q5656954,West Yorkshire,England
+way/951468111,historic,castle,Vayne Castle,-2.829429,56.728209,349345,759923,,Angus,Scotland
+way/952808607,castle_type,castle,North Lodge,-2.397948,57.448318,376215,839849,,Aberdeenshire,Scotland
+way/95403114,castle_type,castle,Bishop's Castle (remains),-2.998475,52.495387,332309,289078,,Shropshire,England
+way/95522700,castle_type,castle,Compton Castle,-3.600279,50.472496,286536,64854,Q746423,Devon,England
+way/957998447,historic,castle,Beldorney Castle,-2.963039,57.419522,342256,836983,Q15978764,Aberdeenshire,Scotland
+way/961993074,castle_type,castle,Hallgreen Castle,-2.277674,56.840129,383158,772109,Q17775673,Aberdeenshire,Scotland
+way/962851298,castle_type,castle,Millhills House,-3.793592,56.358077,289276,719861,,Perth and Kinross,Scotland
+way/96311692,castle_type,castle,Ripley Castle,-1.57025,54.04017,428241,460551,Q7335614,North Yorkshire,England
+way/963717862,historic,castle,Peckforton Castle,-2.698652,53.117738,353337,358068,Q2160653,Cheshire,England
+way/964092092,historic,castle,Benholm Castle,-2.322613,56.824994,380408,770436,Q17569492,Aberdeenshire,Scotland
+way/968219664,castle_type,castle,Watermouth Castle,-4.069067,51.213237,255580,148039,Q7974374,Devon,England
+way/968461035,historic,castle,,-1.225761,53.484353,451475,398905,,South Yorkshire,England
+way/97013751,historic,castle,Hean Castle,-4.696812,51.721535,213823,205978,,Dyfed,Wales
+way/972622342,historic,castle,Norman Keep,0.959088,51.242928,606635,153466,,Kent,England
+way/973048364,historic,castle,Rufus Castle,-2.428282,50.53955,369747,71174,Q7378017,Dorset,England
+way/975313282,castle_type,castle,Gwydir Castle,-3.801151,53.132874,279595,361040,Q3398574,Clwyd,Wales
+way/97565114,historic,castle,Mains Castle,-2.958106,56.485487,341094,733010,Q11838974,Dundee City,Scotland
+way/97610390,historic,castle,Airth Castle,-3.768254,56.061687,289995,686837,,Falkirk,Scotland
+way/976726422,historic,castle,Alton Castle,-1.892587,52.979634,407309,342482,,Staffordshire,England
+way/982285671,historic,castle,Bannachra Castle,-4.660808,56.022871,234265,684301,Q17772644,Argyll and Bute,Scotland
+way/98325444,castle_type,castle,Chartley Castle,-1.985807,52.854028,401053,328504,Q5086927,Staffordshire,England
+way/984894255,historic,castle,Court House,-3.236991,51.185835,313643,143684,Q5178237,Somerset,England
+way/986762876,castle_type,archaeological_site,Aberrheidol Castle,-4.080825,52.390591,258498,278990,Q24659363,Dyfed,Wales
+way/98737124,historic,castle,Falkland Palace,-3.206535,56.253798,325343,707464,Q565345,Fife,Scotland
+way/989179403,historic,castle,Amroth Castle,-4.651998,51.733904,216968,207240,Q17742226,Dyfed,Wales
+way/991702225,castle_type,castle,Appleby Castle,-2.488041,54.573637,368548,519934,Q1639481,Cumbria,England
+way/99207708,castle_type,castle,Kellie Castle,-2.775916,56.237248,352002,705238,Q4185834,Fife,Scotland
+way/99210541,historic,castle,Balloch Castle,-4.583602,56.013024,239035,683023,Q3299192,West Dunbartonshire,Scotland
+way/993494497,castle_type,castle,Penhow Castle,-2.833716,51.613619,342369,190862,Q17741280,Gwent,Wales
+way/99358938,historic,castle,,-2.340826,53.017439,377233,346736,,Staffordshire,England
+way/99412588,historic,castle,Craigievar Castle,-2.718109,57.174151,356679,809486,Q1138741,Aberdeenshire,Scotland
+way/994977752,castle_type,castle,Aydon Castle,-1.999436,54.991336,400134,566305,Q1965841,Northumberland,England
+way/99525492,historic,castle,Peppercombe Castle,-4.308806,50.994103,238072,124172,,Devon,England
+way/99557837,historic,castle,Barr Castle,-4.638145,55.788321,234681,658152,Q4863107,Renfrewshire,Scotland
+way/99768856,castle_type,castle,Middleham Castle,-1.806924,54.284127,412668,487627,Q2705370,North Yorkshire,England
