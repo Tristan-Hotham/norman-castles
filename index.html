@@ -486,6 +486,6 @@ resp(document.getElementById("waste"), (W, nar) => {
 document.getElementById("ctab").innerHTML = `<thead><tr><th class="num">#</th><th>County</th><th class="num">Sites</th><th class="num wide">Mottes and ringworks</th><th class="num">Per 1,000 km²</th></tr></thead><tbody>` +
   D.cd.slice(0, 12).map((r, i) => `<tr><td class="num">${i + 1}</td><td>${esc(r[0])}<small>${r[1]}</small></td><td class="num">${fmt(r[2])}</td><td class="num wide">${fmt(r[3])}</td><td class="num">${r[4].toFixed(1)}</td></tr>`).join("") + "</tbody>";
 </script>
-<script src="https://tristan-hotham.github.io/assets/site-nav.js" defer></script>
+<script src="/assets/site-nav.js" defer></script>
 </body>
 </html>
